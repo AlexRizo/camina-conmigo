@@ -1,8 +1,22 @@
 ---
-import Layout from "@/layout/Layout.astro";
+export const prerender = true;
 
+import Layout from "@/layout/Layout.astro";
+import Hero from "@/sections/Hero.astro";
+import Today from "@/sections/Today.astro";
+import Mantra from "@/sections/Mantra.astro";
+import Episodes from "@/sections/Episodes.astro";
+import Welcome from "@/sections/Welcome.astro";
+import Prayer from "@/sections/Prayer.astro";
+import Reflections from "@/sections/Reflections.astro";
 ---
 
 <Layout title="Inicio">
-  <h1 class="text-4xl text-red-500">Hola mundo</h1>
+  <Hero />
+  <Today />
+  <Mantra />
+  <Episodes />
+  <Welcome />
+  <Prayer />
+  <Reflections />
 </Layout>

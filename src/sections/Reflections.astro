@@ -1,0 +1,40 @@
+---
+const reflections: [string, string, string][] = [
+  ["01", "Para comenzar el día", "Una oración para ofrecer lo que viene."],
+  ["02", "Cuando necesitas fortaleza", "Respirar, confiar y volver a empezar."],
+  ["03", "Para terminar el día", "Agradecer, entregar y descansar en Dios."],
+];
+---
+
+<section
+  id="reflexiones"
+  class="grid grid-cols-[0.85fr_1.15fr] gap-[70px] bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px]"
+>
+  <div>
+    <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+      <span class="h-px w-[34px] bg-gold"></span>
+      Biblioteca espiritual
+    </p>
+    <h2 class="m-0 font-serif text-[clamp(38px,5vw,56px)] leading-[1.05] font-normal tracking-[-0.04em] text-navy">
+      Palabras para cada momento del camino.
+    </h2>
+  </div>
+
+  <div class="border-t border-line max-[900px]:-mt-5">
+    {
+      reflections.map(([number, title, text]) => (
+        <a
+          href="#reflexiones"
+          class="grid grid-cols-[40px_1fr_20px] items-center gap-[22px] border-b border-line px-[5px] py-6 transition-[padding] duration-150 ease-out hover:pl-3"
+        >
+          <span class="text-[10px] font-bold text-gold">{number}</span>
+          <div>
+            <h3 class="m-0 mb-[5px] font-serif text-[22px] font-medium text-navy">{title}</h3>
+            <p class="m-0 text-xs text-muted">{text}</p>
+          </div>
+          <b class="font-normal text-gold">→</b>
+        </a>
+      ))
+    }
+  </div>
+</section>

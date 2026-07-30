@@ -1,0 +1,153 @@
+---
+const spotifyUrl =
+  import.meta.env.PUBLIC_SPOTIFY_URL ||
+  "https://open.spotify.com/search/Camina%20Conmigo";
+---
+
+<section id="episodio" class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
+  <div class="mx-auto mb-[38px] flex max-w-[1200px] items-end justify-between max-[620px]:flex-col max-[620px]:items-start max-[620px]:gap-6">
+    <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+      <span class="h-px w-[34px] bg-gold"></span>
+      Episodio del día
+    </p>
+    <p class="m-0 text-[10px] font-bold uppercase tracking-[0.16em] text-[#899294]">
+      Domingo · 26 de julio de 2026
+    </p>
+  </div>
+
+  <article
+    class="mx-auto grid min-h-[520px] max-w-[1200px] grid-cols-[minmax(300px,0.9fr)_minmax(420px,1.1fr)] bg-paper shadow-[0_22px_60px_rgba(21,48,61,0.09)] max-[900px]:grid-cols-1 max-[620px]:block"
+  >
+    <div
+      class="relative min-h-[400px] overflow-hidden max-[620px]:min-h-[310px]"
+      style="background: linear-gradient(#7d9ea3 0%, #d7c5a8 56%, #a97a53 57%, #355868 100%);"
+    >
+      <div
+        class="pointer-events-none absolute inset-0"
+        style="background: linear-gradient(90deg, rgba(14,42,59,.18), transparent);"
+      >
+      </div>
+      <span class="absolute left-8 top-[30px] z-[3] text-[10px] font-bold uppercase tracking-[0.18em] text-white">
+        EP. 238
+      </span>
+      <div
+        class="absolute right-[19%] top-[22%] h-[78px] w-[78px] rounded-full"
+        style="background: rgba(251,220,162,.92); box-shadow: 0 0 80px rgba(255,221,165,.8);"
+      >
+      </div>
+      <div
+        class="absolute -left-[18%] -bottom-[10%] h-[42%] w-[110%] rotate-[9deg] rounded-[50%_50%_0_0] opacity-[0.78]"
+        style="background:#57777c;"
+      >
+      </div>
+      <div
+        class="absolute -right-[35%] -bottom-[17%] h-[49%] w-[116%] rotate-[-14deg] rounded-[50%_50%_0_0]"
+        style="background:#173c4d;"
+      >
+      </div>
+      <span class="absolute bottom-9 left-[34px] z-[4] inline-block h-[26px] w-[22px]" aria-hidden="true">
+        <i class="absolute left-1/2 top-1/2 h-[25px] w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold not-italic"></i>
+        <b class="absolute left-1/2 top-[36%] h-0.5 w-[14px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold font-normal not-italic"></b>
+      </span>
+    </div>
+
+    <div class="p-[clamp(40px,5vw,72px)] max-[620px]:px-6 max-[620px]:py-8">
+      <p class="mb-[18px] flex items-center gap-3 text-[9px] font-bold uppercase tracking-[0.14em] text-blue">
+        <span class="text-gold">XVII Domingo</span>
+        <i class="h-[3px] w-[3px] bg-[#b4bec0] not-italic"></i>
+        Tiempo Ordinario
+      </p>
+      <h2
+        class="m-0 mb-6 font-serif text-[clamp(36px,4vw,56px)] leading-[1.05] font-normal tracking-[-0.04em] text-navy max-[620px]:text-[39px]"
+      >
+        El tesoro escondido
+      </h2>
+      <blockquote class="m-0 mb-[22px] border-l-2 border-gold pl-5 font-serif text-[17px] leading-[1.55] text-[#59686c] italic">
+        "El Reino de los cielos se parece a un tesoro escondido en un campo."
+        <cite class="mt-2 block text-[9px] font-bold uppercase tracking-[0.14em] text-blue not-italic">
+          Mateo 13, 44
+        </cite>
+      </blockquote>
+      <p class="mb-[25px] text-sm leading-[1.75] text-muted">
+        Hay cosas que cambian nuestra vida cuando por fin aprendemos a
+        reconocerlas. Hoy caminamos con una imagen sencilla y profunda: un
+        tesoro que siempre estuvo esperando ser encontrado.
+      </p>
+
+      <div class="flex items-center gap-4 bg-navy px-[18px] py-[17px] text-white">
+        <button
+          type="button"
+          data-player-button
+          aria-label="Reproducir episodio"
+          class="flex h-[43px] w-[43px] flex-none items-center justify-center rounded-full border-0 bg-gold text-white"
+        >
+          ▶
+        </button>
+        <div class="flex-1">
+          <div class="mb-2.5 flex items-center justify-between text-[10px]">
+            <strong data-player-label class="font-semibold">Escuchar reflexión</strong>
+            <span class="text-white/52">08:42</span>
+          </div>
+          <div data-progress class="group h-0.5 bg-white/18">
+            <span class="block h-0.5 w-[18%] bg-gold transition-[width] duration-[900ms] ease-in-out group-[.active]:w-[58%]"></span>
+          </div>
+        </div>
+        <a
+          href={spotifyUrl}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Abrir Camina Conmigo en Spotify"
+          class="border-l border-white/15 pl-[14px] text-xs text-[#c7d2d5] max-[620px]:[&_span]:hidden"
+        >
+          ◉ <span>Spotify</span>
+        </a>
+      </div>
+
+      <div class="mt-[18px] flex flex-wrap items-center gap-[18px] max-[620px]:items-start">
+        <span class="mr-auto text-[8px] font-bold uppercase tracking-[0.14em] text-[#9aa4a6] max-[620px]:basis-full">
+          Compartir este episodio
+        </span>
+        <button type="button" data-copy-link class="border-0 bg-transparent p-0 text-[10px] text-blue">
+          Copiar enlace
+        </button>
+        <a
+          href="https://wa.me/?text=El%20tesoro%20escondido%20%E2%80%94%20Camina%20Conmigo"
+          target="_blank"
+          rel="noreferrer"
+          class="text-[10px] text-blue"
+        >
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<script>
+  const playerButton = document.querySelector<HTMLButtonElement>("[data-player-button]");
+  const playerLabel = document.querySelector<HTMLElement>("[data-player-label]");
+  const progress = document.querySelector<HTMLElement>("[data-progress]");
+
+  playerButton?.addEventListener("click", () => {
+    const playing = progress?.classList.toggle("active") ?? false;
+    playerButton.textContent = playing ? "Ⅱ" : "▶";
+    playerButton.setAttribute(
+      "aria-label",
+      playing ? "Pausar episodio" : "Reproducir episodio",
+    );
+    if (playerLabel) {
+      playerLabel.textContent = playing
+        ? "Reproduciendo la reflexión…"
+        : "Escuchar reflexión";
+    }
+  });
+
+  document
+    .querySelector<HTMLButtonElement>("[data-copy-link]")
+    ?.addEventListener("click", async (event) => {
+      await navigator.clipboard?.writeText(window.location.href);
+      if (event.currentTarget instanceof HTMLButtonElement) {
+        event.currentTarget.textContent = "Enlace copiado";
+      }
+    });
+</script>

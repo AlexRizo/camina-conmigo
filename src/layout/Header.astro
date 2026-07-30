@@ -1,0 +1,77 @@
+---
+const links = [
+  { href: "#inicio", label: "Inicio" },
+  { href: "#podcast", label: "Podcast" },
+  { href: "#sobre", label: "Sobre el proyecto" },
+  { href: "#oracion", label: "Oración" },
+  { href: "#reflexiones", label: "Reflexiones" },
+  { href: "#contacto", label: "Contacto" },
+];
+---
+
+<header
+  class="absolute inset-x-0 top-0 z-20 flex h-[88px] items-center justify-between bg-[rgba(249,246,239,0.94)] px-[clamp(24px,5vw,78px)] max-[900px]:h-[76px] max-[900px]:px-[22px]"
+>
+  <a href="#inicio" aria-label="Camina Conmigo, inicio" class="inline-flex items-center gap-[13px]">
+    <span class="relative inline-block h-[38px] w-[30px]" aria-hidden="true">
+      <i class="absolute left-1/2 top-1/2 h-9 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold not-italic"></i>
+      <b class="absolute left-1/2 top-[36%] h-0.5 w-[18px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold font-normal not-italic"></b>
+    </span>
+    <span class="flex flex-col">
+      <strong class="font-serif text-xl font-medium tracking-[-0.02em] text-navy max-[900px]:text-[19px]">
+        Camina Conmigo
+      </strong>
+      <small class="mt-0.5 text-[8px] font-bold uppercase tracking-[0.18em] text-gold">
+        La Palabra para tu camino
+      </small>
+    </span>
+  </a>
+
+  <button
+    type="button"
+    data-menu-button
+    aria-expanded="false"
+    aria-controls="main-navigation"
+    class="hidden flex-col items-center gap-1 border-0 bg-transparent p-[10px] max-[900px]:flex"
+  >
+    <span class="h-px w-6 bg-navy"></span>
+    <span class="h-px w-6 bg-navy"></span>
+    <span class="h-px w-6 bg-navy"></span>
+    <span class="sr-only">Menú</span>
+  </button>
+
+  <nav
+    id="main-navigation"
+    data-menu
+    class="flex items-center gap-[clamp(18px,2.2vw,38px)] max-[900px]:absolute max-[900px]:left-[18px] max-[900px]:right-[18px] max-[900px]:top-[70px] max-[900px]:z-20 max-[900px]:hidden max-[900px]:flex-col max-[900px]:items-start max-[900px]:gap-[22px] max-[900px]:bg-paper max-[900px]:p-7 max-[900px]:shadow-[0_18px_35px_rgba(12,38,53,0.12)] max-[900px]:data-[open]:flex"
+  >
+    {
+      links.map((link) => (
+        <a
+          href={link.href}
+          class="group relative pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267]"
+        >
+          {link.label}
+          <span class="absolute inset-x-0 -bottom-2 h-px origin-left scale-x-0 bg-gold transition-transform duration-200 ease-out group-hover:scale-x-100" />
+        </a>
+      ))
+    }
+  </nav>
+</header>
+
+<script>
+  const menuButton = document.querySelector<HTMLButtonElement>("[data-menu-button]");
+  const navigation = document.querySelector<HTMLElement>("[data-menu]");
+
+  menuButton?.addEventListener("click", () => {
+    const isOpen = navigation?.toggleAttribute("data-open") ?? false;
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  navigation?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", () => {
+      navigation.removeAttribute("data-open");
+      menuButton?.setAttribute("aria-expanded", "false");
+    }),
+  );
+</script>
