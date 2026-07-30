@@ -18,6 +18,9 @@ export default defineConfig({
     schema: {
       TURSO_DATABASE_URL: envField.string({ context: 'server', access: 'secret' }),
       TURSO_AUTH_TOKEN: envField.string({ context: 'server', access: 'secret' }),
+      ADMIN_USER: envField.string({ context: 'server', access: 'secret' }),
+      ADMIN_PASSWORD: envField.string({ context: 'server', access: 'secret' }),
+      AUTH_SECRET: envField.string({ context: 'server', access: 'secret' }),
       PUBLIC_SPOTIFY_URL: envField.string({ context: 'client', access: 'public', optional: true })
     }
   }

@@ -1,0 +1,65 @@
+---
+export const prerender = false;
+
+import { desc } from "drizzle-orm";
+import DashboardLayout from "@/layout/DashboardLayout.astro";
+import { db } from "@/db/client";
+import { prayerIntentions } from "@/db/schema";
+
+const intentions = await db
+  .select()
+  .from(prayerIntentions)
+  .orderBy(desc(prayerIntentions.id));
+
+const dateFormatter = new Intl.DateTimeFormat("es-ES", {
+  dateStyle: "medium",
+  timeStyle: "short",
+});
+
+function formatDate(value: string) {
+  const parsed = new Date(value.includes("T") ? value : `${value.replace(" ", "T")}Z`);
+  return Number.isNaN(parsed.getTime()) ? value : dateFormatter.format(parsed);
+}
+---
+
+<DashboardLayout title="Intenciones de oración" active="intenciones">
+  <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+    <span class="h-px w-[34px] bg-gold"></span>
+    Panel privado
+  </p>
+  <h1 class="m-0 mt-3 font-serif text-3xl font-normal text-navy">Intenciones de oración</h1>
+
+  <p class="mt-4 text-xs uppercase tracking-[0.14em] text-muted">
+    {intentions.length} {intentions.length === 1 ? "intención recibida" : "intenciones recibidas"}
+  </p>
+
+  <div class="mt-8 border-t border-line">
+    {
+      intentions.length === 0 && (
+        <p class="py-16 text-center text-muted">Todavía no han llegado intenciones de oración.</p>
+      )
+    }
+    {
+      intentions.map((intention) => (
+        <article class="grid grid-cols-[140px_1fr] gap-6 border-b border-line py-6 max-[620px]:grid-cols-1 max-[620px]:gap-2">
+          <div class="text-xs text-muted">
+            <time>{formatDate(intention.createdAt)}</time>
+            {intention.anonymous ? (
+              <span class="mt-2 block w-max border border-line px-2 py-1 text-[9px] font-bold uppercase tracking-[0.1em] text-[#7f898b]">
+                Anónima
+              </span>
+            ) : (
+              <div class="mt-2">
+                <p class="m-0 font-semibold text-navy">{intention.name || "Sin nombre"}</p>
+                {intention.email && <p class="m-0 text-[11px]">{intention.email}</p>}
+              </div>
+            )}
+          </div>
+          <p class="m-0 whitespace-pre-line font-serif text-[15px] leading-[1.7] text-ink">
+            {intention.prayer}
+          </p>
+        </article>
+      ))
+    }
+  </div>
+</DashboardLayout>

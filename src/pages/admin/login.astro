@@ -1,0 +1,63 @@
+---
+export const prerender = false;
+
+import AdminLayout from "@/layout/AdminLayout.astro";
+import { SESSION_COOKIE_NAME, verifySessionToken } from "@/lib/auth";
+
+const existingToken = Astro.cookies.get(SESSION_COOKIE_NAME)?.value;
+if (await verifySessionToken(existingToken)) {
+  return Astro.redirect("/admin");
+}
+
+const hasError = Astro.url.searchParams.has("error");
+---
+
+<AdminLayout title="Iniciar sesión">
+  <main class="flex min-h-screen items-center justify-center px-6">
+    <form
+      method="POST"
+      action="/api/auth/login"
+      class="w-full max-w-sm bg-paper p-10 shadow-[0_18px_60px_rgba(28,56,67,0.08)]"
+    >
+      <p class="mb-6 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+        <span class="h-px w-[34px] bg-gold"></span>
+        Panel privado
+      </p>
+      <h1 class="m-0 mb-8 font-serif text-3xl font-normal text-navy">Iniciar sesión</h1>
+
+      {
+        hasError && (
+          <p class="mb-6 border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+            Usuario o contraseña incorrectos.
+          </p>
+        )
+      }
+
+      <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+        Usuario
+        <input
+          name="username"
+          required
+          autocomplete="username"
+          class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
+        />
+      </label>
+      <label class="mb-6 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+        Contraseña
+        <input
+          name="password"
+          type="password"
+          required
+          autocomplete="current-password"
+          class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
+        />
+      </label>
+      <button
+        type="submit"
+        class="flex min-h-[52px] w-full items-center justify-center gap-[10px] rounded-[2px] bg-gold px-[25px] text-[11px] font-bold uppercase tracking-[0.1em] text-white transition-transform duration-150 hover:-translate-y-0.5"
+      >
+        Entrar
+      </button>
+    </form>
+  </main>
+</AdminLayout>

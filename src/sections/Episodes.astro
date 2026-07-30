@@ -32,11 +32,11 @@ const toneGradients: Record<string, string> = {
 const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
 ---
 
-<section id="podcast" class="bg-[#faf7f0] px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
-  <div class="mx-auto mb-[38px] flex max-w-[1200px] items-end justify-between max-[620px]:flex-col max-[620px]:items-start max-[620px]:gap-6">
+<section id="podcast" class="bg-[#faf7f0] px-[clamp(24px,7vw,110px)] py-26.25 max-[620px]:px-5 max-[620px]:py-18.5">
+  <div class="mx-auto mb-[38px] flex max-w-300 items-end justify-between max-[620px]:flex-col max-[620px]:items-start max-[620px]:gap-6">
     <div>
-      <p class="mb-[14px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
-        <span class="h-px w-[34px] bg-gold"></span>
+      <p class="mb-3.5 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+        <span class="h-px w-8.5 bg-gold"></span>
         Sigue caminando
       </p>
       <h2 class="m-0 font-serif text-[clamp(38px,5vw,56px)] leading-[1.05] font-normal tracking-[-0.04em] text-navy">
@@ -51,7 +51,7 @@ const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
             data-filter={filter}
             data-active={index === 0 ? "true" : "false"}
             aria-pressed={index === 0 ? "true" : "false"}
-            class="border border-line px-[14px] py-[10px] text-[9px] font-bold uppercase tracking-[0.08em] text-[#7f898b] data-[active=true]:bg-navy data-[active=true]:text-white"
+            class="border border-line px-3.5 py-2.5 text-[9px] font-bold uppercase tracking-[0.08em] text-[#7f898b] data-[active=true]:bg-navy data-[active=true]:text-white"
           >
             {filter}
           </button>
@@ -60,7 +60,7 @@ const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
     </div>
   </div>
 
-  <div class="mx-auto mb-10 grid max-w-[1200px] grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+  <div class="mx-auto mb-10 grid max-w-300 grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
     {
       episodes.map((episode) => (
         <article
@@ -76,7 +76,7 @@ const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
               style="background: rgba(251,220,162,.92); box-shadow: 0 0 80px rgba(255,221,165,.8);"
             />
             <div
-              class="absolute -right-[30px] -bottom-[45px] h-[140px] w-[115%] rotate-[-11deg] rounded-[50%_50%_0_0]"
+              class="absolute -right-[30px] -bottom-[45px] h-35 w-[115%] rotate-[-11deg] rounded-[50%_50%_0_0]"
               style="background: rgba(20,58,71,.88);"
             />
             <a
@@ -87,25 +87,25 @@ const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
               ▶
             </a>
           </div>
-          <div class="p-[25px]">
-            <p class="m-0 mb-3 text-[8px] font-bold uppercase tracking-[0.15em] text-gold">{episode.season}</p>
-            <h3 class="m-0 mb-[10px] font-serif text-[25px] font-medium text-navy">{episode.title}</h3>
+          <div class="p-6.25">
+            <p class="mb-3 text-[8px] font-bold uppercase tracking-[0.15em] text-gold">{episode.season}</p>
+            <h3 class="mb-2.5 font-serif text-[25px] font-medium text-navy">{episode.title}</h3>
             <span class="mb-6 block font-serif text-[13px] text-[#8c9697] italic">{episode.verse}</span>
-            <a href="#episodio" class="text-[9px] font-bold uppercase tracking-[0.1em] text-blue">
+            <a href="#episodio" class="text-[9px] font-bold uppercase tracking-widest text-blue">
               Escuchar episodio →
             </a>
           </div>
         </article>
       ))
     }
-    <p data-empty-state hidden class="col-span-full py-[50px] text-center text-muted">
+    <p data-empty-state hidden class="col-span-full py-12.5 text-center text-muted">
       Las reflexiones de oración se integrarán próximamente.
     </p>
   </div>
 
   <a
     href="#podcast"
-    class="mx-auto flex min-h-[52px] w-max items-center justify-center gap-[10px] rounded-[2px] border border-[rgba(22,55,74,0.24)] px-[25px] text-[11px] font-bold uppercase tracking-[0.1em] text-navy"
+    class="mx-auto flex min-h-13 w-max items-center justify-center gap-2.5 rounded-xs border border-line px-6.25 text-[11px] font-bold uppercase tracking-widest text-navy"
   >
     Explorar el archivo completo
   </a>

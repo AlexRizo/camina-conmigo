@@ -1,0 +1,68 @@
+---
+import { addDays, isFuture, toSlug } from "@/lib/dates";
+
+interface Props {
+  date: string; // YYYY-MM-DD
+  prayer: {
+    title: string;
+    subtitle: string | null;
+    description: string;
+    source: string | null;
+  } | null;
+}
+
+const { date, prayer } = Astro.props;
+
+const dateFormatter = new Intl.DateTimeFormat("es-ES", { dateStyle: "long" });
+const formattedDate = dateFormatter.format(new Date(`${date}T00:00:00Z`));
+
+const prevSlug = toSlug(addDays(date, -1));
+const nextIso = addDays(date, 1);
+const showNext = !isFuture(nextIso);
+const nextSlug = toSlug(nextIso);
+---
+
+<section id="oracion-del-dia" class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
+  <div class="mx-auto max-w-[720px]">
+    <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+      <span class="h-px w-[34px] bg-gold"></span>
+      Oración del día
+    </p>
+    <p class="mt-3 text-xs uppercase tracking-[0.14em] text-muted">{formattedDate}</p>
+
+    {
+      prayer ? (
+        <article class="mt-8 bg-paper p-[clamp(28px,5vw,56px)] shadow-[0_18px_60px_rgba(28,56,67,0.08)]">
+          <h1 class="m-0 font-serif text-[clamp(32px,4vw,48px)] leading-[1.1] font-normal tracking-[-0.03em] text-navy">
+            {prayer.title}
+          </h1>
+          {prayer.subtitle && (
+            <p class="mt-4 font-serif text-lg leading-[1.6] text-blue italic">{prayer.subtitle}</p>
+          )}
+          <p class="mt-6 text-[15px] leading-[1.8] whitespace-pre-line text-ink">{prayer.description}</p>
+          {prayer.source && (
+            <p class="mt-8 border-t border-line pt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-gold">
+              {prayer.source}
+            </p>
+          )}
+        </article>
+      ) : (
+        <div class="mt-8 bg-paper p-[clamp(28px,5vw,56px)] text-center shadow-[0_18px_60px_rgba(28,56,67,0.08)]">
+          <p class="m-0 font-serif text-2xl font-normal text-navy">
+            Todavía no hay una oración cargada para este día.
+          </p>
+          <p class="mt-3 text-muted">Vuelve pronto — cada día se suma una nueva palabra al camino.</p>
+        </div>
+      )
+    }
+
+    <div class="mt-10 flex items-center justify-between text-xs font-bold uppercase tracking-[0.1em] text-blue">
+      <a href={`/oracion-del-dia/${prevSlug}`} class="hover:text-gold">← Oración del día anterior</a>
+      {showNext && (
+        <a href={`/oracion-del-dia/${nextSlug}`} class="hover:text-gold">
+          Oración del día posterior →
+        </a>
+      )}
+    </div>
+  </div>
+</section>

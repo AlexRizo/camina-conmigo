@@ -1,0 +1,66 @@
+---
+import AdminLayout from "@/layout/AdminLayout.astro";
+
+interface Props {
+  title: string;
+  active: "intenciones" | "oracion";
+}
+
+const { title, active } = Astro.props;
+
+const navItems = [
+  { key: "intenciones", href: "/admin", label: "Intenciones de oración" },
+  { key: "oracion", href: "/admin/oracion-del-dia", label: "Oración del día" },
+] as const;
+---
+
+<AdminLayout title={title}>
+  <div class="flex min-h-screen flex-col md:flex-row">
+    <aside class="flex flex-col justify-between gap-10 bg-navy px-6 py-8 text-white md:w-64 md:flex-none">
+      <div>
+        <a href="/admin" class="inline-flex items-center gap-[13px]">
+          <span class="relative inline-block h-[38px] w-[30px]" aria-hidden="true">
+            <i class="absolute left-1/2 top-1/2 h-9 w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold not-italic"></i>
+            <b class="absolute left-1/2 top-[36%] h-0.5 w-[18px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold font-normal not-italic"></b>
+          </span>
+          <span class="flex flex-col">
+            <strong class="font-serif text-lg font-medium tracking-[-0.02em] text-white">Camina Conmigo</strong>
+            <small class="mt-0.5 text-[8px] font-bold uppercase tracking-[0.18em] text-gold">Panel privado</small>
+          </span>
+        </a>
+
+        <nav class="mt-10 flex flex-col gap-1">
+          {
+            navItems.map((item) => (
+              <a
+                href={item.href}
+                aria-current={active === item.key ? "page" : undefined}
+                class:list={[
+                  "block px-3 py-2.5 text-xs font-semibold uppercase tracking-[0.08em] transition-colors",
+                  active === item.key ? "bg-white/10 text-white" : "text-white/62 hover:text-white",
+                ]}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+
+      <form method="POST" action="/api/auth/logout">
+        <button
+          type="submit"
+          class="border-0 border-b border-white/20 bg-transparent pb-1 text-xs text-white/62 hover:text-white"
+        >
+          Cerrar sesión
+        </button>
+      </form>
+    </aside>
+
+    <main class="min-h-screen flex-1 px-6 py-10 md:px-10">
+      <div class="max-w-3xl">
+        <slot />
+      </div>
+    </main>
+  </div>
+</AdminLayout>

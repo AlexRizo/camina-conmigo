@@ -1,0 +1,17 @@
+---
+export const prerender = false;
+
+import { eq } from "drizzle-orm";
+import Layout from "@/layout/Layout.astro";
+import DailyPrayerView from "@/components/DailyPrayerView.astro";
+import { db } from "@/db/client";
+import { dailyPrayers } from "@/db/schema";
+import { todayIso } from "@/lib/dates";
+
+const today = todayIso();
+const [prayer] = await db.select().from(dailyPrayers).where(eq(dailyPrayers.date, today)).limit(1);
+---
+
+<Layout title="Oración del día">
+  <DailyPrayerView date={today} prayer={prayer ?? null} />
+</Layout>
