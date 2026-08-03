@@ -17,6 +17,7 @@ function formatDate(value: string) {
 
 const error = Astro.url.searchParams.get("error");
 const success = Astro.url.searchParams.has("success");
+const deleted = Astro.url.searchParams.has("deleted");
 ---
 
 <DashboardLayout title="Oración del día" active="oracion">
@@ -45,6 +46,13 @@ const success = Astro.url.searchParams.has("success");
     )
   }
   {
+    deleted && (
+      <p class="mt-6 border border-green-200 bg-green-50 p-3 text-sm text-green-700">
+        Oración eliminada correctamente.
+      </p>
+    )
+  }
+  {
     error === "duplicate" && (
       <p class="mt-6 border border-red-200 bg-red-50 p-3 text-sm text-red-700">
         Ya existe una oración guardada para esa fecha.
@@ -68,13 +76,14 @@ const success = Astro.url.searchParams.has("success");
           <th class="py-3 pr-4 font-bold">Título</th>
           <th class="py-3 pr-4 font-bold">Subtítulo</th>
           <th class="py-3 pr-4 font-bold">Fuente</th>
+          <th class="py-3 pr-0 font-bold"></th>
         </tr>
       </thead>
       <tbody>
         {
           prayers.length === 0 && (
             <tr>
-              <td colspan="5" class="py-16 text-center text-muted">
+              <td colspan="6" class="py-16 text-center text-muted">
                 Todavía no hay oraciones cargadas.
               </td>
             </tr>
@@ -92,6 +101,30 @@ const success = Astro.url.searchParams.has("success");
               <td class="py-4 pr-4 font-serif text-base text-navy">{prayer.title}</td>
               <td class="py-4 pr-4 text-xs text-muted">{prayer.subtitle || "—"}</td>
               <td class="py-4 pr-4 text-xs text-muted">{prayer.source || "—"}</td>
+              <td class="py-4 pr-0 text-right whitespace-nowrap">
+                <button
+                  type="button"
+                  data-edit-prayer
+                  data-id={prayer.id}
+                  data-date={prayer.date}
+                  data-title={prayer.title}
+                  data-subtitle={prayer.subtitle || ""}
+                  data-description={prayer.description}
+                  data-source={prayer.source || ""}
+                  class="border-0 bg-transparent text-[10px] font-bold uppercase tracking-[0.1em] text-blue hover:text-gold"
+                >
+                  Editar
+                </button>
+                <button
+                  type="button"
+                  data-delete-prayer
+                  data-id={prayer.id}
+                  data-title={prayer.title}
+                  class="ml-4 border-0 bg-transparent text-[10px] font-bold uppercase tracking-[0.1em] text-red-500 hover:text-red-700"
+                >
+                  Borrar
+                </button>
+              </td>
             </tr>
           ))
         }
@@ -105,7 +138,7 @@ const success = Astro.url.searchParams.has("success");
   >
     <form method="POST" action="/api/admin/oracion-del-dia" class="p-8">
       <div class="mb-6 flex items-center justify-between">
-        <h2 class="m-0 font-serif text-2xl font-normal text-navy">Nueva oración</h2>
+        <h2 data-dialog-title class="m-0 font-serif text-2xl font-normal text-navy">Nueva oración</h2>
         <button
           type="button"
           data-close-dialog
@@ -116,12 +149,15 @@ const success = Astro.url.searchParams.has("success");
         </button>
       </div>
 
+      <input type="hidden" name="id" data-field="id" />
+
       <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
         Fecha
         <input
           name="date"
           type="date"
           required
+          data-field="date"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
       </label>
@@ -130,6 +166,7 @@ const success = Astro.url.searchParams.has("success");
         <input
           name="title"
           required
+          data-field="title"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
       </label>
@@ -137,6 +174,7 @@ const success = Astro.url.searchParams.has("success");
         Subtítulo <span class="text-[8px] font-medium tracking-normal text-[#a5acad] normal-case">(opcional)</span>
         <input
           name="subtitle"
+          data-field="subtitle"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
       </label>
@@ -146,6 +184,7 @@ const success = Astro.url.searchParams.has("success");
           name="description"
           required
           rows="5"
+          data-field="description"
           class="mt-[9px] block w-full resize-y border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         ></textarea>
       </label>
@@ -154,12 +193,14 @@ const success = Astro.url.searchParams.has("success");
         <input
           name="source"
           placeholder="Ej. Salmo 119, 105"
+          data-field="source"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
       </label>
 
       <button
         type="submit"
+        data-dialog-submit
         class="flex min-h-[52px] w-full items-center justify-center gap-[10px] rounded-[2px] bg-gold px-[25px] text-[11px] font-bold uppercase tracking-[0.1em] text-white transition-transform duration-150 hover:-translate-y-0.5"
       >
         Guardar oración
@@ -170,8 +211,65 @@ const success = Astro.url.searchParams.has("success");
 
 <script>
   const dialog = document.querySelector<HTMLDialogElement>("[data-dialog]");
+  const dialogTitle = document.querySelector<HTMLElement>("[data-dialog-title]");
+  const dialogSubmit = document.querySelector<HTMLButtonElement>("[data-dialog-submit]");
+  const form = dialog?.querySelector("form");
 
-  document.querySelector("[data-open-dialog]")?.addEventListener("click", () => dialog?.showModal());
+  function fieldInput(name: string) {
+    return form?.querySelector<HTMLInputElement | HTMLTextAreaElement>(`[data-field="${name}"]`);
+  }
+
+  function resetForm() {
+    form?.reset();
+    const idField = fieldInput("id");
+    if (idField) idField.value = "";
+    if (dialogTitle) dialogTitle.textContent = "Nueva oración";
+    if (dialogSubmit) dialogSubmit.textContent = "Guardar oración";
+  }
+
+  document.querySelector("[data-open-dialog]")?.addEventListener("click", () => {
+    resetForm();
+    dialog?.showModal();
+  });
+
+  document.querySelectorAll<HTMLButtonElement>("[data-edit-prayer]").forEach((button) => {
+    button.addEventListener("click", () => {
+      resetForm();
+      const idField = fieldInput("id");
+      if (idField) idField.value = button.dataset.id ?? "";
+      const dateField = fieldInput("date");
+      if (dateField) dateField.value = button.dataset.date ?? "";
+      const titleField = fieldInput("title");
+      if (titleField) titleField.value = button.dataset.title ?? "";
+      const subtitleField = fieldInput("subtitle");
+      if (subtitleField) subtitleField.value = button.dataset.subtitle ?? "";
+      const descriptionField = fieldInput("description");
+      if (descriptionField) descriptionField.value = button.dataset.description ?? "";
+      const sourceField = fieldInput("source");
+      if (sourceField) sourceField.value = button.dataset.source ?? "";
+
+      if (dialogTitle) dialogTitle.textContent = "Editar oración";
+      if (dialogSubmit) dialogSubmit.textContent = "Guardar cambios";
+      dialog?.showModal();
+    });
+  });
+
+  document.querySelectorAll<HTMLButtonElement>("[data-delete-prayer]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const id = button.dataset.id ?? "";
+      const title = button.dataset.title ?? "esta oración";
+      if (!id || !confirm(`¿Borrar "${title}"? Esta acción no se puede deshacer.`)) return;
+
+      const body = new FormData();
+      body.set("id", id);
+      const response = await fetch("/api/admin/oracion-del-dia", { method: "DELETE", body });
+
+      window.location.href = response.redirected
+        ? response.url
+        : "/admin/oracion-del-dia?deleted=1";
+    });
+  });
+
   document.querySelector("[data-close-dialog]")?.addEventListener("click", () => dialog?.close());
   dialog?.addEventListener("click", (event) => {
     if (event.target === dialog) dialog.close();

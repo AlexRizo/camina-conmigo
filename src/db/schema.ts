@@ -7,9 +7,16 @@ export const prayerIntentions = sqliteTable("prayer_intentions", {
   email: text("email"),
   prayer: text("prayer").notNull(),
   anonymous: integer("anonymous", { mode: "boolean" }).notNull().default(false),
+  usedInEpisode: integer("used_in_episode", { mode: "boolean" }).notNull().default(false),
   createdAt: text("created_at")
     .notNull()
     .default(sql`(current_timestamp)`),
+});
+
+export const rateLimits = sqliteTable("rate_limits", {
+  key: text("key").primaryKey(),
+  count: integer("count").notNull().default(0),
+  windowStart: text("window_start").notNull(),
 });
 
 export const dailyPrayers = sqliteTable("daily_prayers", {

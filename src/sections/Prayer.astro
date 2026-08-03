@@ -35,6 +35,13 @@
     class="relative min-h-[490px] bg-paper p-[clamp(28px,4vw,48px)] shadow-[0_18px_60px_rgba(28,56,67,0.08)]"
   >
     <div data-form-fields>
+      <label
+        class="absolute -left-[9999px] top-auto h-px w-px overflow-hidden"
+        aria-hidden="true"
+      >
+        Empresa
+        <input name="company" tabindex="-1" autocomplete="off" />
+      </label>
       <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
         Nombre <span class="text-[8px] font-medium tracking-normal text-[#a5acad] normal-case">(opcional)</span>
         <input
@@ -110,7 +117,11 @@
       body: JSON.stringify(Object.fromEntries(new FormData(prayerForm))),
     });
     if (!response.ok) {
-      window.alert("No fue posible enviar la intención. Intenta nuevamente.");
+      const message =
+        response.status === 429
+          ? "Demasiados envíos. Intenta de nuevo en unos minutos."
+          : "No fue posible enviar la intención. Intenta nuevamente.";
+      window.alert(message);
       return;
     }
     fields?.toggleAttribute("hidden", true);

@@ -41,7 +41,7 @@ function formatDate(value: string) {
     }
     {
       intentions.map((intention) => (
-        <article class="grid grid-cols-[140px_1fr] gap-6 border-b border-line py-6 max-[620px]:grid-cols-1 max-[620px]:gap-2">
+        <article class="grid grid-cols-[140px_1fr_170px] gap-6 border-b border-line py-6 max-[620px]:grid-cols-1 max-[620px]:gap-2">
           <div class="text-xs text-muted">
             <time>{formatDate(intention.createdAt)}</time>
             {intention.anonymous ? (
@@ -58,8 +58,37 @@ function formatDate(value: string) {
           <p class="m-0 whitespace-pre-line font-serif text-[15px] leading-[1.7] text-ink">
             {intention.prayer}
           </p>
+          <label class="flex h-max items-center gap-2 text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+            <input
+              type="checkbox"
+              data-toggle-used
+              data-id={intention.id}
+              checked={intention.usedInEpisode}
+              class="h-4 w-4 accent-gold"
+            />
+            Tenida en cuenta
+          </label>
         </article>
       ))
     }
   </div>
 </DashboardLayout>
+
+<script>
+  document.querySelectorAll<HTMLInputElement>("[data-toggle-used]").forEach((checkbox) => {
+    checkbox.addEventListener("change", async () => {
+      const id = checkbox.dataset.id ?? "";
+      const previous = !checkbox.checked;
+      checkbox.disabled = true;
+
+      const body = new FormData();
+      body.set("id", id);
+      body.set("usedInEpisode", String(checkbox.checked));
+
+      const response = await fetch("/api/admin/intenciones", { method: "POST", body });
+      if (!response.ok) checkbox.checked = previous;
+
+      checkbox.disabled = false;
+    });
+  });
+</script>
