@@ -21,7 +21,9 @@ export default defineConfig({
       ADMIN_USER: envField.string({ context: 'server', access: 'secret' }),
       ADMIN_PASSWORD: envField.string({ context: 'server', access: 'secret' }),
       AUTH_SECRET: envField.string({ context: 'server', access: 'secret' }),
-      PUBLIC_SPOTIFY_URL: envField.string({ context: 'client', access: 'public', optional: true })
+      PUBLIC_SPOTIFY_URL: envField.string({ context: 'client', access: 'public', optional: true }),
+      SPOTIFY_CLIENT_ID: envField.string({ context: 'server', access: 'secret' }),
+      SPOTIFY_CLIENT_SECRET: envField.string({ context: 'server', access: 'secret' })
     }
   }
 });

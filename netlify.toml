@@ -1,4 +1,4 @@
-g[build]
+[build]
   command = "pnpm build"
   publish = "dist"
 

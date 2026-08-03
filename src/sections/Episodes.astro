@@ -1,35 +1,22 @@
 ---
-const episodes = [
-  {
-    date: "26 JUL 2026",
-    title: "El tesoro escondido",
-    verse: "Mateo 13, 44",
-    season: "Tiempo Ordinario",
-    tone: "dawn",
-  },
-  {
-    date: "25 JUL 2026",
-    title: "Una fe que se pone en camino",
-    verse: "Mateo 20, 20–28",
-    season: "Fiestas",
-    tone: "path",
-  },
-  {
-    date: "24 JUL 2026",
-    title: "Sembrar con paciencia",
-    verse: "Mateo 13, 18–23",
-    season: "Tiempo Ordinario",
-    tone: "field",
-  },
+import { getRecentEpisodes } from "../lib/spotify";
+
+const placeholderGradients = [
+  "linear-gradient(#789ba1, #e0c69e 57%, #264d5e 58%)",
+  "linear-gradient(#8aa7ac, #e5cfad 58%, #395e68 59%)",
+  "linear-gradient(#819fa1, #c5b087 55%, #35594f 56%)",
 ];
 
-const toneGradients: Record<string, string> = {
-  dawn: "linear-gradient(#789ba1, #e0c69e 57%, #264d5e 58%)",
-  path: "linear-gradient(#8aa7ac, #e5cfad 58%, #395e68 59%)",
-  field: "linear-gradient(#819fa1, #c5b087 55%, #35594f 56%)",
-};
+const episodes = await getRecentEpisodes(3).catch(() => []);
 
-const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
+const cards = episodes.map((episode, index) => ({
+  ...episode,
+  date: new Intl.DateTimeFormat("es-ES", { day: "2-digit", month: "short", year: "numeric" })
+    .format(new Date(episode.releaseDate))
+    .replace(".", "")
+    .toUpperCase(),
+  gradient: placeholderGradients[index % placeholderGradients.length],
+}));
 ---
 
 <section id="podcast" class="bg-[#faf7f0] px-[clamp(24px,7vw,110px)] py-26.25 max-[620px]:px-5 max-[620px]:py-18.5">
@@ -43,97 +30,62 @@ const filters = ["Todos", "Tiempo Ordinario", "Fiestas", "Oración"];
         Últimos episodios
       </h2>
     </div>
-    <div aria-label="Filtrar episodios" class="flex flex-wrap justify-end gap-2 max-[620px]:justify-start">
-      {
-        filters.map((filter, index) => (
-          <button
-            type="button"
-            data-filter={filter}
-            data-active={index === 0 ? "true" : "false"}
-            aria-pressed={index === 0 ? "true" : "false"}
-            class="border border-line px-3.5 py-2.5 text-[9px] font-bold uppercase tracking-[0.08em] text-[#7f898b] data-[active=true]:bg-navy data-[active=true]:text-white"
-          >
-            {filter}
-          </button>
-        ))
-      }
-    </div>
   </div>
 
   <div class="mx-auto mb-10 grid max-w-300 grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
     {
-      episodes.map((episode) => (
-        <article
-          data-season={episode.season}
-          class="bg-paper transition-[transform,box-shadow] duration-[180ms] ease-out hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(21,48,61,0.1)]"
-        >
-          <div class="relative h-[230px] overflow-hidden" style={`background:${toneGradients[episode.tone]};`}>
-            <span class="absolute left-[22px] top-5 z-[2] text-[8px] font-bold uppercase tracking-[0.14em] text-white">
+      cards.map((episode) => (
+        <article class="bg-paper transition-[transform,box-shadow] duration-[180ms] ease-out hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(21,48,61,0.1)]">
+          <div
+            class="relative h-[230px] overflow-hidden"
+            style={
+              episode.imageUrl
+                ? `background: center / cover no-repeat url(${episode.imageUrl});`
+                : `background:${episode.gradient};`
+            }
+          >
+            <span class="absolute left-[22px] top-5 z-[2] text-[8px] font-bold uppercase tracking-[0.14em] text-white [text-shadow:0_1px_4px_rgba(0,0,0,.5)]">
               {episode.date}
             </span>
-            <div
-              class="absolute right-[19%] top-[22%] h-[45px] w-[45px] rounded-full"
-              style="background: rgba(251,220,162,.92); box-shadow: 0 0 80px rgba(255,221,165,.8);"
-            />
-            <div
-              class="absolute -right-[30px] -bottom-[45px] h-35 w-[115%] rotate-[-11deg] rounded-[50%_50%_0_0]"
-              style="background: rgba(20,58,71,.88);"
-            />
             <a
-              href="#episodio"
-              aria-label={`Escuchar ${episode.title}`}
+              href={episode.externalUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Escuchar ${episode.name} en Spotify`}
               class="absolute bottom-[18px] right-[18px] z-[2] flex h-11 w-11 items-center justify-center rounded-full bg-[rgba(255,253,248,0.93)] text-gold"
             >
               ▶
             </a>
           </div>
           <div class="p-6.25">
-            <p class="mb-3 text-[8px] font-bold uppercase tracking-[0.15em] text-gold">{episode.season}</p>
-            <h3 class="mb-2.5 font-serif text-[25px] font-medium text-navy">{episode.title}</h3>
-            <span class="mb-6 block font-serif text-[13px] text-[#8c9697] italic">{episode.verse}</span>
-            <a href="#episodio" class="text-[9px] font-bold uppercase tracking-widest text-blue">
+            <h3 class="mb-2.5 font-serif text-[25px] font-medium text-navy">{episode.name}</h3>
+            <a
+              href={episode.externalUrl}
+              target="_blank"
+              rel="noreferrer"
+              class="text-[9px] font-bold uppercase tracking-widest text-blue"
+            >
               Escuchar episodio →
             </a>
           </div>
         </article>
       ))
     }
-    <p data-empty-state hidden class="col-span-full py-12.5 text-center text-muted">
-      Las reflexiones de oración se integrarán próximamente.
-    </p>
+    {
+      cards.length === 0 && (
+        <p class="col-span-full py-12.5 text-center text-muted">
+          No se pudieron cargar los episodios en este momento.
+        </p>
+      )
+    }
   </div>
 
   <a
-    href="#podcast"
+    href="https://open.spotify.com/show/6E0Kks0fEvCGbwy1cmpKUS"
+    target="_blank"
+    rel="noreferrer"
     class="mx-auto flex min-h-13 w-max items-center justify-center gap-2.5 rounded-xs border border-line px-6.25 text-[11px] font-bold uppercase tracking-widest text-navy"
   >
     Explorar el archivo completo
   </a>
 </section>
-
-<script>
-  const filterButtons = document.querySelectorAll<HTMLButtonElement>("[data-filter]");
-  const cards = document.querySelectorAll<HTMLElement>("[data-season]");
-  const emptyState = document.querySelector<HTMLElement>("[data-empty-state]");
-
-  filterButtons.forEach((button) =>
-    button.addEventListener("click", () => {
-      const selected = button.getAttribute("data-filter") || "Todos";
-      let visible = 0;
-
-      filterButtons.forEach((item) => {
-        item.setAttribute("data-active", "false");
-        item.setAttribute("aria-pressed", "false");
-      });
-      button.setAttribute("data-active", "true");
-      button.setAttribute("aria-pressed", "true");
-
-      cards.forEach((card) => {
-        const show = selected === "Todos" || card.getAttribute("data-season") === selected;
-        card.toggleAttribute("hidden", !show);
-        if (show) visible += 1;
-      });
-      emptyState?.toggleAttribute("hidden", visible > 0);
-    }),
-  );
-</script>
