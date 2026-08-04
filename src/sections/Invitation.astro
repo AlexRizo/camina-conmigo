@@ -1,0 +1,65 @@
+---
+const prompts = [
+  "Tal vez estás buscando fortalecer tu fe.",
+  "Tal vez necesitas consuelo.",
+  "Tal vez quieres comprender mejor la Biblia.",
+  "Tal vez solamente necesitas unos minutos de silencio y esperanza.",
+];
+---
+
+<section
+  id="invitacion"
+  class="flex flex-col items-center bg-navy-deep px-[clamp(24px,7vw,110px)] py-[105px] text-center text-white max-[620px]:px-5 max-[620px]:py-[74px]"
+>
+  <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
+    <span class="h-px w-[34px] bg-gold"></span>
+    Una invitación para ti
+    <span class="h-px w-[34px] bg-gold"></span>
+  </p>
+
+  <h2 class="m-0 mb-9 max-w-[720px] font-serif text-[clamp(34px,4vw,50px)] leading-[1.3] font-normal tracking-[-0.035em]">
+    Este espacio es para ti, sin importar en qué momento de tu camino te
+    encuentres.
+  </h2>
+
+  <ul class="mb-10 flex max-w-[720px] flex-wrap items-center justify-center gap-x-8 gap-y-3">
+    {
+      prompts.map((prompt) => (
+        <li class="text-sm text-white/64 list-disc">{prompt}</li>
+      ))
+    }
+  </ul>
+
+  <div class="max-w-[640px] font-serif text-lg leading-[1.75] text-white/72 [&_p+p]:mt-5">
+    <p>
+      Aquí puedes llegar como estás. Abre tu corazón, escucha la Palabra y
+      permite que Dios te acompañe.
+    </p>
+    <p>
+      Mira a Jesús, deja que su Evangelio ilumine tu vida y toma la mano de
+      María. Ella conoce nuestras alegrías, nuestras heridas y nuestros
+      momentos de incertidumbre. Como Madre, permanece cerca y nos recuerda
+      que siempre podemos volver a su Hijo.
+    </p>
+    <p>
+      Porque la fe no siempre consiste en tener todas las respuestas. Muchas
+      veces comienza simplemente dando un paso, confiando en Dios y dejando
+      que Jesús camine con nosotros, bajo la mirada amorosa de María.
+    </p>
+  </div>
+
+  <div class="mt-14 flex flex-col items-center border-t border-white/12 pt-10">
+    <span class="relative inline-block h-[26px] w-[22px]" aria-hidden="true">
+      <i class="absolute left-1/2 top-1/2 h-[25px] w-0.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold not-italic"></i>
+      <b class="absolute left-1/2 top-[36%] h-0.5 w-[14px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold font-normal not-italic"></b>
+    </span>
+    <p class="mt-5 font-serif text-2xl font-medium tracking-[-0.02em]">Camina Conmigo.</p>
+    <p class="mt-1 text-xs font-bold uppercase tracking-[0.14em] text-gold">
+      La Biblia Católica a la luz del Año Litúrgico
+    </p>
+    <p class="mt-4 max-w-[440px] text-sm leading-[1.7] text-white/56">
+      Un espacio para escuchar, meditar y vivir el Evangelio, caminando con
+      Jesús y bajo la compañía maternal de María.
+    </p>
+  </div>
+</section>

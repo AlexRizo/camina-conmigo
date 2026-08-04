@@ -1,0 +1,50 @@
+---
+const seasons: [string, string, string][] = [
+  ["01", "Adviento", "Nos enseña a esperar, como María esperó con confianza la llegada del Salvador."],
+  ["02", "Navidad", "Nos invita a recibir a Jesús, contemplándolo en los brazos de su Madre."],
+  ["03", "Cuaresma", "Nos llama a volver el corazón a Dios y a caminar con fidelidad."],
+  ["04", "Pascua", "Nos recuerda que la vida vence a la muerte y que la esperanza nunca queda defraudada."],
+  ["05", "Tiempo Ordinario", "Nos ayuda a reconocer a Jesús caminando en lo cotidiano, en los días sencillos y en los pequeños gestos de amor."],
+];
+---
+
+<section
+  id="ano-liturgico"
+  class="relative grid grid-cols-[0.85fr_1.15fr] gap-[70px] bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px]"
+>
+  <div class="sticky top-25 h-max">
+    <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+      <span class="h-px w-[34px] bg-gold"></span>
+      Un camino diario con la Palabra
+    </p>
+    <h2 class="m-0 mb-6 font-serif text-[clamp(38px,5vw,56px)] leading-[1.05] font-normal tracking-[-0.04em] text-navy">
+      El Año Litúrgico, paso a paso.
+    </h2>
+    <p class="max-w-[480px] text-sm leading-[1.75] text-muted">
+      El Año Litúrgico nos permite recorrer, junto con la Iglesia, los
+      principales momentos de la vida de Jesús y del misterio de nuestra fe.
+    </p>
+  </div>
+
+  <div class="border-t border-line max-[900px]:-mt-5">
+    {
+      seasons.map(([number, title, text]) => (
+        <div class="grid grid-cols-[40px_1fr] items-start gap-[22px] border-b border-line px-[5px] py-6">
+          <span class="text-[10px] font-bold text-gold">{number}</span>
+          <div>
+            <h3 class="m-0 mb-[5px] font-serif text-[22px] font-medium text-navy">{title}</h3>
+            <p class="m-0 text-sm leading-[1.6] text-muted">{text}</p>
+          </div>
+        </div>
+      ))
+    }
+    <p class="mt-7 max-w-[560px] px-[5px] text-sm leading-[1.75] text-muted">
+      A través del Año Litúrgico contemplamos también la presencia fiel de
+      María: desde su sí en Nazaret hasta su permanencia junto a la cruz y su
+      oración con la Iglesia naciente. Por eso, cada episodio de Camina
+      Conmigo es un pequeño paso dentro de un camino más grande: aprender a
+      escuchar a Dios, confiar en su presencia, seguir a Jesús y dejarnos
+      acompañar por María, nuestra Madre.
+    </p>
+  </div>
+</section>
