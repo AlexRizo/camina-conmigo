@@ -18,16 +18,7 @@ const description =
 
 const imageUrl = episode?.imageUrl ?? null;
 
-const formattedDate = episode
-  ? new Intl.DateTimeFormat("es-ES", {
-      weekday: "long",
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-    })
-      .format(new Date(episode.releaseDate))
-      .replace(/^\w/, (char) => char.toUpperCase())
-  : "Domingo · 26 de julio de 2026";
+const formattedDate = "Domingo · 26 de julio de 2026";
 
 const embedUrl = episode
   ? `https://open.spotify.com/embed/episode/${episode.id}?utm_source=generator&theme=0`
@@ -40,7 +31,7 @@ const embedUrl = episode
       <span class="h-px w-[34px] bg-gold"></span>
       Episodio del día
     </p>
-    <p class="m-0 text-[10px] font-bold uppercase tracking-[0.16em] text-[#899294]">
+    <p data-today-date class="m-0 text-[10px] font-bold uppercase tracking-[0.16em] text-[#899294]">
       {formattedDate}
     </p>
   </div>
@@ -146,4 +137,17 @@ const embedUrl = episode
         event.currentTarget.textContent = "Enlace copiado";
       }
     });
+
+  const dateEl = document.querySelector<HTMLElement>("[data-today-date]");
+  if (dateEl) {
+    const formatted = new Intl.DateTimeFormat("es-ES", {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    })
+      .format(new Date())
+      .replace(/^\w/, (char) => char.toUpperCase());
+    dateEl.textContent = formatted;
+  }
 </script>
