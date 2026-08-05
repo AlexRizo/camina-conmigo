@@ -1,0 +1,21 @@
+---
+export const prerender = true;
+
+import { getCollection } from "astro:content";
+import Layout from "@/layout/Layout.astro";
+import FortalezaGrid from "@/components/FortalezaGrid.astro";
+
+const entries = await getCollection("fortaleza");
+const cards = entries
+  .map((entry) => ({
+    id: entry.id,
+    day: entry.data.day,
+    titulo: entry.data.titulo,
+    salmo: entry.data.salmo,
+  }))
+  .sort((a, b) => a.day - b.day);
+---
+
+<Layout title="Cuando necesitas fortaleza">
+  <FortalezaGrid entries={cards} />
+</Layout>

@@ -16,7 +16,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
   const source = String(form.get("source") || "").trim();
 
   if (!date || !title || !description) {
-    return redirect("/admin/oracion-del-dia?error=missing");
+    return redirect("/admin/oracion-para-iniciar-el-dia?error=missing");
   }
 
   try {
@@ -43,10 +43,10 @@ export const POST: APIRoute = async ({ request, redirect }) => {
       });
     }
   } catch {
-    return redirect("/admin/oracion-del-dia?error=duplicate");
+    return redirect("/admin/oracion-para-iniciar-el-dia?error=duplicate");
   }
 
-  return redirect("/admin/oracion-del-dia?success=1");
+  return redirect("/admin/oracion-para-iniciar-el-dia?success=1");
 };
 
 export const DELETE: APIRoute = async ({ request, redirect }) => {
@@ -54,10 +54,10 @@ export const DELETE: APIRoute = async ({ request, redirect }) => {
   const id = String(form.get("id") || "").trim();
 
   if (!id) {
-    return redirect("/admin/oracion-del-dia?error=missing");
+    return redirect("/admin/oracion-para-iniciar-el-dia?error=missing");
   }
 
   await db.delete(dailyPrayers).where(eq(dailyPrayers.id, Number(id)));
 
-  return redirect("/admin/oracion-del-dia?deleted=1");
+  return redirect("/admin/oracion-para-iniciar-el-dia?deleted=1");
 };

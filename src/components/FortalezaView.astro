@@ -1,0 +1,46 @@
+---
+interface Props {
+  entry: {
+    day: number;
+    titulo: string;
+    oracion: string[];
+    salmo: string;
+    quote: string;
+  };
+}
+
+const { entry } = Astro.props as Props;
+
+const prevDay = entry.day === 1 ? 365 : entry.day - 1;
+const nextDay = entry.day === 365 ? 1 : entry.day + 1;
+const prevSlug = `dia-${String(prevDay).padStart(3, "0")}`;
+const nextSlug = `dia-${String(nextDay).padStart(3, "0")}`;
+---
+
+<section id="fortaleza" class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
+  <div class="mx-auto max-w-[720px]">
+    <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
+      <span class="h-px w-[34px] bg-gold"></span>
+      Cuando necesitas fortaleza
+    </p>
+    <p class="mt-3 text-xs uppercase tracking-[0.14em] text-muted">Día {entry.day} de 365</p>
+
+    <article class="mt-8 bg-paper p-[clamp(28px,5vw,56px)] shadow-[0_18px_60px_rgba(28,56,67,0.08)]">
+      <h1 class="m-0 font-serif text-[clamp(32px,4vw,48px)] leading-[1.1] font-normal tracking-[-0.03em] text-navy">
+        {entry.titulo}
+      </h1>
+      <div class="mt-6 space-y-1 text-[15px] leading-[1.8] text-ink">
+        {entry.oracion.map((line) => <p class="m-0">{line}</p>)}
+      </div>
+      <p class="mt-8 border-t border-line pt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-gold">
+        Inspirado en el {entry.salmo}
+      </p>
+      <p class="mt-3 font-serif text-lg leading-[1.6] text-blue italic">“{entry.quote}”</p>
+    </article>
+
+    <div class="mt-10 flex items-center justify-between text-xs font-bold uppercase tracking-[0.1em] text-blue">
+      <a href={`/oraciones/oracion-para-fortaleza/${prevSlug}`} class="hover:text-gold">← Oración anterior</a>
+      <a href={`/oraciones/oracion-para-fortaleza/${nextSlug}`} class="hover:text-gold">Oración siguiente →</a>
+    </div>
+  </div>
+</section>

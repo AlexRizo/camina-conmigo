@@ -1,0 +1,5112 @@
+[
+  {
+    "id": "dia-001",
+    "day": 1,
+    "titulo": "Cuando sientes que ya no puedes más",
+    "oracion": [
+      "Señor, hoy me siento cansado y sin fuerzas.",
+      "Sostén mi corazón cuando quiera rendirse.",
+      "Recuérdame que no tengo que caminar solo,",
+      "porque tu presencia me levanta y me acompaña.",
+      "Dame la fuerza necesaria para dar un paso más."
+    ],
+    "salmo": "Salmo 28, 7",
+    "quote": "El Señor es mi fuerza y mi escudo; en él confía mi corazón."
+  },
+  {
+    "id": "dia-002",
+    "day": 2,
+    "titulo": "Cuando el cansancio pesa",
+    "oracion": [
+      "Señor, hoy mis fuerzas parecen pequeñas.",
+      "Recibe todo lo que me cuesta sostener.",
+      "Renueva mi ánimo y serena mi corazón.",
+      "Ayúdame a avanzar sin exigirme más de lo necesario.",
+      "Que tu fuerza complete lo que a mí me falta."
+    ],
+    "salmo": "Salmo 73, 26",
+    "quote": "Mi carne y mi corazón desfallecen; pero Dios es la fuerza de mi corazón."
+  },
+  {
+    "id": "dia-003",
+    "day": 3,
+    "titulo": "Cuando tienes miedo de continuar",
+    "oracion": [
+      "Señor, el miedo quiere detener mis pasos.",
+      "Recuérdame que Tú caminas delante de mí.",
+      "Dame valor para enfrentar lo que hoy me preocupa.",
+      "Que no mire solamente las dificultades,",
+      "sino también tu mano sosteniéndome."
+    ],
+    "salmo": "Salmo 27, 1",
+    "quote": "El Señor es mi luz y mi salvación, ¿a quién temeré?"
+  },
+  {
+    "id": "dia-004",
+    "day": 4,
+    "titulo": "Cuando todo parece demasiado",
+    "oracion": [
+      "Señor, hay momentos en los que todo me sobrepasa.",
+      "Ayúdame a respirar y descansar en tu presencia.",
+      "Enséñame a vivir este día paso a paso,",
+      "sin cargar hoy con las preocupaciones de mañana.",
+      "Sé mi refugio y mi descanso."
+    ],
+    "salmo": "Salmo 61, 3",
+    "quote": "Llévame a la roca que es más alta que yo."
+  },
+  {
+    "id": "dia-005",
+    "day": 5,
+    "titulo": "Cuando necesitas levantarte",
+    "oracion": [
+      "Señor, he tropezado y me cuesta volver a empezar.",
+      "No permitas que el fracaso defina mi camino.",
+      "Toma mi mano y levántame con ternura.",
+      "Dame humildad para aprender de lo vivido",
+      "y esperanza para intentarlo nuevamente."
+    ],
+    "salmo": "Salmo 145, 14",
+    "quote": "El Señor sostiene a los que caen y levanta a los que están abatidos."
+  },
+  {
+    "id": "dia-006",
+    "day": 6,
+    "titulo": "Cuando pierdes la confianza",
+    "oracion": [
+      "Señor, cuando las dudas llenen mi mente,",
+      "recuérdame todo lo que ya has hecho por mí.",
+      "Ayúdame a confiar aunque no vea respuestas.",
+      "Que mi seguridad no dependa de las circunstancias,",
+      "sino de tu amor, que nunca cambia."
+    ],
+    "salmo": "Salmo 56, 4",
+    "quote": "En Dios confío y no temo."
+  },
+  {
+    "id": "dia-007",
+    "day": 7,
+    "titulo": "Cuando el camino es incierto",
+    "oracion": [
+      "Señor, no conozco lo que vendrá mañana.",
+      "A veces quisiera tener todas las respuestas.",
+      "Pero hoy elijo poner mi camino en tus manos.",
+      "Muéstrame solamente el siguiente paso",
+      "y dame la fortaleza para caminarlo contigo."
+    ],
+    "salmo": "Salmo 37, 5",
+    "quote": "Encomienda al Señor tu camino; confía en él."
+  },
+  {
+    "id": "dia-008",
+    "day": 8,
+    "titulo": "Cuando necesitas volver a empezar",
+    "oracion": [
+      "Señor, abre delante de mí un nuevo comienzo.",
+      "Ayúdame a soltar lo que ya no puedo cambiar.",
+      "Limpia mi corazón de culpa y desaliento.",
+      "Renueva mis pensamientos y mis decisiones.",
+      "Que hoy vuelva a caminar sostenido por tu gracia."
+    ],
+    "salmo": "Salmo 51, 12",
+    "quote": "Crea en mí, Dios mío, un corazón puro."
+  },
+  {
+    "id": "dia-009",
+    "day": 9,
+    "titulo": "Cuando las lágrimas no se detienen",
+    "oracion": [
+      "Señor, Tú conoces cada una de mis lágrimas.",
+      "No necesito esconderte lo que me duele.",
+      "Abrázame en este momento de tristeza",
+      "y transforma lentamente mi llanto en esperanza.",
+      "Quédate cerca de mí mientras sana mi corazón."
+    ],
+    "salmo": "Salmo 56, 9",
+    "quote": "Recoge mis lágrimas en tu odre."
+  },
+  {
+    "id": "dia-010",
+    "day": 10,
+    "titulo": "Cuando te sientes solo",
+    "oracion": [
+      "Señor, cuando la soledad se vuelva pesada,",
+      "hazme sentir la cercanía de tu presencia.",
+      "Recuérdame que nunca me abandonas",
+      "y que incluso en el silencio caminas conmigo.",
+      "Sé mi compañía y mi refugio."
+    ],
+    "salmo": "Salmo 23, 4",
+    "quote": "Aunque camine por valles oscuros, no temeré, porque Tú estás conmigo."
+  },
+  {
+    "id": "dia-011",
+    "day": 11,
+    "titulo": "Cuando necesitas paciencia",
+    "oracion": [
+      "Señor, me cuesta esperar y no tener respuestas.",
+      "Quisiera que todo se resolviera de inmediato.",
+      "Enséñame a confiar en tus tiempos",
+      "y a descubrir que también estás obrando en la espera.",
+      "Fortalece mi corazón mientras llega el momento."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Espera en el Señor; sé valiente y mantén firme tu corazón."
+  },
+  {
+    "id": "dia-012",
+    "day": 12,
+    "titulo": "Cuando la preocupación no te deja descansar",
+    "oracion": [
+      "Señor, mi mente está llena de pensamientos inquietos.",
+      "Hoy deposito delante de Ti cada preocupación.",
+      "Dame serenidad para aceptar lo que no controlo",
+      "y sabiduría para atender lo que sí puedo hacer.",
+      "Que tu paz custodie mi descanso."
+    ],
+    "salmo": "Salmo 4, 9",
+    "quote": "En paz me acuesto y enseguida me duermo, porque Tú me haces vivir seguro."
+  },
+  {
+    "id": "dia-013",
+    "day": 13,
+    "titulo": "Cuando necesitas defender tu paz",
+    "oracion": [
+      "Señor, ayúdame a cuidar la paz que Tú me regalas.",
+      "No permitas que las palabras ajenas me derrumben.",
+      "Dame prudencia para guardar silencio",
+      "y fortaleza para alejarme de lo que me hace daño.",
+      "Que mi corazón permanezca firme en Ti."
+    ],
+    "salmo": "Salmo 62, 6",
+    "quote": "Solo en Dios descansa mi alma."
+  },
+  {
+    "id": "dia-014",
+    "day": 14,
+    "titulo": "Cuando debes tomar una decisión",
+    "oracion": [
+      "Señor, ilumina mi mente y ordena mi corazón.",
+      "No permitas que decida movido por el miedo.",
+      "Muéstrame el camino que conduce al bien.",
+      "Dame claridad, prudencia y valentía",
+      "para elegir aquello que me acerque más a Ti."
+    ],
+    "salmo": "Salmo 25, 4",
+    "quote": "Muéstrame, Señor, tus caminos; enséñame tus senderos."
+  },
+  {
+    "id": "dia-015",
+    "day": 15,
+    "titulo": "Cuando te sientes débil",
+    "oracion": [
+      "Señor, hoy reconozco que necesito tu ayuda.",
+      "No quiero fingir una fuerza que no tengo.",
+      "Entra en mi fragilidad y sostenme.",
+      "Hazme comprender que ser débil no significa estar vencido,",
+      "porque tu poder también actúa en mi pequeñez."
+    ],
+    "salmo": "Salmo 18, 33",
+    "quote": "Dios es quien me reviste de fuerza."
+  },
+  {
+    "id": "dia-016",
+    "day": 16,
+    "titulo": "Cuando debes enfrentar un problema",
+    "oracion": [
+      "Señor, el problema está delante de mí",
+      "y no puedo seguir evitando lo que necesito resolver.",
+      "Dame una mente serena y un corazón valiente.",
+      "Ayúdame a actuar con prudencia y confianza.",
+      "Camina conmigo mientras doy este paso."
+    ],
+    "salmo": "Salmo 46, 2",
+    "quote": "Dios es nuestro refugio y nuestra fuerza, una ayuda siempre cercana."
+  },
+  {
+    "id": "dia-017",
+    "day": 17,
+    "titulo": "Cuando el pasado vuelve a doler",
+    "oracion": [
+      "Señor, hay recuerdos que todavía lastiman mi corazón.",
+      "Entra con tu luz en esas heridas antiguas.",
+      "Ayúdame a mirar el pasado sin quedar atrapado en él.",
+      "Dame fuerza para perdonar, sanar y continuar.",
+      "Que mi historia encuentre descanso en tus manos."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-018",
+    "day": 18,
+    "titulo": "Cuando no ves resultados",
+    "oracion": [
+      "Señor, he trabajado y todavía no veo frutos.",
+      "El desánimo comienza a tocar mi corazón.",
+      "Ayúdame a permanecer fiel sin rendirme.",
+      "Recuérdame que muchas semillas crecen en silencio",
+      "y que Tú puedes dar fruto a su debido tiempo."
+    ],
+    "salmo": "Salmo 126, 5",
+    "quote": "Los que siembran entre lágrimas cosecharán entre cantos."
+  },
+  {
+    "id": "dia-019",
+    "day": 19,
+    "titulo": "Cuando necesitas poner límites",
+    "oracion": [
+      "Señor, dame fortaleza para cuidar mi corazón.",
+      "Enséñame a decir no sin culpa ni dureza.",
+      "Ayúdame a reconocer aquello que me desgasta",
+      "y a elegir relaciones que respeten mi dignidad.",
+      "Que mis límites nazcan de la verdad y del amor."
+    ],
+    "salmo": "Salmo 16, 6",
+    "quote": "Me ha tocado un lugar hermoso; me encanta mi heredad."
+  },
+  {
+    "id": "dia-020",
+    "day": 20,
+    "titulo": "Cuando debes pedir ayuda",
+    "oracion": [
+      "Señor, quita de mí el orgullo que me aísla.",
+      "Ayúdame a reconocer cuando ya no puedo solo.",
+      "Pon en mi camino personas buenas y prudentes.",
+      "Dame humildad para recibir apoyo",
+      "y gratitud para valorar las manos que me sostienen."
+    ],
+    "salmo": "Salmo 121, 2",
+    "quote": "Mi ayuda viene del Señor, que hizo el cielo y la tierra."
+  },
+  {
+    "id": "dia-021",
+    "day": 21,
+    "titulo": "Cuando enfrentas una pérdida",
+    "oracion": [
+      "Señor, mi corazón siente el vacío de lo que ya no está.",
+      "Acompáñame en este tiempo de duelo.",
+      "No apresures mis lágrimas ni mi proceso.",
+      "Dame fuerza para atravesar este dolor",
+      "y esperanza para creer que tu amor no termina."
+    ],
+    "salmo": "Salmo 34, 19",
+    "quote": "El Señor está cerca de los corazones quebrantados."
+  },
+  {
+    "id": "dia-022",
+    "day": 22,
+    "titulo": "Cuando alguien te ha herido",
+    "oracion": [
+      "Señor, conoces la herida que dejaron en mí.",
+      "No permitas que el resentimiento gobierne mi corazón.",
+      "Dame tiempo para sanar y sabiduría para actuar.",
+      "Enséñame a perdonar sin negar lo sucedido",
+      "y a recuperar la paz que me pertenece."
+    ],
+    "salmo": "Salmo 55, 23",
+    "quote": "Confía al Señor tus preocupaciones y él te sostendrá."
+  },
+  {
+    "id": "dia-023",
+    "day": 23,
+    "titulo": "Cuando necesitas mantenerte firme",
+    "oracion": [
+      "Señor, ayúdame a no abandonar mis convicciones.",
+      "Que la presión de los demás no cambie mi camino.",
+      "Dame un corazón firme, pero siempre humilde.",
+      "Que pueda defender la verdad sin lastimar",
+      "y permanecer fiel a lo que Tú me enseñas."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "Su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-024",
+    "day": 24,
+    "titulo": "Cuando el día comienza difícil",
+    "oracion": [
+      "Señor, este día no comenzó como yo esperaba.",
+      "Antes de dejarme vencer por el desánimo,",
+      "quiero detenerme y volver mi corazón hacia Ti.",
+      "Renueva mi actitud y guía mis palabras.",
+      "Todavía puedes hacer algo bueno con este día."
+    ],
+    "salmo": "Salmo 118, 24",
+    "quote": "Este es el día que hizo el Señor; alegrémonos en él."
+  },
+  {
+    "id": "dia-025",
+    "day": 25,
+    "titulo": "Cuando necesitas conservar la esperanza",
+    "oracion": [
+      "Señor, aunque hoy no vea la salida,",
+      "no permitas que pierda la esperanza.",
+      "Recuérdame que ninguna noche dura para siempre",
+      "y que tu luz puede aparecer de formas inesperadas.",
+      "Mantén encendida mi confianza en Ti."
+    ],
+    "salmo": "Salmo 30, 6",
+    "quote": "Al atardecer llega el llanto, y por la mañana la alegría."
+  },
+  {
+    "id": "dia-026",
+    "day": 26,
+    "titulo": "Cuando debes comenzar de nuevo después de fallar",
+    "oracion": [
+      "Señor, he cometido errores y me duele reconocerlos.",
+      "Dame valentía para asumir mi responsabilidad.",
+      "Ayúdame a reparar lo que esté en mis manos",
+      "y a recibir con humildad tu misericordia.",
+      "Que este error se convierta en aprendizaje y crecimiento."
+    ],
+    "salmo": "Salmo 32, 5",
+    "quote": "Te confesé mi pecado y Tú perdonaste mi culpa."
+  },
+  {
+    "id": "dia-027",
+    "day": 27,
+    "titulo": "Cuando sientes que nadie te comprende",
+    "oracion": [
+      "Señor, hay cosas que no sé cómo explicar.",
+      "A veces siento que nadie comprende mi lucha.",
+      "Pero Tú conoces mis pensamientos y mi corazón.",
+      "Déjame descansar en la certeza de ser conocido por Ti.",
+      "Que tu mirada me devuelva fuerza y dignidad."
+    ],
+    "salmo": "Salmo 139, 1",
+    "quote": "Señor, Tú me examinas y me conoces."
+  },
+  {
+    "id": "dia-028",
+    "day": 28,
+    "titulo": "Cuando necesitas serenidad",
+    "oracion": [
+      "Señor, aquieta lo que está agitado dentro de mí.",
+      "Silencia por un momento mis pensamientos.",
+      "Ayúdame a respirar y permanecer en tu presencia.",
+      "Que no responda desde la ansiedad o el enojo,",
+      "sino desde la paz que nace de confiar en Ti."
+    ],
+    "salmo": "Salmo 131, 2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-029",
+    "day": 29,
+    "titulo": "Cuando tienes que volver a intentarlo",
+    "oracion": [
+      "Señor, hoy necesito intentarlo una vez más.",
+      "Dame fuerzas para no quedarme en la derrota.",
+      "Ayúdame a comenzar sin miedo al resultado.",
+      "Que mi valor no dependa de hacerlo todo perfecto,",
+      "sino de caminar con perseverancia y fe."
+    ],
+    "salmo": "Salmo 37, 24",
+    "quote": "Aunque caiga, no quedará postrado, porque el Señor sostiene su mano."
+  },
+  {
+    "id": "dia-030",
+    "day": 30,
+    "titulo": "Cuando el futuro te preocupa",
+    "oracion": [
+      "Señor, a veces imagino dificultades que aún no llegan.",
+      "Mi corazón se adelanta y pierde la paz.",
+      "Ayúdame a permanecer en el día que hoy me regalas.",
+      "Que confíe mi futuro a tu providencia",
+      "y use mis fuerzas para vivir bien el presente."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-031",
+    "day": 31,
+    "titulo": "Cuando necesitas valor para decir la verdad",
+    "oracion": [
+      "Señor, dame valor para hablar con sinceridad.",
+      "Que mis palabras no nazcan del enojo ni del miedo.",
+      "Ayúdame a expresar lo que siento con respeto",
+      "y a defender lo justo sin perder la paz.",
+      "Que la verdad y el amor caminen siempre juntos."
+    ],
+    "salmo": "Salmo 15, 2",
+    "quote": "El que procede honradamente y dice la verdad de corazón."
+  },
+  {
+    "id": "dia-032",
+    "day": 32,
+    "titulo": "Cuando sientes que avanzas lentamente",
+    "oracion": [
+      "Señor, me impacienta no avanzar como quisiera.",
+      "Ayúdame a reconocer cada pequeño paso.",
+      "Recuérdame que crecer también requiere tiempo.",
+      "Dame constancia para continuar sin compararme",
+      "y gratitud por todo lo que ya he recorrido."
+    ],
+    "salmo": "Salmo 40, 2",
+    "quote": "Esperé confiadamente en el Señor y él se inclinó hacia mí."
+  },
+  {
+    "id": "dia-033",
+    "day": 33,
+    "titulo": "Cuando necesitas soltar el control",
+    "oracion": [
+      "Señor, me cuesta aceptar que no todo depende de mí.",
+      "Hoy suelto aquello que no puedo controlar.",
+      "Dame sabiduría para hacer mi parte",
+      "y confianza para dejar el resto en tus manos.",
+      "Que tu voluntad sea mi seguridad y mi descanso."
+    ],
+    "salmo": "Salmo 55, 23",
+    "quote": "Pon tu carga sobre el Señor y él te sostendrá."
+  },
+  {
+    "id": "dia-034",
+    "day": 34,
+    "titulo": "Cuando debes atravesar un cambio",
+    "oracion": [
+      "Señor, los cambios despiertan temor en mi corazón.",
+      "Me cuesta dejar lo conocido y caminar hacia lo nuevo.",
+      "Permanece cerca mientras aprendo a adaptarme.",
+      "Dame flexibilidad, confianza y fortaleza.",
+      "Que cada cambio me ayude a descubrirte de otra manera."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tus entradas y salidas, ahora y por siempre."
+  },
+  {
+    "id": "dia-035",
+    "day": 35,
+    "titulo": "Cuando necesitas recuperar el ánimo",
+    "oracion": [
+      "Señor, hoy mi corazón se siente apagado.",
+      "Devuélveme el deseo de levantarme y continuar.",
+      "Muéstrame una razón sencilla para agradecer.",
+      "Pon personas, palabras y momentos de luz en mi camino.",
+      "Que tu alegría renueve poco a poco mis fuerzas."
+    ],
+    "salmo": "Salmo 43, 5",
+    "quote": "Espera en Dios, porque volveré a alabarlo."
+  },
+  {
+    "id": "dia-036",
+    "day": 36,
+    "titulo": "Cuando el esfuerzo parece inútil",
+    "oracion": [
+      "Señor, no permitas que crea que mi esfuerzo es en vano.",
+      "Tú ves cada paso que doy con amor y responsabilidad.",
+      "Enséñame a trabajar sin buscar reconocimiento.",
+      "Dame perseverancia para continuar haciendo el bien",
+      "y confianza para dejar los resultados en tus manos."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Haz prosperar la obra de nuestras manos."
+  },
+  {
+    "id": "dia-037",
+    "day": 37,
+    "titulo": "Cuando necesitas confiar durante la noche",
+    "oracion": [
+      "Señor, al terminar este día deposito todo en tus manos.",
+      "Lo que pude hacer y lo que quedó pendiente.",
+      "Mis preocupaciones, mis errores y mis esperanzas.",
+      "Cuida mi mente mientras descanso",
+      "y renueva mis fuerzas para comenzar mañana."
+    ],
+    "salmo": "Salmo 3, 6",
+    "quote": "Me acuesto, me duermo y despierto, porque el Señor me sostiene."
+  },
+  {
+    "id": "dia-038",
+    "day": 38,
+    "titulo": "Cuando una noticia te preocupa",
+    "oracion": [
+      "Señor, esta noticia ha inquietado mi corazón.",
+      "Ayúdame a no dejarme vencer por pensamientos negativos.",
+      "Dame serenidad para comprender lo que sucede",
+      "y fortaleza para responder cuando sea necesario.",
+      "Que mi corazón permanezca firme y confiado en Ti."
+    ],
+    "salmo": "Salmo 112, 7-8",
+    "quote": "No temerá las malas noticias; su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-039",
+    "day": 39,
+    "titulo": "Cuando necesitas sentirte protegido",
+    "oracion": [
+      "Señor, cúbreme con tu presencia en este día.",
+      "Protégeme de aquello que pueda apartarme de tu paz.",
+      "Cuida mis pensamientos, mis palabras y mis pasos.",
+      "Sé mi refugio cuando me sienta vulnerable",
+      "y mi fortaleza cuando aparezca el temor."
+    ],
+    "salmo": "Salmo 91, 4",
+    "quote": "Te cubrirá con sus plumas y bajo sus alas encontrarás refugio."
+  },
+  {
+    "id": "dia-040",
+    "day": 40,
+    "titulo": "Cuando debes seguir sin tener todas las respuestas",
+    "oracion": [
+      "Señor, no comprendo todo lo que está sucediendo.",
+      "Hay preguntas que todavía no encuentran respuesta.",
+      "Dame fe para caminar aun en medio de la incertidumbre.",
+      "Que no necesite entenderlo todo para confiar",
+      "y que tu presencia sea suficiente para continuar."
+    ],
+    "salmo": "Salmo 119, 105",
+    "quote": "Tu palabra es lámpara para mis pasos y luz en mi camino."
+  },
+  {
+    "id": "dia-041",
+    "day": 41,
+    "titulo": "Cuando necesitas recordar tu fortaleza",
+    "oracion": [
+      "Señor, ayúdame a recordar todo lo que ya he superado.",
+      "En cada dificultad Tú has permanecido conmigo.",
+      "Que las pruebas pasadas no sean motivo de temor,",
+      "sino testimonio de que siempre me has sostenido.",
+      "Dame fuerza para enfrentar también este momento."
+    ],
+    "salmo": "Salmo 18, 2",
+    "quote": "Yo te amo, Señor, mi fuerza."
+  },
+  {
+    "id": "dia-042",
+    "day": 42,
+    "titulo": "Cuando debes mantener la calma",
+    "oracion": [
+      "Señor, cuando todo parezca desordenarse,",
+      "ayúdame a no responder desde la desesperación.",
+      "Aquieta mis pensamientos y mis emociones.",
+      "Dame claridad para actuar en el momento correcto",
+      "y confianza para permanecer firme junto a Ti."
+    ],
+    "salmo": "Salmo 46, 11",
+    "quote": "Quédense quietos y reconozcan que yo soy Dios."
+  },
+  {
+    "id": "dia-043",
+    "day": 43,
+    "titulo": "Cuando te cuesta aceptar lo que sucede",
+    "oracion": [
+      "Señor, hay situaciones que no comprendo",
+      "y realidades que me cuesta aceptar.",
+      "No permitas que la resistencia agote mis fuerzas.",
+      "Ayúdame a recibir este momento con serenidad",
+      "y a descubrir cómo caminar contigo dentro de él."
+    ],
+    "salmo": "Salmo 39, 10",
+    "quote": "Ante Ti guardo silencio, porque Tú lo has permitido."
+  },
+  {
+    "id": "dia-044",
+    "day": 44,
+    "titulo": "Cuando necesitas fuerza para perdonar",
+    "oracion": [
+      "Señor, Tú conoces cuánto me ha dolido esta herida.",
+      "No quiero vivir atado al resentimiento.",
+      "Dame fuerza para iniciar el camino del perdón,",
+      "sin negar lo vivido ni apresurar mi corazón.",
+      "Libérame poco a poco de este peso."
+    ],
+    "salmo": "Salmo 86, 5",
+    "quote": "Tú, Señor, eres bueno y perdonas."
+  },
+  {
+    "id": "dia-045",
+    "day": 45,
+    "titulo": "Cuando debes afrontar una conversación difícil",
+    "oracion": [
+      "Señor, prepara mi corazón para este encuentro.",
+      "Pon prudencia en mis palabras y paz en mi voz.",
+      "Ayúdame a escuchar sin defenderme de inmediato",
+      "y a hablar con verdad, respeto y amor.",
+      "Que esta conversación abra caminos de reconciliación."
+    ],
+    "salmo": "Salmo 19, 15",
+    "quote": "Que las palabras de mi boca sean agradables en tu presencia."
+  },
+  {
+    "id": "dia-046",
+    "day": 46,
+    "titulo": "Cuando sientes que tus fuerzas se terminan",
+    "oracion": [
+      "Señor, he llegado al límite de mis fuerzas.",
+      "Ya no quiero aparentar que todo está bien.",
+      "Recíbeme tal como estoy y sostenme.",
+      "Déjame descansar un momento en tu presencia",
+      "hasta que mi corazón vuelva a levantarse."
+    ],
+    "salmo": "Salmo 138, 3",
+    "quote": "Cuando te invoqué, me respondiste y aumentaste la fuerza de mi alma."
+  },
+  {
+    "id": "dia-047",
+    "day": 47,
+    "titulo": "Cuando debes ser fuerte por tu familia",
+    "oracion": [
+      "Señor, dame fortaleza para acompañar a quienes amo.",
+      "Que mi cansancio no me vuelva indiferente",
+      "ni mis preocupaciones apaguen mi ternura.",
+      "Ayúdame a sostener sin querer controlarlo todo",
+      "y a confiarte también la vida de mi familia."
+    ],
+    "salmo": "Salmo 127, 1",
+    "quote": "Si el Señor no construye la casa, en vano se cansan los que la construyen."
+  },
+  {
+    "id": "dia-048",
+    "day": 48,
+    "titulo": "Cuando no sabes qué hacer",
+    "oracion": [
+      "Señor, hoy no encuentro una respuesta clara.",
+      "Mis pensamientos van en distintas direcciones.",
+      "Detén mi prisa y ayúdame a escucharte.",
+      "Muéstrame lo que debo hacer en este momento",
+      "y dame paciencia para esperar lo que aún no se revela."
+    ],
+    "salmo": "Salmo 143, 10",
+    "quote": "Enséñame a cumplir tu voluntad, porque Tú eres mi Dios."
+  },
+  {
+    "id": "dia-049",
+    "day": 49,
+    "titulo": "Cuando necesitas resistir una tentación",
+    "oracion": [
+      "Señor, fortalece mi voluntad cuando me sienta débil.",
+      "Ayúdame a reconocer aquello que me aparta de Ti.",
+      "Dame valentía para elegir lo que me hace bien",
+      "y sabiduría para alejarme de lo que me daña.",
+      "Que tu Palabra sostenga mis decisiones."
+    ],
+    "salmo": "Salmo 119, 11",
+    "quote": "Guardo tu palabra en mi corazón para no pecar contra Ti."
+  },
+  {
+    "id": "dia-050",
+    "day": 50,
+    "titulo": "Cuando te cuesta confiar en ti",
+    "oracion": [
+      "Señor, a veces dudo de mis capacidades",
+      "y olvido los dones que Tú has puesto en mí.",
+      "Ayúdame a mirarme con verdad y misericordia.",
+      "Dame confianza para usar lo que he recibido",
+      "sin compararme ni sentirme menos que los demás."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me has creado de manera admirable."
+  },
+  {
+    "id": "dia-051",
+    "day": 51,
+    "titulo": "Cuando debes esperar una respuesta",
+    "oracion": [
+      "Señor, la espera comienza a inquietar mi corazón.",
+      "Me cuesta no saber qué sucederá.",
+      "Ayúdame a no llenar el silencio con temor.",
+      "Dame paciencia para esperar sin perder la esperanza",
+      "y serenidad para confiar en tu cuidado."
+    ],
+    "salmo": "Salmo 130, 5",
+    "quote": "Espero en el Señor; mi alma espera en su palabra."
+  },
+  {
+    "id": "dia-052",
+    "day": 52,
+    "titulo": "Cuando sientes que todo sale mal",
+    "oracion": [
+      "Señor, hoy parece que nada resulta como esperaba.",
+      "La frustración quiere apoderarse de mi ánimo.",
+      "Ayúdame a no juzgar todo por un día difícil.",
+      "Muéstrame lo que todavía puedo aprender",
+      "y dame fuerza para comenzar nuevamente."
+    ],
+    "salmo": "Salmo 34, 18",
+    "quote": "El Señor está cerca de quienes lo invocan."
+  },
+  {
+    "id": "dia-053",
+    "day": 53,
+    "titulo": "Cuando necesitas proteger tu corazón",
+    "oracion": [
+      "Señor, guarda mi corazón de la amargura.",
+      "No permitas que las heridas cambien mi manera de amar.",
+      "Dame discernimiento para cuidar mi interior",
+      "sin cerrarme a las personas ni a la vida.",
+      "Que tu amor sea mi defensa y mi refugio."
+    ],
+    "salmo": "Salmo 51, 12",
+    "quote": "Renueva dentro de mí un espíritu firme."
+  },
+  {
+    "id": "dia-054",
+    "day": 54,
+    "titulo": "Cuando debes continuar después de una decepción",
+    "oracion": [
+      "Señor, mis expectativas se han roto",
+      "y me cuesta aceptar que las cosas no fueron como esperaba.",
+      "Sana la tristeza que quedó en mi corazón.",
+      "Ayúdame a soltar lo que no pudo ser",
+      "y a permanecer abierto a los caminos que Tú prepares."
+    ],
+    "salmo": "Salmo 62, 9",
+    "quote": "Derramen ante Él su corazón; Dios es nuestro refugio."
+  },
+  {
+    "id": "dia-055",
+    "day": 55,
+    "titulo": "Cuando necesitas afrontar tus responsabilidades",
+    "oracion": [
+      "Señor, dame ánimo para realizar lo que me corresponde.",
+      "No permitas que la pereza o el temor me paralicen.",
+      "Ayúdame a ordenar mis pendientes con serenidad",
+      "y a cumplir cada tarea con responsabilidad.",
+      "Que mi esfuerzo de hoy también sea una forma de amarte."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Confirma, Señor, la obra de nuestras manos."
+  },
+  {
+    "id": "dia-056",
+    "day": 56,
+    "titulo": "Cuando una puerta se cierra",
+    "oracion": [
+      "Señor, me duele que este camino haya terminado.",
+      "No comprendo por qué esta puerta se cerró.",
+      "Ayúdame a no quedarme golpeando lo que ya pasó.",
+      "Dame confianza para mirar hacia adelante",
+      "y reconocer las nuevas puertas que Tú abras."
+    ],
+    "salmo": "Salmo 37, 23",
+    "quote": "El Señor asegura los pasos de quien sigue su camino."
+  },
+  {
+    "id": "dia-057",
+    "day": 57,
+    "titulo": "Cuando debes comenzar algo nuevo",
+    "oracion": [
+      "Señor, estoy frente a un nuevo comienzo",
+      "y no sé si tendré la fuerza necesaria.",
+      "Acompaña mis primeros pasos y mis aprendizajes.",
+      "Dame humildad para equivocarme sin rendirme",
+      "y entusiasmo para descubrir lo que viene."
+    ],
+    "salmo": "Salmo 20, 5",
+    "quote": "Que el Señor cumpla todos tus proyectos."
+  },
+  {
+    "id": "dia-058",
+    "day": 58,
+    "titulo": "Cuando necesitas superar la culpa",
+    "oracion": [
+      "Señor, mi corazón vuelve una y otra vez a mis errores.",
+      "Ayúdame a reconocerlos sin quedarme atrapado en ellos.",
+      "Dame valor para pedir perdón y reparar lo posible.",
+      "Enséñame a recibir tu misericordia",
+      "y a caminar con una vida renovada."
+    ],
+    "salmo": "Salmo 103, 12",
+    "quote": "Como está lejos el oriente del occidente, así aleja de nosotros nuestras culpas."
+  },
+  {
+    "id": "dia-059",
+    "day": 59,
+    "titulo": "Cuando tienes miedo de equivocarte",
+    "oracion": [
+      "Señor, el temor a fallar detiene mis decisiones.",
+      "Quisiera tener certeza antes de comenzar.",
+      "Ayúdame a actuar con prudencia, pero sin paralizarme.",
+      "Dame libertad para aprender de cada paso",
+      "y confianza para saber que Tú puedes corregir mi camino."
+    ],
+    "salmo": "Salmo 32, 8",
+    "quote": "Yo te enseñaré el camino que debes seguir."
+  },
+  {
+    "id": "dia-060",
+    "day": 60,
+    "titulo": "Cuando necesitas atravesar un día complicado",
+    "oracion": [
+      "Señor, acompáñame durante este día difícil.",
+      "Dame paciencia para cada situación",
+      "y serenidad para no cargarlo todo al mismo tiempo.",
+      "Ayúdame a resolver una cosa después de otra",
+      "y a recordar que Tú permaneces conmigo."
+    ],
+    "salmo": "Salmo 118, 6",
+    "quote": "El Señor está conmigo; no tengo miedo."
+  },
+  {
+    "id": "dia-061",
+    "day": 61,
+    "titulo": "Cuando sientes que no eres suficiente",
+    "oracion": [
+      "Señor, hoy me comparo y me siento pequeño.",
+      "Parece que mis esfuerzos nunca son suficientes.",
+      "Recuérdame que mi valor no depende del reconocimiento.",
+      "Ayúdame a recibir con gratitud quien soy",
+      "y a ofrecerte con amor lo que sí puedo dar."
+    ],
+    "salmo": "Salmo 16, 2",
+    "quote": "Tú eres mi Señor; fuera de Ti no tengo ningún bien."
+  },
+  {
+    "id": "dia-062",
+    "day": 62,
+    "titulo": "Cuando debes defender lo correcto",
+    "oracion": [
+      "Señor, dame firmeza para elegir el bien",
+      "aunque no sea la opción más fácil.",
+      "Que el miedo a las opiniones no me haga callar.",
+      "Ayúdame a actuar con justicia y humildad,",
+      "sin violencia, orgullo ni deseo de imponerme."
+    ],
+    "salmo": "Salmo 37, 30",
+    "quote": "La boca del justo expresa sabiduría y su lengua habla con justicia."
+  },
+  {
+    "id": "dia-063",
+    "day": 63,
+    "titulo": "Cuando necesitas fuerza para cuidar a alguien",
+    "oracion": [
+      "Señor, acompáñame en la tarea de cuidar.",
+      "Hay días en los que el cansancio me supera.",
+      "Renueva mi paciencia, mi ternura y mi entrega.",
+      "Enséñame también a reconocer mis propios límites",
+      "y a descansar sin sentirme culpable."
+    ],
+    "salmo": "Salmo 68, 20",
+    "quote": "Dios lleva nuestras cargas cada día."
+  },
+  {
+    "id": "dia-064",
+    "day": 64,
+    "titulo": "Cuando una enfermedad causa temor",
+    "oracion": [
+      "Señor, conoces el miedo que hay en mi corazón.",
+      "La incertidumbre me hace pensar en lo peor.",
+      "Dame serenidad para vivir este proceso",
+      "y fortaleza para recibir cada día como venga.",
+      "Acompaña a quienes me cuidan y sostén mi esperanza."
+    ],
+    "salmo": "Salmo 41, 4",
+    "quote": "El Señor lo sostendrá en el lecho del dolor."
+  },
+  {
+    "id": "dia-065",
+    "day": 65,
+    "titulo": "Cuando necesitas volver a creer",
+    "oracion": [
+      "Señor, las dificultades han debilitado mi confianza.",
+      "Me cuesta creer que algo bueno pueda suceder.",
+      "Acércate a mi corazón cansado",
+      "y enciende nuevamente una pequeña esperanza.",
+      "Que esa luz sea suficiente para seguir caminando."
+    ],
+    "salmo": "Salmo 42, 12",
+    "quote": "Espera en Dios, porque volverás a alabarlo."
+  },
+  {
+    "id": "dia-066",
+    "day": 66,
+    "titulo": "Cuando debes dejar ir a una persona",
+    "oracion": [
+      "Señor, me cuesta soltar a quien fue importante para mí.",
+      "Hay recuerdos, palabras y emociones que permanecen.",
+      "Ayúdame a agradecer lo vivido sin quedarme detenido.",
+      "Dame fuerza para aceptar esta despedida",
+      "y paz para continuar mi camino."
+    ],
+    "salmo": "Salmo 31, 6",
+    "quote": "En tus manos encomiendo mi espíritu."
+  },
+  {
+    "id": "dia-067",
+    "day": 67,
+    "titulo": "Cuando necesitas actuar con valentía",
+    "oracion": [
+      "Señor, hoy debo hacer algo que me causa temor.",
+      "Mi corazón duda y quisiera retroceder.",
+      "Recuérdame que la valentía no es ausencia de miedo,",
+      "sino avanzar confiando en tu presencia.",
+      "Camina delante de mí y fortalece mis pasos."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Sé valiente, mantén firme tu corazón y espera en el Señor."
+  },
+  {
+    "id": "dia-068",
+    "day": 68,
+    "titulo": "Cuando te sientes rechazado",
+    "oracion": [
+      "Señor, el rechazo ha lastimado mi corazón.",
+      "Me cuesta no tomarlo como una medida de mi valor.",
+      "Recuérdame que soy amado y recibido por Ti.",
+      "Sana mi necesidad de aprobación",
+      "y ayúdame a vivir con libertad y dignidad."
+    ],
+    "salmo": "Salmo 27, 10",
+    "quote": "Aunque mi padre y mi madre me abandonen, el Señor me recibirá."
+  },
+  {
+    "id": "dia-069",
+    "day": 69,
+    "titulo": "Cuando necesitas recuperar la disciplina",
+    "oracion": [
+      "Señor, he perdido el orden y la constancia.",
+      "Me cuesta retomar aquello que me hace bien.",
+      "Ayúdame a comenzar con un paso pequeño",
+      "y a permanecer fiel incluso cuando falte motivación.",
+      "Que cada esfuerzo forme en mí un corazón perseverante."
+    ],
+    "salmo": "Salmo 119, 32",
+    "quote": "Correré por el camino de tus mandamientos, porque ensanchas mi corazón."
+  },
+  {
+    "id": "dia-070",
+    "day": 70,
+    "titulo": "Cuando debes confiar en medio de la tormenta",
+    "oracion": [
+      "Señor, todo se mueve a mi alrededor",
+      "y siento que no encuentro un lugar seguro.",
+      "Sé la roca firme bajo mis pies.",
+      "No permitas que la tormenta gobierne mi corazón",
+      "y ayúdame a recordar que Tú sigues presente."
+    ],
+    "salmo": "Salmo 46, 3",
+    "quote": "Por eso no tememos aunque tiemble la tierra."
+  },
+  {
+    "id": "dia-071",
+    "day": 71,
+    "titulo": "Cuando necesitas fuerzas para un día más",
+    "oracion": [
+      "Señor, gracias por regalarme un nuevo día.",
+      "Tal vez todavía llevo cansancio y preocupaciones,",
+      "pero hoy vuelvo a colocar mi vida en tus manos.",
+      "Dame la fuerza necesaria para caminar esta jornada",
+      "y la gracia de reconocer tu presencia en cada paso."
+    ],
+    "salmo": "Salmo 68, 36",
+    "quote": "Dios da fuerza y poder a su pueblo."
+  },
+  {
+    "id": "dia-072",
+    "day": 72,
+    "titulo": "Cuando el corazón se llena de dudas",
+    "oracion": [
+      "Señor, hay momentos en los que no sé qué creer.",
+      "Las dudas debilitan mi ánimo y confunden mis pasos.",
+      "Ayúdame a no huir de lo que estoy sintiendo.",
+      "Sostén mi fe mientras busco respuestas",
+      "y recuérdame que también en la duda permaneces cerca."
+    ],
+    "salmo": "Salmo 73, 23",
+    "quote": "Yo siempre estoy contigo; Tú sostienes mi mano derecha."
+  },
+  {
+    "id": "dia-073",
+    "day": 73,
+    "titulo": "Cuando necesitas fuerzas para levantarte temprano",
+    "oracion": [
+      "Señor, regálame ánimo para comenzar este día.",
+      "Aunque mi cuerpo esté cansado y mi mente dispersa,",
+      "despierta en mí el deseo de avanzar.",
+      "Ayúdame a recibir esta mañana como una oportunidad",
+      "y a caminar desde el inicio tomado de tu mano."
+    ],
+    "salmo": "Salmo 5, 4",
+    "quote": "De mañana escuchas mi voz; de mañana me presento ante Ti."
+  },
+  {
+    "id": "dia-074",
+    "day": 74,
+    "titulo": "Cuando debes dejar atrás una etapa",
+    "oracion": [
+      "Señor, ayúdame a cerrar este capítulo con paz.",
+      "No quiero aferrarme a lo que ya terminó.",
+      "Dame gratitud por todo lo vivido",
+      "y fortaleza para aceptar que el camino continúa.",
+      "Abre mi corazón a lo nuevo que estás preparando."
+    ],
+    "salmo": "Salmo 126, 3",
+    "quote": "El Señor ha estado grande con nosotros y estamos alegres."
+  },
+  {
+    "id": "dia-075",
+    "day": 75,
+    "titulo": "Cuando necesitas confiar en un proceso lento",
+    "oracion": [
+      "Señor, me cuesta avanzar sin ver cambios rápidos.",
+      "Quisiera que todo se resolviera de inmediato.",
+      "Enséñame a respetar los tiempos de cada proceso.",
+      "Dame paciencia para seguir haciendo mi parte",
+      "y fe para creer que Tú trabajas también en lo invisible."
+    ],
+    "salmo": "Salmo 40, 2",
+    "quote": "Esperé pacientemente al Señor, y Él se inclinó hacia mí."
+  },
+  {
+    "id": "dia-076",
+    "day": 76,
+    "titulo": "Cuando las críticas te debilitan",
+    "oracion": [
+      "Señor, no permitas que las palabras ajenas definan mi valor.",
+      "Dame humildad para escuchar lo que pueda ayudarme",
+      "y libertad para soltar lo que solo busca herirme.",
+      "Afirma mi corazón en tu mirada",
+      "y enséñame a crecer sin perder la paz."
+    ],
+    "salmo": "Salmo 119, 114",
+    "quote": "Tú eres mi refugio y mi escudo; espero en tu palabra."
+  },
+  {
+    "id": "dia-077",
+    "day": 77,
+    "titulo": "Cuando necesitas fuerza para reconocer un error",
+    "oracion": [
+      "Señor, dame humildad para aceptar que me equivoqué.",
+      "Aparta de mí las excusas y el orgullo.",
+      "Ayúdame a pedir perdón con sinceridad",
+      "y a reparar el daño que esté en mis manos.",
+      "Que reconocer mi error me haga más libre y más humano."
+    ],
+    "salmo": "Salmo 51, 5",
+    "quote": "Yo reconozco mi culpa y tengo siempre presente mi pecado."
+  },
+  {
+    "id": "dia-078",
+    "day": 78,
+    "titulo": "Cuando sientes que has perdido demasiado tiempo",
+    "oracion": [
+      "Señor, me duele pensar en el tiempo que dejé pasar.",
+      "No permitas que el arrepentimiento me paralice.",
+      "Enséñame a aprovechar el día que hoy me entregas.",
+      "Dame fuerza para comenzar desde donde estoy",
+      "y confianza para creer que aún puedes hacer algo nuevo."
+    ],
+    "salmo": "Salmo 90, 12",
+    "quote": "Enséñanos a contar nuestros días para alcanzar sabiduría."
+  },
+  {
+    "id": "dia-079",
+    "day": 79,
+    "titulo": "Cuando debes enfrentar una despedida",
+    "oracion": [
+      "Señor, acompáñame mientras aprendo a decir adiós.",
+      "Mi corazón se resiste a dejar ir lo que ama.",
+      "Dame serenidad para aceptar esta separación",
+      "y gratitud por todo lo que compartimos.",
+      "Que tu presencia sostenga el vacío que queda."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada, ahora y por siempre."
+  },
+  {
+    "id": "dia-080",
+    "day": 80,
+    "titulo": "Cuando necesitas volver a ordenar tu vida",
+    "oracion": [
+      "Señor, siento que he perdido el rumbo y el orden.",
+      "Hay demasiadas cosas ocupando mi mente.",
+      "Ayúdame a distinguir lo urgente de lo importante.",
+      "Dame disciplina para comenzar por lo sencillo",
+      "y paz para reconstruir mi vida paso a paso."
+    ],
+    "salmo": "Salmo 119, 133",
+    "quote": "Afirma mis pasos según tu palabra."
+  },
+  {
+    "id": "dia-081",
+    "day": 81,
+    "titulo": "Cuando tienes miedo de perder lo que amas",
+    "oracion": [
+      "Señor, el temor a perder me impide disfrutar lo que tengo.",
+      "Ayúdame a amar sin vivir aferrado.",
+      "Enséñame a agradecer cada presencia y cada momento.",
+      "Que mi seguridad no dependa de retenerlo todo,",
+      "sino de confiar en que Tú cuidas mi vida."
+    ],
+    "salmo": "Salmo 16, 5",
+    "quote": "El Señor es la parte de mi herencia y mi copa."
+  },
+  {
+    "id": "dia-082",
+    "day": 82,
+    "titulo": "Cuando necesitas fuerza para cumplir una promesa",
+    "oracion": [
+      "Señor, ayúdame a permanecer fiel a mi palabra.",
+      "Que el cansancio no me haga abandonar mi compromiso.",
+      "Dame constancia cuando la emoción desaparezca",
+      "y humildad para reconocer mis límites.",
+      "Que mis decisiones reflejen un corazón íntegro."
+    ],
+    "salmo": "Salmo 15, 4",
+    "quote": "Cumple lo prometido, aunque resulte difícil."
+  },
+  {
+    "id": "dia-083",
+    "day": 83,
+    "titulo": "Cuando te cuesta aceptar tus límites",
+    "oracion": [
+      "Señor, a veces quisiera poder hacerlo todo.",
+      "Me cuesta reconocer que también necesito descansar.",
+      "Ayúdame a aceptar mis límites sin sentirme menos.",
+      "Enséñame a pedir ayuda y a cuidar mis fuerzas.",
+      "Que mi fragilidad me acerque más a Ti."
+    ],
+    "salmo": "Salmo 103, 14",
+    "quote": "Él sabe de qué estamos hechos y recuerda que somos polvo."
+  },
+  {
+    "id": "dia-084",
+    "day": 84,
+    "titulo": "Cuando necesitas levantarte después de una mala noticia",
+    "oracion": [
+      "Señor, esta noticia ha sacudido mi corazón.",
+      "Por un momento siento que todo se ha detenido.",
+      "Dame tiempo para comprender lo que sucede.",
+      "Sostén mis fuerzas mientras encuentro el siguiente paso",
+      "y no permitas que pierda la esperanza."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "No temerá las malas noticias; su corazón está firme."
+  },
+  {
+    "id": "dia-085",
+    "day": 85,
+    "titulo": "Cuando debes comenzar sin sentirte preparado",
+    "oracion": [
+      "Señor, no me siento listo para lo que tengo delante.",
+      "Hay cosas que todavía no sé ni comprendo.",
+      "Dame valor para comenzar con lo que tengo.",
+      "Ayúdame a aprender mientras avanzo",
+      "y a confiar en que Tú completarás lo que me falta."
+    ],
+    "salmo": "Salmo 18, 30",
+    "quote": "Con mi Dios puedo saltar cualquier muralla."
+  },
+  {
+    "id": "dia-086",
+    "day": 86,
+    "titulo": "Cuando la ansiedad acelera tus pensamientos",
+    "oracion": [
+      "Señor, mi mente corre y no consigue detenerse.",
+      "Llévame nuevamente al momento presente.",
+      "Ayúdame a respirar, a soltar y a confiar.",
+      "Que no alimente temores que todavía no existen",
+      "y encuentre descanso bajo tu cuidado."
+    ],
+    "salmo": "Salmo 94, 19",
+    "quote": "Cuando se multiplican mis preocupaciones, tus consuelos alegran mi alma."
+  },
+  {
+    "id": "dia-087",
+    "day": 87,
+    "titulo": "Cuando necesitas fuerza para ser paciente contigo",
+    "oracion": [
+      "Señor, me exijo más de lo que puedo dar.",
+      "Me cuesta aceptar mis procesos y mis errores.",
+      "Enséñame a tratarme con la misma compasión",
+      "que ofrecería a alguien que amo.",
+      "Dame paciencia para crecer sin lastimarme."
+    ],
+    "salmo": "Salmo 103, 8",
+    "quote": "El Señor es compasivo y misericordioso, lento para enojarse."
+  },
+  {
+    "id": "dia-088",
+    "day": 88,
+    "titulo": "Cuando debes sostener una decisión difícil",
+    "oracion": [
+      "Señor, tomé una decisión que no ha sido sencilla.",
+      "Ahora necesito firmeza para sostenerla.",
+      "No permitas que el miedo me haga retroceder",
+      "si este camino conduce a la verdad y al bien.",
+      "Dame paz para avanzar con coherencia."
+    ],
+    "salmo": "Salmo 119, 30",
+    "quote": "He elegido el camino de la fidelidad."
+  },
+  {
+    "id": "dia-089",
+    "day": 89,
+    "titulo": "Cuando necesitas dejar de compararte",
+    "oracion": [
+      "Señor, la comparación roba mi paz",
+      "y me hace olvidar todo lo bueno que has puesto en mí.",
+      "Ayúdame a mirar mi camino con gratitud.",
+      "Dame libertad para celebrar el bien de los demás",
+      "sin despreciar mi propio proceso."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me hiciste de manera admirable."
+  },
+  {
+    "id": "dia-090",
+    "day": 90,
+    "titulo": "Cuando debes confiar a pesar del silencio",
+    "oracion": [
+      "Señor, te busco y parece que no escucho tu respuesta.",
+      "El silencio me hace pensar que estás lejos.",
+      "Ayúdame a permanecer sin perder la confianza.",
+      "Que mi fe no dependa de sentirte siempre,",
+      "sino de saber que nunca abandonas a quien te busca."
+    ],
+    "salmo": "Salmo 22, 25",
+    "quote": "No despreció el sufrimiento del afligido ni ocultó de él su rostro."
+  },
+  {
+    "id": "dia-091",
+    "day": 91,
+    "titulo": "Cuando necesitas terminar lo que comenzaste",
+    "oracion": [
+      "Señor, dame constancia para no abandonar a mitad del camino.",
+      "Cuando el entusiasmo disminuya, fortalece mi voluntad.",
+      "Ayúdame a recordar por qué comencé",
+      "y a realizar cada paso con paciencia.",
+      "Que pueda terminar con gratitud lo que un día inicié."
+    ],
+    "salmo": "Salmo 138, 8",
+    "quote": "El Señor llevará a término su obra en mí."
+  },
+  {
+    "id": "dia-092",
+    "day": 92,
+    "titulo": "Cuando una injusticia te llena de impotencia",
+    "oracion": [
+      "Señor, me duele ver aquello que no es justo.",
+      "La impotencia despierta enojo y tristeza en mí.",
+      "Dame fortaleza para no volverme indiferente",
+      "y sabiduría para actuar sin perder la paz.",
+      "Que mi respuesta nazca de la verdad y del amor."
+    ],
+    "salmo": "Salmo 37, 28",
+    "quote": "El Señor ama la justicia y no abandona a sus fieles."
+  },
+  {
+    "id": "dia-093",
+    "day": 93,
+    "titulo": "Cuando necesitas pedir perdón",
+    "oracion": [
+      "Señor, dame valor para acercarme con humildad.",
+      "Sé que mis palabras o acciones causaron dolor.",
+      "Ayúdame a pedir perdón sin justificarme",
+      "y a respetar el tiempo de la otra persona.",
+      "Que este paso abra un camino de sanación."
+    ],
+    "salmo": "Salmo 51, 19",
+    "quote": "Un corazón contrito y humillado Tú no lo desprecias."
+  },
+  {
+    "id": "dia-094",
+    "day": 94,
+    "titulo": "Cuando te preocupa la opinión de los demás",
+    "oracion": [
+      "Señor, muchas veces vivo pendiente de ser aprobado.",
+      "El miedo al juicio limita mis decisiones.",
+      "Ayúdame a actuar con autenticidad y prudencia.",
+      "Que busque hacer lo correcto delante de Ti",
+      "y no vivir prisionero de las expectativas ajenas."
+    ],
+    "salmo": "Salmo 118, 8",
+    "quote": "Es mejor refugiarse en el Señor que confiar en los hombres."
+  },
+  {
+    "id": "dia-095",
+    "day": 95,
+    "titulo": "Cuando necesitas fuerza para cuidar de ti",
+    "oracion": [
+      "Señor, enséñame a cuidar la vida que me has dado.",
+      "Ayúdame a escuchar mi cuerpo y mi corazón.",
+      "Dame sabiduría para descansar cuando lo necesite,",
+      "para alimentarme bien y proteger mi paz.",
+      "Que cuidarme también sea una forma de agradecerte."
+    ],
+    "salmo": "Salmo 23, 2-3",
+    "quote": "Me conduce hacia fuentes tranquilas y repara mis fuerzas."
+  },
+  {
+    "id": "dia-096",
+    "day": 96,
+    "titulo": "Cuando debes volver después de haberte alejado",
+    "oracion": [
+      "Señor, me he alejado y no sé cómo regresar.",
+      "La vergüenza me hace pensar que no merezco acercarme.",
+      "Pero hoy vuelvo con el corazón abierto.",
+      "Recíbeme con tu misericordia",
+      "y ayúdame a comenzar nuevamente junto a Ti."
+    ],
+    "salmo": "Salmo 51, 14",
+    "quote": "Devuélveme la alegría de tu salvación."
+  },
+  {
+    "id": "dia-097",
+    "day": 97,
+    "titulo": "Cuando necesitas afrontar las consecuencias",
+    "oracion": [
+      "Señor, dame fortaleza para aceptar las consecuencias",
+      "de las decisiones que tomé.",
+      "No permitas que huya ni culpe a los demás.",
+      "Ayúdame a asumir lo que me corresponde",
+      "y a transformar esta experiencia en sabiduría."
+    ],
+    "salmo": "Salmo 32, 5",
+    "quote": "Reconocí ante Ti mi pecado y no oculté mi culpa."
+  },
+  {
+    "id": "dia-098",
+    "day": 98,
+    "titulo": "Cuando sientes que nadie valora tu esfuerzo",
+    "oracion": [
+      "Señor, Tú conoces cada tarea hecha en silencio.",
+      "Sabes cuánto he entregado aunque nadie lo mencione.",
+      "No permitas que la falta de reconocimiento me amargue.",
+      "Dame alegría para servir con un corazón libre",
+      "y confianza para saber que Tú ves lo escondido."
+    ],
+    "salmo": "Salmo 139, 3",
+    "quote": "Conoces todos mis caminos."
+  },
+  {
+    "id": "dia-099",
+    "day": 99,
+    "titulo": "Cuando debes caminar en medio de la incertidumbre",
+    "oracion": [
+      "Señor, no puedo ver con claridad todo el camino.",
+      "Solo tengo delante de mí un pequeño paso.",
+      "Dame valor para avanzar sin exigir certezas absolutas.",
+      "Que tu Palabra ilumine lo necesario",
+      "y tu presencia sea suficiente para continuar."
+    ],
+    "salmo": "Salmo 119, 105",
+    "quote": "Tu palabra es lámpara para mis pasos y luz en mi camino."
+  },
+  {
+    "id": "dia-100",
+    "day": 100,
+    "titulo": "Cuando necesitas volver a sentir alegría",
+    "oracion": [
+      "Señor, hace tiempo que mi corazón se siente apagado.",
+      "Me cuesta disfrutar incluso las cosas sencillas.",
+      "Entra con tu luz en mi tristeza.",
+      "Ayúdame a reconocer pequeños motivos para sonreír",
+      "y devuelve lentamente la alegría a mi alma."
+    ],
+    "salmo": "Salmo 30, 12",
+    "quote": "Cambiaste mi duelo en danza."
+  },
+  {
+    "id": "dia-101",
+    "day": 101,
+    "titulo": "Cuando debes seguir adelante sin comprender",
+    "oracion": [
+      "Señor, hay cosas que todavía no logro entender.",
+      "Las preguntas permanecen abiertas en mi corazón.",
+      "Dame paz para vivir sin tener todas las respuestas.",
+      "Ayúdame a confiar en tu sabiduría",
+      "y a seguir caminando, aun en medio del misterio."
+    ],
+    "salmo": "Salmo 131, 1-2",
+    "quote": "Mi corazón no es ambicioso; mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-102",
+    "day": 102,
+    "titulo": "Cuando necesitas recuperar la confianza después de fallar",
+    "oracion": [
+      "Señor, el error ha debilitado mi confianza.",
+      "Me cuesta volver a creer que puedo avanzar.",
+      "Ayúdame a aprender sin condenarme.",
+      "Dame humildad para corregir el camino",
+      "y fortaleza para intentarlo una vez más."
+    ],
+    "salmo": "Salmo 37, 24",
+    "quote": "Aunque caiga, no quedará postrado, porque el Señor sostiene su mano."
+  },
+  {
+    "id": "dia-103",
+    "day": 103,
+    "titulo": "Cuando debes afrontar un cambio inesperado",
+    "oracion": [
+      "Señor, este cambio llegó sin avisar",
+      "y ha alterado lo que yo tenía planeado.",
+      "Ayúdame a adaptarme sin perder la paz.",
+      "Dame flexibilidad para recibir lo nuevo",
+      "y confianza para descubrirte también aquí."
+    ],
+    "salmo": "Salmo 33, 11",
+    "quote": "Los planes del Señor permanecen para siempre."
+  },
+  {
+    "id": "dia-104",
+    "day": 104,
+    "titulo": "Cuando necesitas fuerzas para guardar silencio",
+    "oracion": [
+      "Señor, hay momentos en los que quiero responder de inmediato.",
+      "La emoción puede llevarme a decir lo que no conviene.",
+      "Dame dominio para detenerme y guardar silencio.",
+      "Enséñame a esperar hasta recuperar la serenidad",
+      "y a hablar solamente cuando mis palabras construyan."
+    ],
+    "salmo": "Salmo 141, 3",
+    "quote": "Pon, Señor, una guardia en mi boca."
+  },
+  {
+    "id": "dia-105",
+    "day": 105,
+    "titulo": "Cuando debes soltar una preocupación",
+    "oracion": [
+      "Señor, llevo demasiado tiempo pensando en lo mismo.",
+      "Esta preocupación ocupa mi mente y roba mi descanso.",
+      "Ayúdame a entregártela de verdad.",
+      "Dame sabiduría para hacer lo que me corresponde",
+      "y libertad para dejar en tus manos lo demás."
+    ],
+    "salmo": "Salmo 55, 23",
+    "quote": "Pon tu carga sobre el Señor y Él te sostendrá."
+  },
+  {
+    "id": "dia-106",
+    "day": 106,
+    "titulo": "Cuando necesitas fortaleza para acompañar un duelo",
+    "oracion": [
+      "Señor, no sé qué palabras ofrecer ante tanto dolor.",
+      "Dame sensibilidad para acompañar sin apresurar.",
+      "Ayúdame a permanecer cerca con respeto y ternura.",
+      "Que mi presencia sea un consuelo sencillo",
+      "y refleje un poco de tu amor compasivo."
+    ],
+    "salmo": "Salmo 34, 19",
+    "quote": "El Señor está cerca de los corazones quebrantados."
+  },
+  {
+    "id": "dia-107",
+    "day": 107,
+    "titulo": "Cuando te cuesta levantarte después de una caída",
+    "oracion": [
+      "Señor, la caída ha dejado dolor y vergüenza.",
+      "Por un momento siento que no puedo continuar.",
+      "Extiende tu mano y ayúdame a ponerme de pie.",
+      "Dame paciencia para sanar lo que quedó herido",
+      "y valor para volver al camino."
+    ],
+    "salmo": "Salmo 145, 14",
+    "quote": "El Señor sostiene a todos los que caen."
+  },
+  {
+    "id": "dia-108",
+    "day": 108,
+    "titulo": "Cuando necesitas serenidad ante lo que no depende de ti",
+    "oracion": [
+      "Señor, quiero resolver cosas que están fuera de mis manos.",
+      "Esa necesidad de control agota mi corazón.",
+      "Dame serenidad para aceptar mis límites.",
+      "Enséñame a confiar en tu cuidado",
+      "y a concentrarme en aquello que sí puedo hacer."
+    ],
+    "salmo": "Salmo 131, 2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-109",
+    "day": 109,
+    "titulo": "Cuando debes elegir entre lo fácil y lo correcto",
+    "oracion": [
+      "Señor, lo correcto no siempre es lo más sencillo.",
+      "A veces quisiera evitar el esfuerzo y la incomodidad.",
+      "Dame firmeza para elegir el bien.",
+      "Que no cambie mis valores por una ventaja momentánea",
+      "y permanezca fiel aun cuando cueste."
+    ],
+    "salmo": "Salmo 119, 106",
+    "quote": "He jurado cumplir tus justos mandamientos."
+  },
+  {
+    "id": "dia-110",
+    "day": 110,
+    "titulo": "Cuando necesitas fuerza para comenzar el día con esperanza",
+    "oracion": [
+      "Señor, despierto con preocupaciones en el corazón.",
+      "Antes de comenzar, quiero mirar hacia Ti.",
+      "Renueva mi esperanza y ordena mis pensamientos.",
+      "Dame ánimo para recibir este día con confianza",
+      "y descubrir tu bondad en las cosas pequeñas."
+    ],
+    "salmo": "Salmo 143, 8",
+    "quote": "Hazme escuchar por la mañana tu amor, porque confío en Ti."
+  },
+  {
+    "id": "dia-111",
+    "day": 111,
+    "titulo": "Cuando te sientes agotado emocionalmente",
+    "oracion": [
+      "Señor, no solo mi cuerpo está cansado;",
+      "también mi corazón necesita descanso.",
+      "Recibe todo lo que he guardado en silencio.",
+      "Renueva mis emociones con tu ternura",
+      "y enséñame a cuidar mi interior sin culpa."
+    ],
+    "salmo": "Salmo 23, 3",
+    "quote": "Él repara mis fuerzas."
+  },
+  {
+    "id": "dia-112",
+    "day": 112,
+    "titulo": "Cuando necesitas decir no",
+    "oracion": [
+      "Señor, dame claridad para reconocer mis límites.",
+      "No permitas que el miedo a decepcionar me desgaste.",
+      "Ayúdame a decir no con respeto y firmeza.",
+      "Que mis decisiones protejan la paz que me has dado",
+      "sin dejar de actuar con amor."
+    ],
+    "salmo": "Salmo 16, 8",
+    "quote": "Tengo siempre presente al Señor; con Él a mi derecha no vacilaré."
+  },
+  {
+    "id": "dia-113",
+    "day": 113,
+    "titulo": "Cuando debes esperar sin desesperarte",
+    "oracion": [
+      "Señor, la espera parece más larga de lo que puedo soportar.",
+      "Cada día aumenta mi inquietud.",
+      "Dame paciencia para no adelantarme",
+      "ni tomar decisiones movido por la angustia.",
+      "Fortalece mi corazón mientras espero en Ti."
+    ],
+    "salmo": "Salmo 37, 7",
+    "quote": "Descansa en el Señor y espera en Él."
+  },
+  {
+    "id": "dia-114",
+    "day": 114,
+    "titulo": "Cuando necesitas fuerza para enfrentar tus temores",
+    "oracion": [
+      "Señor, hoy quiero mirar de frente aquello que me asusta.",
+      "Ya no deseo seguir huyendo.",
+      "Toma mi mano mientras doy este paso.",
+      "Dame prudencia, valentía y confianza",
+      "para descubrir que el miedo no tiene la última palabra."
+    ],
+    "salmo": "Salmo 56, 4",
+    "quote": "Cuando siento miedo, confío en Ti."
+  },
+  {
+    "id": "dia-115",
+    "day": 115,
+    "titulo": "Cuando debes aceptar que algo terminó",
+    "oracion": [
+      "Señor, me cuesta reconocer que esta etapa llegó a su fin.",
+      "Una parte de mí todavía quiere permanecer allí.",
+      "Ayúdame a despedirme con gratitud",
+      "y a soltar sin borrar lo vivido.",
+      "Dame fortaleza para abrirme al camino que continúa."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-116",
+    "day": 116,
+    "titulo": "Cuando necesitas perseverar en una meta",
+    "oracion": [
+      "Señor, al principio tenía entusiasmo,",
+      "pero ahora el cansancio pone a prueba mi decisión.",
+      "Recuérdame la razón por la que comencé.",
+      "Dame disciplina para avanzar poco a poco",
+      "y constancia para no abandonar el camino."
+    ],
+    "salmo": "Salmo 119, 112",
+    "quote": "Inclino mi corazón a cumplir tus mandatos para siempre."
+  },
+  {
+    "id": "dia-117",
+    "day": 117,
+    "titulo": "Cuando te cuesta recibir ayuda",
+    "oracion": [
+      "Señor, a veces mi orgullo me hace rechazar apoyo.",
+      "Quiero demostrar que puedo con todo.",
+      "Dame humildad para reconocer mis necesidades",
+      "y apertura para recibir las manos que Tú envías.",
+      "Enséñame que dejarme ayudar también requiere fortaleza."
+    ],
+    "salmo": "Salmo 54, 6",
+    "quote": "Dios es mi ayuda; el Señor sostiene mi vida."
+  },
+  {
+    "id": "dia-118",
+    "day": 118,
+    "titulo": "Cuando necesitas afrontar un problema pendiente",
+    "oracion": [
+      "Señor, he postergado demasiado esta situación.",
+      "El temor la ha hecho parecer más grande.",
+      "Dame decisión para comenzar a resolverla.",
+      "Muéstrame el primer paso que debo dar",
+      "y acompáñame hasta concluir lo necesario."
+    ],
+    "salmo": "Salmo 18, 29",
+    "quote": "Con tu ayuda avanzo contra un ejército."
+  },
+  {
+    "id": "dia-119",
+    "day": 119,
+    "titulo": "Cuando una persona te decepciona",
+    "oracion": [
+      "Señor, confié y ahora mi corazón está herido.",
+      "Me cuesta aceptar lo que esta persona hizo.",
+      "Ayúdame a mirar la situación con verdad,",
+      "sin alimentar el resentimiento ni negar el dolor.",
+      "Dame sabiduría para decidir cómo continuar."
+    ],
+    "salmo": "Salmo 62, 9",
+    "quote": "Derramen ante Él su corazón; Dios es nuestro refugio."
+  },
+  {
+    "id": "dia-120",
+    "day": 120,
+    "titulo": "Cuando necesitas fuerza para mantener una nueva rutina",
+    "oracion": [
+      "Señor, quiero construir hábitos que hagan bien a mi vida.",
+      "Sé que no basta con comenzar con entusiasmo.",
+      "Dame constancia para repetir pequeños pasos",
+      "incluso cuando no tenga ganas.",
+      "Que cada esfuerzo ordene mi vida y fortalezca mi voluntad."
+    ],
+    "salmo": "Salmo 119, 35",
+    "quote": "Guíame por la senda de tus mandamientos."
+  },
+  {
+    "id": "dia-121",
+    "day": 121,
+    "titulo": "Cuando debes enfrentar un resultado inesperado",
+    "oracion": [
+      "Señor, este resultado no es el que esperaba.",
+      "Mi corazón se llena de preguntas y preocupación.",
+      "Ayúdame a recibir la realidad sin perder la esperanza.",
+      "Dame claridad para conocer el siguiente paso",
+      "y fortaleza para atravesar este momento contigo."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "Su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-122",
+    "day": 122,
+    "titulo": "Cuando necesitas descansar sin sentir culpa",
+    "oracion": [
+      "Señor, me cuesta detenerme porque siento que siempre falta algo.",
+      "Pero mi cuerpo y mi corazón necesitan una pausa.",
+      "Enséñame a descansar sin culpa.",
+      "Ayúdame a confiar en que el mundo puede continuar",
+      "mientras yo recupero las fuerzas que Tú me has dado."
+    ],
+    "salmo": "Salmo 4, 9",
+    "quote": "En paz me acuesto y enseguida me duermo."
+  },
+  {
+    "id": "dia-123",
+    "day": 123,
+    "titulo": "Cuando debes hablar por alguien vulnerable",
+    "oracion": [
+      "Señor, dame valor para no permanecer indiferente.",
+      "Que el miedo no cierre mi boca ante la injusticia.",
+      "Ayúdame a defender con prudencia a quien lo necesita.",
+      "Que mis palabras nazcan del amor y la verdad",
+      "y sirvan para proteger, no para lastimar."
+    ],
+    "salmo": "Salmo 82, 3",
+    "quote": "Defiendan al débil y al huérfano."
+  },
+  {
+    "id": "dia-124",
+    "day": 124,
+    "titulo": "Cuando necesitas volver a confiar en las personas",
+    "oracion": [
+      "Señor, las heridas me han hecho desconfiar.",
+      "Temo abrir nuevamente mi corazón.",
+      "Dame prudencia para reconocer a las personas sinceras",
+      "y libertad para no vivir encerrado en el pasado.",
+      "Enséñame a confiar poco a poco, sin perder sabiduría."
+    ],
+    "salmo": "Salmo 40, 5",
+    "quote": "Dichoso quien pone su confianza en el Señor."
+  },
+  {
+    "id": "dia-125",
+    "day": 125,
+    "titulo": "Cuando debes seguir adelante después de un rechazo",
+    "oracion": [
+      "Señor, esta puerta cerrada ha lastimado mi ánimo.",
+      "Me pregunto si algo falta en mí.",
+      "Recuérdame que un rechazo no define mi valor.",
+      "Dame fuerza para aprender de esta experiencia",
+      "y continuar buscando el lugar que tienes para mí."
+    ],
+    "salmo": "Salmo 118, 22",
+    "quote": "La piedra que desecharon los constructores se convirtió en piedra angular."
+  },
+  {
+    "id": "dia-126",
+    "day": 126,
+    "titulo": "Cuando necesitas fuerza para cambiar",
+    "oracion": [
+      "Señor, sé que hay cosas que debo transformar,",
+      "pero cambiar costumbres profundas me resulta difícil.",
+      "Dame sinceridad para reconocer lo que no está bien.",
+      "Fortalece mi voluntad para elegir algo diferente",
+      "y paciencia para avanzar sin rendirme."
+    ],
+    "salmo": "Salmo 51, 12",
+    "quote": "Crea en mí, Dios mío, un corazón puro."
+  },
+  {
+    "id": "dia-127",
+    "day": 127,
+    "titulo": "Cuando debes atravesar una etapa de soledad",
+    "oracion": [
+      "Señor, este tiempo se siente silencioso y vacío.",
+      "Extraño la cercanía y la compañía de otras personas.",
+      "Hazme descubrir que Tú habitas también la soledad.",
+      "Dame fuerza para conocerme y cuidarme",
+      "mientras preparas nuevos encuentros en mi camino."
+    ],
+    "salmo": "Salmo 68, 7",
+    "quote": "Dios da un hogar a quienes están solos."
+  },
+  {
+    "id": "dia-128",
+    "day": 128,
+    "titulo": "Cuando necesitas conservar la paz en medio del conflicto",
+    "oracion": [
+      "Señor, las palabras y tensiones me alteran.",
+      "No quiero dejarme arrastrar por el enojo.",
+      "Dame serenidad para escuchar antes de responder.",
+      "Ayúdame a buscar soluciones sin alimentar divisiones",
+      "y a proteger la paz sin renunciar a la verdad."
+    ],
+    "salmo": "Salmo 34, 15",
+    "quote": "Busca la paz y síguela."
+  },
+  {
+    "id": "dia-129",
+    "day": 129,
+    "titulo": "Cuando debes volver a empezar desde cero",
+    "oracion": [
+      "Señor, siento que todo lo construido se ha perdido.",
+      "Me asusta comenzar nuevamente con tan poco.",
+      "Dame valor para aceptar este nuevo punto de partida.",
+      "Ayúdame a construir con paciencia y esperanza",
+      "confiando en que cada pequeño paso tiene valor."
+    ],
+    "salmo": "Salmo 40, 3",
+    "quote": "Afirmó mis pies sobre roca y aseguró mis pasos."
+  },
+  {
+    "id": "dia-130",
+    "day": 130,
+    "titulo": "Cuando necesitas fuerza para terminar un día difícil",
+    "oracion": [
+      "Señor, este día ha sido más pesado de lo esperado.",
+      "Llego cansado, preocupado y con pocas respuestas.",
+      "Recibe todo lo que viví y no pude resolver.",
+      "Ayúdame a soltarlo antes de descansar",
+      "y renueva mis fuerzas para el día de mañana."
+    ],
+    "salmo": "Salmo 3, 6",
+    "quote": "Me acuesto, me duermo y despierto, porque el Señor me sostiene."
+  },
+  {
+    "id": "dia-131",
+    "day": 131,
+    "titulo": "Cuando necesitas recordar que no estás solo",
+    "oracion": [
+      "Señor, cuando las dificultades me hagan sentir abandonado,",
+      "recuérdame que tu presencia no se aparta de mí.",
+      "Tú conoces mis luchas, mis miedos y mis cansancios.",
+      "Dame fortaleza para seguir caminando",
+      "con la certeza de que siempre vas a mi lado."
+    ],
+    "salmo": "Salmo 23, 4",
+    "quote": "No temeré ningún mal, porque Tú estás conmigo."
+  },
+  {
+    "id": "dia-132",
+    "day": 132,
+    "titulo": "Cuando tienes miedo de no lograrlo",
+    "oracion": [
+      "Señor, hay momentos en los que dudo de mis fuerzas.",
+      "La meta parece lejana y el camino demasiado largo.",
+      "Ayúdame a no rendirme antes de comenzar.",
+      "Dame confianza para avanzar paso a paso",
+      "y recordar que contigo ningún esfuerzo es inútil."
+    ],
+    "salmo": "Salmo 18, 30",
+    "quote": "Con mi Dios puedo saltar cualquier muralla."
+  },
+  {
+    "id": "dia-133",
+    "day": 133,
+    "titulo": "Cuando necesitas aceptar tu fragilidad",
+    "oracion": [
+      "Señor, me cuesta reconocer que también soy frágil.",
+      "Quisiera mostrarme fuerte en todo momento.",
+      "Ayúdame a recibir mis límites con humildad.",
+      "Que no me avergüence de necesitar descanso, apoyo o consuelo,",
+      "porque también en mi debilidad Tú me sostienes."
+    ],
+    "salmo": "Salmo 73, 26",
+    "quote": "Aunque desfallezcan mi cuerpo y mi corazón, Dios es la fuerza de mi corazón."
+  },
+  {
+    "id": "dia-134",
+    "day": 134,
+    "titulo": "Cuando debes enfrentar un día lleno de pendientes",
+    "oracion": [
+      "Señor, hoy tengo muchas cosas por resolver.",
+      "No permitas que la prisa me robe la paz.",
+      "Ayúdame a ordenar mis tareas con sabiduría",
+      "y a realizar una cosa a la vez.",
+      "Que mi corazón permanezca sereno mientras avanzo."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Haz prosperar la obra de nuestras manos."
+  },
+  {
+    "id": "dia-135",
+    "day": 135,
+    "titulo": "Cuando necesitas fuerza para cambiar de dirección",
+    "oracion": [
+      "Señor, reconozco que este camino ya no me hace bien.",
+      "Me cuesta aceptar que debo tomar otra dirección.",
+      "Dame valentía para dejar lo conocido",
+      "y sabiduría para elegir un rumbo más sano.",
+      "Guía mis pasos hacia aquello que da vida."
+    ],
+    "salmo": "Salmo 25, 4",
+    "quote": "Muéstrame, Señor, tus caminos."
+  },
+  {
+    "id": "dia-136",
+    "day": 136,
+    "titulo": "Cuando sientes que la carga es demasiado pesada",
+    "oracion": [
+      "Señor, llevo preocupaciones que ya no puedo sostener.",
+      "Mi corazón está cansado de intentar controlarlo todo.",
+      "Hoy deposito esta carga delante de Ti.",
+      "Ayúdame a caminar con lo necesario",
+      "y a dejar en tus manos lo que me supera."
+    ],
+    "salmo": "Salmo 68, 20",
+    "quote": "Dios lleva nuestras cargas cada día."
+  },
+  {
+    "id": "dia-137",
+    "day": 137,
+    "titulo": "Cuando necesitas valor para pedir una oportunidad",
+    "oracion": [
+      "Señor, dame valentía para acercarme y hablar.",
+      "Que el miedo al rechazo no cierre mi boca.",
+      "Ayúdame a expresar con sencillez lo que necesito",
+      "y a aceptar con paz cualquier respuesta.",
+      "Que mi seguridad permanezca siempre en Ti."
+    ],
+    "salmo": "Salmo 27, 3",
+    "quote": "Aunque un ejército acampe contra mí, mi corazón no temerá."
+  },
+  {
+    "id": "dia-138",
+    "day": 138,
+    "titulo": "Cuando debes cuidar tus pensamientos",
+    "oracion": [
+      "Señor, mi mente se llena de temores y suposiciones.",
+      "A veces creo cosas que aún no han sucedido.",
+      "Ayúdame a detener los pensamientos que me dañan.",
+      "Llena mi interior de verdad, esperanza y serenidad,",
+      "para que mi mente también encuentre descanso en Ti."
+    ],
+    "salmo": "Salmo 94, 19",
+    "quote": "Cuando se multiplican mis preocupaciones, tus consuelos alegran mi alma."
+  },
+  {
+    "id": "dia-139",
+    "day": 139,
+    "titulo": "Cuando necesitas fuerza para sanar una amistad",
+    "oracion": [
+      "Señor, esta amistad atraviesa un momento difícil.",
+      "Hay distancia, heridas y palabras pendientes.",
+      "Dame humildad para reconocer mi parte",
+      "y amor para acercarme sin orgullo.",
+      "Que podamos hablar con verdad y sanar lo necesario."
+    ],
+    "salmo": "Salmo 133, 1",
+    "quote": "Qué bueno y agradable es que los hermanos vivan unidos."
+  },
+  {
+    "id": "dia-140",
+    "day": 140,
+    "titulo": "Cuando debes afrontar una pérdida económica",
+    "oracion": [
+      "Señor, esta pérdida ha despertado temor en mi corazón.",
+      "Me preocupa no saber cómo resolver lo que viene.",
+      "Dame prudencia para administrar lo que tengo,",
+      "creatividad para buscar nuevas posibilidades",
+      "y confianza para no perder la esperanza."
+    ],
+    "salmo": "Salmo 37, 25",
+    "quote": "No he visto al justo abandonado."
+  },
+  {
+    "id": "dia-141",
+    "day": 141,
+    "titulo": "Cuando necesitas mantenerte firme ante la presión",
+    "oracion": [
+      "Señor, las opiniones de los demás me confunden.",
+      "Siento presión para actuar contra mis convicciones.",
+      "Dame un corazón firme y sereno.",
+      "Ayúdame a escuchar sin dejar de ser fiel",
+      "a la verdad que has sembrado en mí."
+    ],
+    "salmo": "Salmo 16, 8",
+    "quote": "Tengo siempre presente al Señor; con Él a mi derecha no vacilaré."
+  },
+  {
+    "id": "dia-142",
+    "day": 142,
+    "titulo": "Cuando debes atravesar una prueba larga",
+    "oracion": [
+      "Señor, esta dificultad ha durado más de lo esperado.",
+      "El cansancio comienza a debilitar mi esperanza.",
+      "Dame perseverancia para continuar un día más.",
+      "Que no mida tu amor por la rapidez de las respuestas,",
+      "sino por tu presencia constante en el camino."
+    ],
+    "salmo": "Salmo 40, 2",
+    "quote": "Esperé confiadamente en el Señor y Él se inclinó hacia mí."
+  },
+  {
+    "id": "dia-143",
+    "day": 143,
+    "titulo": "Cuando necesitas comenzar una conversación pendiente",
+    "oracion": [
+      "Señor, llevo tiempo evitando estas palabras.",
+      "El temor ha hecho crecer la distancia.",
+      "Dame valor para iniciar esta conversación",
+      "con respeto, sinceridad y un corazón dispuesto a escuchar.",
+      "Que tu paz guíe todo lo que digamos."
+    ],
+    "salmo": "Salmo 19, 15",
+    "quote": "Que las palabras de mi boca sean agradables en tu presencia."
+  },
+  {
+    "id": "dia-144",
+    "day": 144,
+    "titulo": "Cuando te cuesta reconocer tus avances",
+    "oracion": [
+      "Señor, muchas veces solo veo lo que me falta.",
+      "Olvido cuánto he aprendido y cuánto he caminado.",
+      "Ayúdame a reconocer cada pequeño avance",
+      "sin orgullo, pero también sin despreciarlo.",
+      "Que la gratitud renueve mis fuerzas para continuar."
+    ],
+    "salmo": "Salmo 126, 3",
+    "quote": "El Señor ha estado grande con nosotros."
+  },
+  {
+    "id": "dia-145",
+    "day": 145,
+    "titulo": "Cuando necesitas fuerza para soltar una ofensa",
+    "oracion": [
+      "Señor, esta ofensa vuelve una y otra vez a mi memoria.",
+      "No quiero seguir alimentando el dolor.",
+      "Ayúdame a entregar lo sucedido en tus manos",
+      "y a liberar mi corazón del resentimiento.",
+      "Que tu paz ocupe el lugar de esta herida."
+    ],
+    "salmo": "Salmo 37, 8",
+    "quote": "Deja la ira y abandona el enojo."
+  },
+  {
+    "id": "dia-146",
+    "day": 146,
+    "titulo": "Cuando debes afrontar una responsabilidad nueva",
+    "oracion": [
+      "Señor, esta nueva responsabilidad me causa temor.",
+      "No sé si estaré preparado para cumplirla.",
+      "Dame claridad para aprender lo necesario",
+      "y humildad para pedir orientación.",
+      "Que tu presencia fortalezca cada uno de mis pasos."
+    ],
+    "salmo": "Salmo 32, 8",
+    "quote": "Yo te enseñaré el camino que debes seguir."
+  },
+  {
+    "id": "dia-147",
+    "day": 147,
+    "titulo": "Cuando necesitas recuperar tu motivación",
+    "oracion": [
+      "Señor, he perdido el entusiasmo con el que comencé.",
+      "Todo parece más pesado y difícil.",
+      "Recuérdame el propósito de este camino.",
+      "Renueva mis deseos y mi constancia",
+      "para seguir avanzando aun sin sentir emoción."
+    ],
+    "salmo": "Salmo 51, 14",
+    "quote": "Devuélveme la alegría de tu salvación."
+  },
+  {
+    "id": "dia-148",
+    "day": 148,
+    "titulo": "Cuando sientes temor por alguien que amas",
+    "oracion": [
+      "Señor, me preocupa profundamente esta persona.",
+      "Quisiera protegerla de todo dolor y dificultad.",
+      "Ayúdame a acompañarla sin querer controlarlo todo.",
+      "Cuídala donde mis manos no pueden llegar",
+      "y dame paz para confiarla a tu amor."
+    ],
+    "salmo": "Salmo 121, 7",
+    "quote": "El Señor te protegerá de todo mal."
+  },
+  {
+    "id": "dia-149",
+    "day": 149,
+    "titulo": "Cuando necesitas fuerza para volver a casa",
+    "oracion": [
+      "Señor, a veces regresar también requiere valentía.",
+      "Hay palabras, recuerdos o heridas que me inquietan.",
+      "Prepara mi corazón para este encuentro.",
+      "Dame serenidad para entrar sin defensas",
+      "y sabiduría para construir un ambiente de paz."
+    ],
+    "salmo": "Salmo 122, 8",
+    "quote": "Por mis hermanos y compañeros diré: la paz contigo."
+  },
+  {
+    "id": "dia-150",
+    "day": 150,
+    "titulo": "Cuando debes renunciar a algo que te hace daño",
+    "oracion": [
+      "Señor, sé que debo alejarme de aquello que me lastima.",
+      "Sin embargo, soltarlo me resulta difícil.",
+      "Fortalece mi voluntad y mis decisiones.",
+      "Ayúdame a elegir la libertad aunque al principio duela",
+      "y a llenar ese espacio con algo bueno."
+    ],
+    "salmo": "Salmo 119, 37",
+    "quote": "Aparta mis ojos de la vanidad y dame vida en tu camino."
+  },
+  {
+    "id": "dia-151",
+    "day": 151,
+    "titulo": "Cuando necesitas soportar una espera médica",
+    "oracion": [
+      "Señor, esta espera despierta muchas preguntas.",
+      "Mi mente imagina respuestas que todavía no conozco.",
+      "Dame serenidad mientras llega el resultado.",
+      "Acompaña a quienes me atienden",
+      "y sostén mi corazón con tu paz."
+    ],
+    "salmo": "Salmo 62, 6",
+    "quote": "Solo en Dios descansa mi alma."
+  },
+  {
+    "id": "dia-152",
+    "day": 152,
+    "titulo": "Cuando debes dejar de huir",
+    "oracion": [
+      "Señor, he evitado demasiado aquello que me preocupa.",
+      "Sé que huir no hará desaparecer el problema.",
+      "Dame valentía para detenerme y enfrentarlo.",
+      "Muéstrame el primer paso posible",
+      "y permanece conmigo mientras avanzo."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Sé valiente y mantén firme tu corazón."
+  },
+  {
+    "id": "dia-153",
+    "day": 153,
+    "titulo": "Cuando necesitas recuperar la esperanza en tu familia",
+    "oracion": [
+      "Señor, hay tensiones que han desgastado nuestro hogar.",
+      "A veces parece difícil volver a encontrarnos.",
+      "Danos paciencia para escucharnos",
+      "y humildad para pedir y ofrecer perdón.",
+      "Que tu amor reconstruya poco a poco nuestra unidad."
+    ],
+    "salmo": "Salmo 127, 1",
+    "quote": "Si el Señor no construye la casa, en vano se cansan los constructores."
+  },
+  {
+    "id": "dia-154",
+    "day": 154,
+    "titulo": "Cuando debes avanzar aunque otros no te comprendan",
+    "oracion": [
+      "Señor, no todos entienden las decisiones que estoy tomando.",
+      "Sus dudas también despiertan inseguridad en mí.",
+      "Dame claridad para revisar mi camino con honestidad",
+      "y firmeza para continuar cuando sepa que hago el bien.",
+      "Que tu voz tenga más peso que cualquier opinión."
+    ],
+    "salmo": "Salmo 119, 105",
+    "quote": "Tu palabra es lámpara para mis pasos."
+  },
+  {
+    "id": "dia-155",
+    "day": 155,
+    "titulo": "Cuando necesitas fuerza para ordenar tus finanzas",
+    "oracion": [
+      "Señor, ayúdame a mirar mi realidad con responsabilidad.",
+      "No permitas que el miedo me haga evitarla.",
+      "Dame prudencia para organizar lo que tengo,",
+      "disciplina para corregir mis hábitos",
+      "y esperanza para avanzar poco a poco."
+    ],
+    "salmo": "Salmo 90, 12",
+    "quote": "Enséñanos a contar nuestros días para alcanzar sabiduría."
+  },
+  {
+    "id": "dia-156",
+    "day": 156,
+    "titulo": "Cuando te sientes olvidado",
+    "oracion": [
+      "Señor, hay días en los que siento que nadie me recuerda.",
+      "El silencio de los demás pesa en mi corazón.",
+      "Hazme sentir tu mirada cercana y fiel.",
+      "Recuérdame que mi vida tiene valor para Ti",
+      "y que nunca paso desapercibido ante tus ojos."
+    ],
+    "salmo": "Salmo 139, 17",
+    "quote": "Qué preciosos son para mí tus pensamientos, Dios mío."
+  },
+  {
+    "id": "dia-157",
+    "day": 157,
+    "titulo": "Cuando necesitas perseverar sin recibir apoyo",
+    "oracion": [
+      "Señor, este camino se siente más difícil sin compañía.",
+      "Me duele no encontrar el apoyo que esperaba.",
+      "Dame fuerza para continuar haciendo lo correcto",
+      "sin depender siempre del reconocimiento.",
+      "Que tu presencia sea mi ánimo y mi sostén."
+    ],
+    "salmo": "Salmo 54, 6",
+    "quote": "Dios es mi ayuda; el Señor sostiene mi vida."
+  },
+  {
+    "id": "dia-158",
+    "day": 158,
+    "titulo": "Cuando debes afrontar una verdad dolorosa",
+    "oracion": [
+      "Señor, esta verdad me cuesta aceptar.",
+      "Quisiera evitarla o creer que no está sucediendo.",
+      "Dame fortaleza para mirarla con serenidad",
+      "y sabiduría para actuar a partir de ella.",
+      "Que la verdad, aunque duela, me conduzca a la libertad."
+    ],
+    "salmo": "Salmo 51, 8",
+    "quote": "Tú amas la verdad en lo profundo del corazón."
+  },
+  {
+    "id": "dia-159",
+    "day": 159,
+    "titulo": "Cuando necesitas volver a confiar después de una traición",
+    "oracion": [
+      "Señor, la traición dejó una herida profunda.",
+      "Ahora me cuesta creer en las palabras de los demás.",
+      "Sana mi corazón sin volverlo ingenuo ni cerrado.",
+      "Dame prudencia para reconocer lo verdadero",
+      "y libertad para no vivir dominado por el miedo."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-160",
+    "day": 160,
+    "titulo": "Cuando debes permanecer fuerte en una despedida",
+    "oracion": [
+      "Señor, este momento de despedida pesa en mi corazón.",
+      "Quisiera detener el tiempo y evitar la separación.",
+      "Dame fortaleza para agradecer lo compartido",
+      "y esperanza para confiar en los nuevos caminos.",
+      "Que tu presencia nos acompañe aun en la distancia."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada."
+  },
+  {
+    "id": "dia-161",
+    "day": 161,
+    "titulo": "Cuando necesitas recordar que Dios sigue obrando",
+    "oracion": [
+      "Señor, aunque hoy no vea cambios,",
+      "quiero confiar en que Tú sigues trabajando.",
+      "No permitas que el silencio apague mi esperanza.",
+      "Dame paciencia para esperar y ojos para reconocer",
+      "las pequeñas señales de tu presencia en mi vida."
+    ],
+    "salmo": "Salmo 138, 8",
+    "quote": "El Señor llevará a término su obra en mí."
+  },
+  {
+    "id": "dia-162",
+    "day": 162,
+    "titulo": "Cuando necesitas fuerza para tomar distancia",
+    "oracion": [
+      "Señor, hay situaciones que están agotando mi corazón.",
+      "Dame sabiduría para reconocer cuándo debo apartarme.",
+      "Ayúdame a tomar distancia sin rencor ni dureza.",
+      "Que este espacio me permita recuperar la paz",
+      "y mirar todo con mayor claridad."
+    ],
+    "salmo": "Salmo 26, 4-5",
+    "quote": "No me siento con hombres falsos ni frecuento a los hipócritas."
+  },
+  {
+    "id": "dia-163",
+    "day": 163,
+    "titulo": "Cuando el miedo te impide avanzar",
+    "oracion": [
+      "Señor, el miedo ha levantado una barrera delante de mí.",
+      "Aunque deseo avanzar, mis pasos se detienen.",
+      "Recuérdame que no tengo que hacerlo todo de una vez.",
+      "Dame valor para dar un pequeño paso hoy",
+      "y confiar en que Tú caminarás conmigo."
+    ],
+    "salmo": "Salmo 118, 6",
+    "quote": "El Señor está conmigo; no tengo miedo."
+  },
+  {
+    "id": "dia-164",
+    "day": 164,
+    "titulo": "Cuando necesitas sostener a tu familia en una crisis",
+    "oracion": [
+      "Señor, nuestro hogar atraviesa un momento difícil.",
+      "Danos serenidad para no lastimarnos con palabras.",
+      "Ayúdanos a permanecer unidos frente a la adversidad.",
+      "Que cada uno encuentre fuerzas para colaborar",
+      "y que tu presencia sea el centro de nuestra casa."
+    ],
+    "salmo": "Salmo 46, 2",
+    "quote": "Dios es nuestro refugio y nuestra fuerza."
+  },
+  {
+    "id": "dia-165",
+    "day": 165,
+    "titulo": "Cuando debes enfrentar una entrevista",
+    "oracion": [
+      "Señor, acompáñame en este momento importante.",
+      "Calma mis nervios y ordena mis pensamientos.",
+      "Ayúdame a expresarme con claridad y confianza.",
+      "Que pueda mostrar con sencillez lo que sé y lo que soy,",
+      "dejando el resultado final en tus manos."
+    ],
+    "salmo": "Salmo 19, 15",
+    "quote": "Que las palabras de mi boca sean agradables en tu presencia."
+  },
+  {
+    "id": "dia-166",
+    "day": 166,
+    "titulo": "Cuando necesitas fortaleza para estudiar",
+    "oracion": [
+      "Señor, dame concentración y perseverancia.",
+      "Cuando el cansancio o la distracción aparezcan,",
+      "ayúdame a recordar el propósito de este esfuerzo.",
+      "Abre mi mente para comprender lo necesario",
+      "y fortalece mi voluntad para continuar."
+    ],
+    "salmo": "Salmo 119, 34",
+    "quote": "Dame inteligencia para guardar tu enseñanza."
+  },
+  {
+    "id": "dia-167",
+    "day": 167,
+    "titulo": "Cuando debes aceptar una respuesta negativa",
+    "oracion": [
+      "Señor, esta respuesta no era la que esperaba.",
+      "Mi corazón se siente decepcionado y confundido.",
+      "Ayúdame a recibirla sin pensar que todo está perdido.",
+      "Dame fuerza para buscar nuevas posibilidades",
+      "y paz para confiar en que aún hay camino."
+    ],
+    "salmo": "Salmo 37, 5",
+    "quote": "Encomienda al Señor tu camino; confía en Él."
+  },
+  {
+    "id": "dia-168",
+    "day": 168,
+    "titulo": "Cuando necesitas recuperar la paz después de una discusión",
+    "oracion": [
+      "Señor, las palabras dichas todavía resuenan en mi corazón.",
+      "No permitas que el enojo siga creciendo.",
+      "Ayúdame a reconocer lo que pude haber hecho mejor.",
+      "Dame humildad para buscar la reconciliación",
+      "y serenidad para esperar el momento adecuado."
+    ],
+    "salmo": "Salmo 34, 15",
+    "quote": "Busca la paz y síguela."
+  },
+  {
+    "id": "dia-169",
+    "day": 169,
+    "titulo": "Cuando debes adaptarte a una nueva realidad",
+    "oracion": [
+      "Señor, las cosas ya no son como antes.",
+      "Me cuesta aprender a vivir de esta manera distinta.",
+      "Dame paciencia para adaptarme poco a poco.",
+      "Ayúdame a descubrir nuevas formas de avanzar",
+      "sin perder la esperanza ni la gratitud."
+    ],
+    "salmo": "Salmo 40, 3",
+    "quote": "Puso en mi boca un canto nuevo."
+  },
+  {
+    "id": "dia-170",
+    "day": 170,
+    "titulo": "Cuando necesitas fuerza para cumplir con tu trabajo",
+    "oracion": [
+      "Señor, acompáñame en las tareas de este día.",
+      "Que el cansancio no apague mi responsabilidad.",
+      "Dame atención para realizar bien cada labor",
+      "y paciencia ante aquello que resulte difícil.",
+      "Que mi trabajo sea honesto y útil para los demás."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Haz prosperar la obra de nuestras manos."
+  },
+  {
+    "id": "dia-171",
+    "day": 171,
+    "titulo": "Cuando sientes que no puedes ayudar a quien amas",
+    "oracion": [
+      "Señor, me duele no poder resolver su dificultad.",
+      "Quisiera quitarle el sufrimiento con mis propias manos.",
+      "Ayúdame a aceptar que mi presencia también puede sostener.",
+      "Enséñame a acompañar, escuchar y confiar,",
+      "poniendo su vida bajo tu cuidado."
+    ],
+    "salmo": "Salmo 121, 2",
+    "quote": "Mi ayuda viene del Señor."
+  },
+  {
+    "id": "dia-172",
+    "day": 172,
+    "titulo": "Cuando necesitas valentía para cerrar una relación",
+    "oracion": [
+      "Señor, sabes cuánto me cuesta tomar esta decisión.",
+      "Reconozco que esta relación ya no me hace bien.",
+      "Dame fortaleza para cerrar este ciclo con respeto.",
+      "Ayúdame a no volver por miedo a la soledad",
+      "y a confiar en que merezco vínculos sanos."
+    ],
+    "salmo": "Salmo 32, 8",
+    "quote": "Yo te enseñaré el camino que debes seguir."
+  },
+  {
+    "id": "dia-173",
+    "day": 173,
+    "titulo": "Cuando debes soportar la incomprensión",
+    "oracion": [
+      "Señor, me duele sentir que no entienden mis motivos.",
+      "A veces quisiera explicarlo todo y ser aceptado.",
+      "Dame paz para no vivir justificándome.",
+      "Ayúdame a escuchar lo necesario",
+      "y a permanecer firme cuando mi conciencia esté tranquila."
+    ],
+    "salmo": "Salmo 139, 1-2",
+    "quote": "Señor, Tú me examinas y me conoces."
+  },
+  {
+    "id": "dia-174",
+    "day": 174,
+    "titulo": "Cuando necesitas fuerza para cambiar un hábito",
+    "oracion": [
+      "Señor, este hábito se ha vuelto difícil de abandonar.",
+      "Aunque quiero cambiar, muchas veces vuelvo a caer.",
+      "Fortalece mi voluntad en los momentos de debilidad.",
+      "Ayúdame a sustituir lo que me daña por algo bueno",
+      "y a comenzar nuevamente cada vez que sea necesario."
+    ],
+    "salmo": "Salmo 119, 37",
+    "quote": "Aparta mis ojos de lo vacío y dame vida en tu camino."
+  },
+  {
+    "id": "dia-175",
+    "day": 175,
+    "titulo": "Cuando una preocupación familiar no te deja dormir",
+    "oracion": [
+      "Señor, esta noche mi mente permanece inquieta.",
+      "Pienso en mi familia y en lo que podría suceder.",
+      "Recibe cada temor que no puedo resolver ahora.",
+      "Cuida a quienes amo mientras descansamos",
+      "y permite que mi corazón repose en Ti."
+    ],
+    "salmo": "Salmo 4, 9",
+    "quote": "En paz me acuesto y enseguida me duermo."
+  },
+  {
+    "id": "dia-176",
+    "day": 176,
+    "titulo": "Cuando necesitas fuerzas para volver al trabajo",
+    "oracion": [
+      "Señor, después de una pausa me cuesta retomar el ritmo.",
+      "Los pendientes parecen haberse acumulado.",
+      "Ayúdame a comenzar sin angustia ni desesperación.",
+      "Dame orden para avanzar paso a paso",
+      "y ánimo para recuperar mi constancia."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Confirma la obra de nuestras manos."
+  },
+  {
+    "id": "dia-177",
+    "day": 177,
+    "titulo": "Cuando debes recibir una corrección",
+    "oracion": [
+      "Señor, ayúdame a escuchar sin cerrarme.",
+      "Que el orgullo no me impida reconocer lo que debo mejorar.",
+      "Dame discernimiento para recibir lo verdadero",
+      "y libertad para dejar lo que no me corresponde.",
+      "Que cada corrección bien recibida me ayude a crecer."
+    ],
+    "salmo": "Salmo 141, 5",
+    "quote": "Que el justo me corrija: será un acto de bondad."
+  },
+  {
+    "id": "dia-178",
+    "day": 178,
+    "titulo": "Cuando necesitas fuerza para defender tus límites",
+    "oracion": [
+      "Señor, algunas personas no comprenden mis límites.",
+      "La culpa intenta hacerme retroceder.",
+      "Dame firmeza para cuidar mi bienestar",
+      "sin responder con enojo ni desprecio.",
+      "Que pueda mantener mi decisión con respeto y serenidad."
+    ],
+    "salmo": "Salmo 16, 6",
+    "quote": "Me ha tocado un lugar hermoso."
+  },
+  {
+    "id": "dia-179",
+    "day": 179,
+    "titulo": "Cuando debes comenzar una vida más sencilla",
+    "oracion": [
+      "Señor, muchas cosas han llenado mi vida de ruido.",
+      "Ayúdame a reconocer lo que realmente necesito.",
+      "Dame libertad para soltar excesos y distracciones.",
+      "Que pueda vivir con mayor orden y gratitud,",
+      "valorando aquello que alimenta mi corazón."
+    ],
+    "salmo": "Salmo 131, 1-2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-180",
+    "day": 180,
+    "titulo": "Cuando necesitas fuerza para volver a creer en ti",
+    "oracion": [
+      "Señor, las experiencias pasadas dañaron mi confianza.",
+      "He comenzado a dudar de mis capacidades.",
+      "Recuérdame los dones que sembraste en mi vida.",
+      "Ayúdame a reconocer mis avances",
+      "y a caminar sin despreciar lo que puedo ofrecer."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me hiciste de manera admirable."
+  },
+  {
+    "id": "dia-181",
+    "day": 181,
+    "titulo": "Cuando debes afrontar un gasto inesperado",
+    "oracion": [
+      "Señor, esta situación ha alterado mis planes.",
+      "Me preocupa no saber cómo cubrir lo necesario.",
+      "Dame calma para revisar mis posibilidades.",
+      "Ayúdame a administrar con prudencia",
+      "y a confiar sin dejar de actuar responsablemente."
+    ],
+    "salmo": "Salmo 23, 1",
+    "quote": "El Señor es mi pastor; nada me falta."
+  },
+  {
+    "id": "dia-182",
+    "day": 182,
+    "titulo": "Cuando necesitas recuperar la energía",
+    "oracion": [
+      "Señor, mi cuerpo y mi mente se sienten agotados.",
+      "Enséñame a detenerme antes de llegar al límite.",
+      "Ayúdame a descansar, alimentarme y respirar con calma.",
+      "Renueva poco a poco mis fuerzas",
+      "para volver a mis tareas con un corazón sereno."
+    ],
+    "salmo": "Salmo 23, 2-3",
+    "quote": "Me conduce hacia fuentes tranquilas y repara mis fuerzas."
+  },
+  {
+    "id": "dia-183",
+    "day": 183,
+    "titulo": "Cuando debes enfrentar un examen",
+    "oracion": [
+      "Señor, calma mis nervios y despeja mi mente.",
+      "Ayúdame a recordar lo que he estudiado.",
+      "Dame concentración para leer y responder con atención.",
+      "Que pueda hacer mi mejor esfuerzo",
+      "y recibir el resultado sin perder la paz."
+    ],
+    "salmo": "Salmo 119, 66",
+    "quote": "Enséñame buen juicio y conocimiento."
+  },
+  {
+    "id": "dia-184",
+    "day": 184,
+    "titulo": "Cuando necesitas fuerza para ser constante",
+    "oracion": [
+      "Señor, me resulta fácil comenzar,",
+      "pero me cuesta permanecer cuando pasa el entusiasmo.",
+      "Dame disciplina para repetir lo necesario.",
+      "Ayúdame a valorar los pequeños esfuerzos diarios",
+      "y a confiar en los frutos de la perseverancia."
+    ],
+    "salmo": "Salmo 1, 3",
+    "quote": "Es como un árbol plantado junto al agua, que da fruto a su tiempo."
+  },
+  {
+    "id": "dia-185",
+    "day": 185,
+    "titulo": "Cuando debes aceptar que no puedes complacer a todos",
+    "oracion": [
+      "Señor, me desgasto intentando evitar toda decepción.",
+      "Quisiera que todos estuvieran conformes conmigo.",
+      "Ayúdame a actuar con amor sin perderme a mí mismo.",
+      "Dame libertad para aceptar que no siempre seré comprendido",
+      "y paz para permanecer fiel a lo correcto."
+    ],
+    "salmo": "Salmo 118, 8",
+    "quote": "Es mejor refugiarse en el Señor que confiar en los hombres."
+  },
+  {
+    "id": "dia-186",
+    "day": 186,
+    "titulo": "Cuando necesitas valentía para cambiar de trabajo",
+    "oracion": [
+      "Señor, esta decisión despierta dudas y temores.",
+      "No sé con certeza qué encontrará mi camino.",
+      "Dame prudencia para revisar cada posibilidad",
+      "y valor para avanzar cuando llegue el momento.",
+      "Que no decida solo por miedo, sino también con esperanza."
+    ],
+    "salmo": "Salmo 25, 12",
+    "quote": "El Señor le mostrará el camino que debe elegir."
+  },
+  {
+    "id": "dia-187",
+    "day": 187,
+    "titulo": "Cuando debes atravesar un conflicto familiar",
+    "oracion": [
+      "Señor, las diferencias están lastimando nuestro vínculo.",
+      "Ayúdanos a no hablar desde el enojo.",
+      "Danos humildad para reconocer nuestros errores",
+      "y paciencia para comprendernos mejor.",
+      "Que tu paz encuentre un lugar dentro de nuestra familia."
+    ],
+    "salmo": "Salmo 133, 1",
+    "quote": "Qué bueno y agradable es vivir unidos."
+  },
+  {
+    "id": "dia-188",
+    "day": 188,
+    "titulo": "Cuando necesitas fuerza para volver a intentarlo después de un rechazo",
+    "oracion": [
+      "Señor, todavía me duele la puerta que se cerró.",
+      "Temo volver a acercarme y recibir otra negativa.",
+      "Dame valentía para no renunciar a mis posibilidades.",
+      "Ayúdame a aprender de lo vivido",
+      "y a intentarlo nuevamente con mayor sabiduría."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Espera en el Señor, sé valiente."
+  },
+  {
+    "id": "dia-189",
+    "day": 189,
+    "titulo": "Cuando debes esperar la recuperación de alguien",
+    "oracion": [
+      "Señor, esta espera se hace larga y agotadora.",
+      "Quisiera ver una mejoría inmediata.",
+      "Dame paciencia para acompañar cada etapa",
+      "y esperanza para no desanimarme.",
+      "Sostén con tu amor a la persona que está enferma."
+    ],
+    "salmo": "Salmo 41, 4",
+    "quote": "El Señor lo sostendrá en el lecho del dolor."
+  },
+  {
+    "id": "dia-190",
+    "day": 190,
+    "titulo": "Cuando necesitas fortaleza para aceptar tu historia",
+    "oracion": [
+      "Señor, hay partes de mi vida que todavía me duelen.",
+      "A veces quisiera borrar decisiones y acontecimientos.",
+      "Ayúdame a mirar mi historia con misericordia.",
+      "Sana lo que permanece herido",
+      "y enséñame a reconocer cómo me has sostenido."
+    ],
+    "salmo": "Salmo 139, 16",
+    "quote": "Tus ojos vieron mis días antes de que existieran."
+  },
+  {
+    "id": "dia-191",
+    "day": 191,
+    "titulo": "Cuando necesitas recordar que puedes seguir",
+    "oracion": [
+      "Señor, hoy el camino parece difícil y largo.",
+      "El cansancio me hace pensar que no podré continuar.",
+      "Recuérdame todo lo que ya hemos atravesado juntos.",
+      "Dame fuerza para avanzar solamente un paso más",
+      "y confianza para creer que mañana habrá nuevas fuerzas."
+    ],
+    "salmo": "Salmo 84, 8",
+    "quote": "Caminan con vigor siempre creciente."
+  },
+  {
+    "id": "dia-192",
+    "day": 192,
+    "titulo": "Cuando necesitas fuerzas para no rendirte",
+    "oracion": [
+      "Señor, hoy siento la tentación de abandonar.",
+      "El cansancio me hace olvidar por qué comencé.",
+      "Recuérdame que cada paso, aunque sea pequeño, cuenta.",
+      "Dame perseverancia para continuar con paciencia",
+      "y esperanza para creer que aún puede haber fruto."
+    ],
+    "salmo": "Salmo 31, 25",
+    "quote": "Sean fuertes y valientes de corazón los que esperan en el Señor."
+  },
+  {
+    "id": "dia-193",
+    "day": 193,
+    "titulo": "Cuando debes enfrentar un día incierto",
+    "oracion": [
+      "Señor, no sé cómo se desarrollará este día.",
+      "Hay situaciones que escapan de mis planes.",
+      "Dame serenidad para recibir lo que venga",
+      "y sabiduría para responder con calma.",
+      "Que tu presencia sea mi seguridad en cada momento."
+    ],
+    "salmo": "Salmo 16, 8",
+    "quote": "Tengo siempre presente al Señor; con Él a mi derecha no vacilaré."
+  },
+  {
+    "id": "dia-194",
+    "day": 194,
+    "titulo": "Cuando necesitas valor para comenzar de nuevo",
+    "oracion": [
+      "Señor, volver a empezar despierta miedo en mí.",
+      "Me preocupa repetir los mismos errores.",
+      "Ayúdame a comenzar con más humildad y sabiduría.",
+      "Dame fuerza para no quedar atrapado en el pasado",
+      "y confianza para caminar hacia una nueva oportunidad."
+    ],
+    "salmo": "Salmo 40, 3",
+    "quote": "Afirmó mis pies sobre roca y aseguró mis pasos."
+  },
+  {
+    "id": "dia-195",
+    "day": 195,
+    "titulo": "Cuando debes soportar una crítica injusta",
+    "oracion": [
+      "Señor, estas palabras han lastimado mi corazón.",
+      "Me duele ser juzgado sin conocer toda la verdad.",
+      "Dame serenidad para no responder desde la herida.",
+      "Ayúdame a conservar mi dignidad y mi paz",
+      "y a confiar en que Tú conoces mi intención."
+    ],
+    "salmo": "Salmo 7, 11",
+    "quote": "Dios es mi escudo y salva a los rectos de corazón."
+  },
+  {
+    "id": "dia-196",
+    "day": 196,
+    "titulo": "Cuando necesitas fuerza para volver a confiar",
+    "oracion": [
+      "Señor, las decepciones han cerrado mi corazón.",
+      "Me cuesta creer que algo pueda ser diferente.",
+      "Sana mi desconfianza sin quitarme la prudencia.",
+      "Ayúdame a abrirme poco a poco a lo bueno",
+      "y a reconocer las personas sinceras que pones en mi camino."
+    ],
+    "salmo": "Salmo 28, 7",
+    "quote": "El Señor es mi fuerza y mi escudo; en Él confía mi corazón."
+  },
+  {
+    "id": "dia-197",
+    "day": 197,
+    "titulo": "Cuando debes enfrentar una decisión urgente",
+    "oracion": [
+      "Señor, el tiempo es corto y necesito decidir.",
+      "La presión puede confundir mis pensamientos.",
+      "Dame calma para mirar lo verdaderamente importante.",
+      "Ayúdame a elegir con prudencia y rectitud",
+      "y a confiar en Ti después de tomar el camino."
+    ],
+    "salmo": "Salmo 25, 5",
+    "quote": "Guíame en tu verdad y enséñame."
+  },
+  {
+    "id": "dia-198",
+    "day": 198,
+    "titulo": "Cuando necesitas recuperar la paciencia",
+    "oracion": [
+      "Señor, siento que mi paciencia se está terminando.",
+      "Las demoras y dificultades alteran mi ánimo.",
+      "Ayúdame a detenerme antes de reaccionar.",
+      "Dame un corazón más comprensivo y sereno",
+      "para responder con amor aun cuando me cueste."
+    ],
+    "salmo": "Salmo 37, 7",
+    "quote": "Descansa en el Señor y espera en Él."
+  },
+  {
+    "id": "dia-199",
+    "day": 199,
+    "titulo": "Cuando debes atravesar un momento de vergüenza",
+    "oracion": [
+      "Señor, quisiera esconderme por lo que sucedió.",
+      "La vergüenza pesa y debilita mi confianza.",
+      "Ayúdame a mirar este momento con humildad.",
+      "Que pueda aprender, reparar lo necesario",
+      "y recordar que un error no define toda mi vida."
+    ],
+    "salmo": "Salmo 34, 6",
+    "quote": "Los que miran hacia Él quedan radiantes y no se avergüenzan."
+  },
+  {
+    "id": "dia-200",
+    "day": 200,
+    "titulo": "Cuando necesitas fuerzas para cuidar tu salud",
+    "oracion": [
+      "Señor, ayúdame a ser responsable con mi cuerpo.",
+      "Dame constancia para seguir lo que me hace bien.",
+      "Que no abandone mis cuidados por cansancio o desánimo.",
+      "Enséñame a escuchar mis necesidades",
+      "y a agradecer la vida cuidándola cada día."
+    ],
+    "salmo": "Salmo 103, 5",
+    "quote": "Él colma de bienes tu vida y renueva tu juventud."
+  },
+  {
+    "id": "dia-201",
+    "day": 201,
+    "titulo": "Cuando debes aceptar un cambio de planes",
+    "oracion": [
+      "Señor, las cosas no salieron como había imaginado.",
+      "Me cuesta soltar lo que ya había organizado.",
+      "Dame flexibilidad para recibir este cambio",
+      "sin permitir que la frustración domine mi día.",
+      "Ayúdame a descubrir nuevas posibilidades."
+    ],
+    "salmo": "Salmo 33, 11",
+    "quote": "Los planes del Señor permanecen para siempre."
+  },
+  {
+    "id": "dia-202",
+    "day": 202,
+    "titulo": "Cuando necesitas fuerza para alejarte de una discusión",
+    "oracion": [
+      "Señor, dame dominio para no entrar en una pelea inútil.",
+      "Ayúdame a reconocer cuándo es mejor detenerme.",
+      "Que no busque tener siempre la última palabra.",
+      "Dame humildad para cuidar la paz",
+      "y sabiduría para retomar el diálogo en otro momento."
+    ],
+    "salmo": "Salmo 34, 15",
+    "quote": "Busca la paz y síguela."
+  },
+  {
+    "id": "dia-203",
+    "day": 203,
+    "titulo": "Cuando debes enfrentar una jornada agotadora",
+    "oracion": [
+      "Señor, este día será largo y exigente.",
+      "Dame energía para cumplir cada responsabilidad.",
+      "Ayúdame a hacer pausas cuando sean necesarias",
+      "y a no cargar todo con ansiedad.",
+      "Que tu fuerza me acompañe de principio a fin."
+    ],
+    "salmo": "Salmo 29, 11",
+    "quote": "El Señor da fuerza a su pueblo."
+  },
+  {
+    "id": "dia-204",
+    "day": 204,
+    "titulo": "Cuando necesitas perseverar en la oración",
+    "oracion": [
+      "Señor, hay días en los que me cuesta buscarte.",
+      "Mi mente se distrae y mi corazón parece seco.",
+      "Ayúdame a permanecer aunque no sienta nada especial.",
+      "Que mi oración sea sencilla, sincera y constante",
+      "y que aprenda a descansar en tu silencio."
+    ],
+    "salmo": "Salmo 63, 2",
+    "quote": "Dios mío, Tú eres mi Dios; por Ti madrugo."
+  },
+  {
+    "id": "dia-205",
+    "day": 205,
+    "titulo": "Cuando debes aceptar la ayuda de otros",
+    "oracion": [
+      "Señor, me cuesta mostrar que necesito apoyo.",
+      "A veces confundo la fortaleza con hacerlo todo solo.",
+      "Dame humildad para recibir el cuidado de los demás.",
+      "Ayúdame a confiar y dejarme acompañar",
+      "sin sentir que por eso valgo menos."
+    ],
+    "salmo": "Salmo 121, 1-2",
+    "quote": "¿De dónde me vendrá la ayuda? Mi ayuda viene del Señor."
+  },
+  {
+    "id": "dia-206",
+    "day": 206,
+    "titulo": "Cuando necesitas valor para hablar de lo que sientes",
+    "oracion": [
+      "Señor, me cuesta poner en palabras lo que llevo dentro.",
+      "Temo no ser comprendido o sentirme vulnerable.",
+      "Dame valor para hablar con sinceridad.",
+      "Ayúdame a elegir a la persona y el momento adecuados",
+      "y a expresar mi corazón con serenidad."
+    ],
+    "salmo": "Salmo 62, 9",
+    "quote": "Derramen ante Él su corazón; Dios es nuestro refugio."
+  },
+  {
+    "id": "dia-207",
+    "day": 207,
+    "titulo": "Cuando debes cuidar tu paz en un ambiente difícil",
+    "oracion": [
+      "Señor, este lugar despierta tensión en mi interior.",
+      "Las palabras y actitudes de otros me afectan.",
+      "Ayúdame a no absorber todo lo que sucede.",
+      "Dame prudencia para actuar y fortaleza para protegerme",
+      "sin perder la bondad ni la serenidad."
+    ],
+    "salmo": "Salmo 119, 165",
+    "quote": "Grande es la paz de quienes aman tu enseñanza."
+  },
+  {
+    "id": "dia-208",
+    "day": 208,
+    "titulo": "Cuando necesitas fuerza para aceptar una pérdida de control",
+    "oracion": [
+      "Señor, no puedo dirigir todo lo que está sucediendo.",
+      "Mis planes ya no alcanzan para ordenar esta situación.",
+      "Ayúdame a aceptar que también necesito confiar.",
+      "Dame paz para soltar lo que no depende de mí",
+      "y claridad para atender lo que sí está en mis manos."
+    ],
+    "salmo": "Salmo 46, 11",
+    "quote": "Quédense quietos y reconozcan que yo soy Dios."
+  },
+  {
+    "id": "dia-209",
+    "day": 209,
+    "titulo": "Cuando debes atravesar un tiempo de escasez",
+    "oracion": [
+      "Señor, me preocupa no tener todo lo necesario.",
+      "El temor al futuro inquieta mi corazón.",
+      "Dame prudencia para administrar con cuidado",
+      "y creatividad para encontrar nuevas soluciones.",
+      "Que la dificultad no me robe la confianza en tu providencia."
+    ],
+    "salmo": "Salmo 34, 11",
+    "quote": "A quienes buscan al Señor no les falta ningún bien."
+  },
+  {
+    "id": "dia-210",
+    "day": 210,
+    "titulo": "Cuando necesitas volver a encontrar tu rumbo",
+    "oracion": [
+      "Señor, siento que me he alejado del camino.",
+      "Mis decisiones me han llevado a la confusión.",
+      "Detén mis pasos y ayúdame a mirar con claridad.",
+      "Muéstrame la dirección que conduce a la paz",
+      "y dame fortaleza para corregir lo necesario."
+    ],
+    "salmo": "Salmo 143, 10",
+    "quote": "Que tu espíritu bondadoso me conduzca por tierra llana."
+  },
+  {
+    "id": "dia-211",
+    "day": 211,
+    "titulo": "Cuando debes cuidar a alguien sin olvidarte de ti",
+    "oracion": [
+      "Señor, quiero acompañar con amor a quien me necesita.",
+      "Pero también siento que mis fuerzas disminuyen.",
+      "Enséñame a cuidar sin abandonarme.",
+      "Dame sabiduría para descansar y pedir apoyo",
+      "para poder seguir ofreciendo una presencia serena."
+    ],
+    "salmo": "Salmo 23, 3",
+    "quote": "Él repara mis fuerzas."
+  },
+  {
+    "id": "dia-212",
+    "day": 212,
+    "titulo": "Cuando necesitas fuerza para aceptar tus emociones",
+    "oracion": [
+      "Señor, hay emociones que me incomodan y asustan.",
+      "Quisiera ignorarlas, pero siguen dentro de mí.",
+      "Ayúdame a escucharlas sin dejar que me gobiernen.",
+      "Dame serenidad para comprender lo que revelan",
+      "y libertad para entregártelas con confianza."
+    ],
+    "salmo": "Salmo 42, 6",
+    "quote": "¿Por qué estás triste, alma mía, y por qué te inquietas?"
+  },
+  {
+    "id": "dia-213",
+    "day": 213,
+    "titulo": "Cuando debes seguir adelante después de una traición",
+    "oracion": [
+      "Señor, la confianza se rompió y me siento herido.",
+      "No sé cómo continuar después de lo sucedido.",
+      "Dame tiempo para sanar y claridad para decidir.",
+      "Que el dolor no convierta mi corazón en piedra",
+      "y que tu amor me ayude a recuperar la paz."
+    ],
+    "salmo": "Salmo 55, 17",
+    "quote": "Yo invoco a Dios y el Señor me salva."
+  },
+  {
+    "id": "dia-214",
+    "day": 214,
+    "titulo": "Cuando necesitas fortaleza para enfrentar un recuerdo doloroso",
+    "oracion": [
+      "Señor, este recuerdo vuelve y altera mi corazón.",
+      "Todavía hay heridas que necesitan tu luz.",
+      "Ayúdame a no quedar atrapado en el pasado.",
+      "Dame fuerza para pedir ayuda cuando sea necesario",
+      "y paciencia para avanzar en mi proceso de sanación."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-215",
+    "day": 215,
+    "titulo": "Cuando debes mantenerte firme en una buena decisión",
+    "oracion": [
+      "Señor, tomé esta decisión buscando el bien.",
+      "Pero ahora aparecen dudas y dificultades.",
+      "Dame firmeza para no abandonar por cansancio.",
+      "Ayúdame a revisar mi camino con honestidad",
+      "y a continuar cuando mi conciencia encuentre paz."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "Su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-216",
+    "day": 216,
+    "titulo": "Cuando necesitas fuerza para enfrentar una separación",
+    "oracion": [
+      "Señor, esta distancia duele más de lo que esperaba.",
+      "Extraño la presencia y la cercanía compartida.",
+      "Acompáñame mientras aprendo a vivir esta nueva etapa.",
+      "Dame serenidad para aceptar lo que no puedo cambiar",
+      "y esperanza para reconstruir mi camino."
+    ],
+    "salmo": "Salmo 27, 10",
+    "quote": "Aunque todos me abandonen, el Señor me recibirá."
+  },
+  {
+    "id": "dia-217",
+    "day": 217,
+    "titulo": "Cuando debes hacer algo que has postergado",
+    "oracion": [
+      "Señor, llevo demasiado tiempo evitando esta tarea.",
+      "El temor y el cansancio la han hecho más pesada.",
+      "Dame decisión para comenzar hoy.",
+      "Ayúdame a dividirla en pasos posibles",
+      "y a sentir alivio al avanzar con responsabilidad."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Confirma la obra de nuestras manos."
+  },
+  {
+    "id": "dia-218",
+    "day": 218,
+    "titulo": "Cuando necesitas recuperar la ilusión",
+    "oracion": [
+      "Señor, mi corazón ha perdido entusiasmo.",
+      "Las dificultades apagaron mis deseos y proyectos.",
+      "Enciende nuevamente una pequeña luz dentro de mí.",
+      "Ayúdame a imaginar caminos posibles",
+      "y a confiar en que aún quedan cosas buenas por vivir."
+    ],
+    "salmo": "Salmo 126, 5",
+    "quote": "Los que siembran entre lágrimas cosecharán entre cantos."
+  },
+  {
+    "id": "dia-219",
+    "day": 219,
+    "titulo": "Cuando debes aprender a esperar tu momento",
+    "oracion": [
+      "Señor, me comparo y siento que voy tarde.",
+      "Veo los logros de otros y me impaciento.",
+      "Ayúdame a respetar mi propio proceso.",
+      "Dame constancia para seguir preparándome",
+      "y confianza para reconocer el momento oportuno."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-220",
+    "day": 220,
+    "titulo": "Cuando necesitas fuerza para aceptar una limitación",
+    "oracion": [
+      "Señor, esta limitación cambia la forma en que vivo.",
+      "Me cuesta aceptar que no puedo hacer lo mismo de antes.",
+      "Ayúdame a descubrir nuevas posibilidades.",
+      "Dame paciencia para adaptarme sin perder mi dignidad",
+      "y gratitud por todo lo que todavía puedo realizar."
+    ],
+    "salmo": "Salmo 18, 33",
+    "quote": "Dios es quien me reviste de fuerza."
+  },
+  {
+    "id": "dia-221",
+    "day": 221,
+    "titulo": "Cuando necesitas recordar que mañana puedes volver a empezar",
+    "oracion": [
+      "Señor, este día no salió como yo esperaba.",
+      "Cometí errores y quedaron cosas sin resolver.",
+      "Ayúdame a no llevarme toda la culpa al descanso.",
+      "Recibe lo vivido, renueva mis fuerzas",
+      "y regálame mañana una nueva oportunidad."
+    ],
+    "salmo": "Salmo 30, 6",
+    "quote": "Al atardecer llega el llanto, y por la mañana la alegría."
+  },
+  {
+    "id": "dia-222",
+    "day": 222,
+    "titulo": "Cuando necesitas fuerzas para volver a empezar con calma",
+    "oracion": [
+      "Señor, no quiero apresurar este nuevo comienzo.",
+      "Ayúdame a avanzar sin exigirme resultados inmediatos.",
+      "Dame paciencia para reconstruir paso a paso",
+      "y serenidad para aceptar que todo proceso lleva tiempo.",
+      "Que tu presencia sea mi apoyo en cada intento."
+    ],
+    "salmo": "Salmo 37, 23-24",
+    "quote": "El Señor asegura los pasos del hombre; aunque caiga, no quedará postrado."
+  },
+  {
+    "id": "dia-223",
+    "day": 223,
+    "titulo": "Cuando debes afrontar una verdad que cambia tus planes",
+    "oracion": [
+      "Señor, esta verdad ha movido todo lo que yo esperaba.",
+      "Me cuesta aceptar que ahora debo pensar diferente.",
+      "Dame claridad para mirar la realidad sin miedo",
+      "y fortaleza para reorganizar mi camino.",
+      "Que no pierda la esperanza por tener que comenzar de otra manera."
+    ],
+    "salmo": "Salmo 25, 5",
+    "quote": "Guíame en tu verdad y enséñame."
+  },
+  {
+    "id": "dia-224",
+    "day": 224,
+    "titulo": "Cuando necesitas fuerza para poner orden en tu mente",
+    "oracion": [
+      "Señor, mis pensamientos están dispersos y cansados.",
+      "Hay demasiadas preocupaciones ocupando mi interior.",
+      "Ayúdame a detenerme y respirar con calma.",
+      "Ordena mis ideas y muéstrame qué atender primero.",
+      "Que tu paz sea más fuerte que toda confusión."
+    ],
+    "salmo": "Salmo 94, 19",
+    "quote": "Cuando se multiplican mis preocupaciones, tus consuelos alegran mi alma."
+  },
+  {
+    "id": "dia-225",
+    "day": 225,
+    "titulo": "Cuando debes seguir adelante después de una mala decisión",
+    "oracion": [
+      "Señor, reconozco que elegí un camino equivocado.",
+      "No quiero quedarme atrapado en la culpa.",
+      "Dame humildad para corregir lo que pueda",
+      "y sabiduría para aprender de esta experiencia.",
+      "Guíame nuevamente hacia el bien."
+    ],
+    "salmo": "Salmo 32, 8",
+    "quote": "Yo te instruiré y te mostraré el camino que debes seguir."
+  },
+  {
+    "id": "dia-226",
+    "day": 226,
+    "titulo": "Cuando necesitas serenidad ante una respuesta que tarda",
+    "oracion": [
+      "Señor, esta espera está poniendo a prueba mi paciencia.",
+      "Cada día sin respuesta aumenta mi inquietud.",
+      "Ayúdame a no imaginar siempre lo peor.",
+      "Dame paz para continuar con mis responsabilidades",
+      "y confianza para recibir la respuesta cuando llegue."
+    ],
+    "salmo": "Salmo 130, 5",
+    "quote": "Espero en el Señor; mi alma espera en su palabra."
+  },
+  {
+    "id": "dia-227",
+    "day": 227,
+    "titulo": "Cuando debes protegerte de palabras que lastiman",
+    "oracion": [
+      "Señor, hay palabras que permanecen dentro de mí.",
+      "No permitas que definan mi valor ni mi identidad.",
+      "Ayúdame a reconocer lo verdadero y soltar lo injusto.",
+      "Dame firmeza para cuidar mi corazón",
+      "y libertad para no vivir herido por cada opinión."
+    ],
+    "salmo": "Salmo 119, 114",
+    "quote": "Tú eres mi refugio y mi escudo."
+  },
+  {
+    "id": "dia-228",
+    "day": 228,
+    "titulo": "Cuando necesitas fuerza para levantarte después del cansancio",
+    "oracion": [
+      "Señor, siento que he dado más de lo que podía.",
+      "Mi cuerpo y mi ánimo necesitan recuperarse.",
+      "Enséñame a detenerme sin sentirme culpable.",
+      "Renueva mis fuerzas en el descanso",
+      "y ayúdame a volver con un corazón más sereno."
+    ],
+    "salmo": "Salmo 23, 3",
+    "quote": "Él repara mis fuerzas."
+  },
+  {
+    "id": "dia-229",
+    "day": 229,
+    "titulo": "Cuando debes aceptar que no todo tendrá explicación",
+    "oracion": [
+      "Señor, hay situaciones que no logro comprender.",
+      "Mi mente busca respuestas que todavía no llegan.",
+      "Dame paz para vivir aun con preguntas abiertas.",
+      "Ayúdame a confiar en Ti más allá de lo que entiendo",
+      "y a seguir caminando sin perder la fe."
+    ],
+    "salmo": "Salmo 131, 1-2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-230",
+    "day": 230,
+    "titulo": "Cuando necesitas fuerza para cumplir una tarea difícil",
+    "oracion": [
+      "Señor, esta tarea parece más grande que mis capacidades.",
+      "El miedo me invita a postergarla.",
+      "Dame concentración para comenzar",
+      "y perseverancia para avanzar por partes.",
+      "Que no me rinda antes de descubrir cuánto puedo lograr."
+    ],
+    "salmo": "Salmo 18, 30",
+    "quote": "Con mi Dios puedo saltar cualquier muralla."
+  },
+  {
+    "id": "dia-231",
+    "day": 231,
+    "titulo": "Cuando debes cuidar tu corazón del resentimiento",
+    "oracion": [
+      "Señor, no quiero que esta herida se convierta en amargura.",
+      "Ayúdame a reconocer mi dolor sin alimentarlo.",
+      "Dame fuerza para soltar el deseo de devolver el daño",
+      "y libertad para caminar hacia la paz.",
+      "Que tu amor sane lo que todavía permanece abierto."
+    ],
+    "salmo": "Salmo 37, 8",
+    "quote": "Deja la ira y abandona el enojo."
+  },
+  {
+    "id": "dia-232",
+    "day": 232,
+    "titulo": "Cuando necesitas valor para decir lo que necesitas",
+    "oracion": [
+      "Señor, muchas veces guardo silencio por miedo.",
+      "Me cuesta expresar lo que realmente necesito.",
+      "Dame valentía para hablar con claridad y respeto.",
+      "Ayúdame a no exigir ni esconderme,",
+      "sino a comunicarme desde la verdad."
+    ],
+    "salmo": "Salmo 62, 9",
+    "quote": "Derramen ante Él su corazón."
+  },
+  {
+    "id": "dia-233",
+    "day": 233,
+    "titulo": "Cuando debes atravesar una etapa de incertidumbre económica",
+    "oracion": [
+      "Señor, el futuro financiero me preocupa.",
+      "No sé cómo se resolverán todas las necesidades.",
+      "Dame prudencia para cuidar lo que tengo",
+      "y creatividad para encontrar nuevas oportunidades.",
+      "Que el temor no apague mi capacidad de actuar."
+    ],
+    "salmo": "Salmo 37, 5",
+    "quote": "Encomienda al Señor tu camino; confía en Él."
+  },
+  {
+    "id": "dia-234",
+    "day": 234,
+    "titulo": "Cuando necesitas fuerza para continuar un tratamiento",
+    "oracion": [
+      "Señor, este proceso se ha vuelto largo y cansado.",
+      "Hay días en los que quisiera dejarlo todo.",
+      "Dame constancia para seguir cuidando mi salud",
+      "y paciencia para respetar el tiempo de recuperación.",
+      "Acompaña cada paso y renueva mi esperanza."
+    ],
+    "salmo": "Salmo 41, 4",
+    "quote": "El Señor lo sostendrá en el lecho del dolor."
+  },
+  {
+    "id": "dia-235",
+    "day": 235,
+    "titulo": "Cuando debes aceptar que alguien piensa diferente",
+    "oracion": [
+      "Señor, ayúdame a escuchar sin sentirme amenazado.",
+      "No quiero convertir cada diferencia en una batalla.",
+      "Dame respeto para comprender otras perspectivas",
+      "y firmeza para expresar la mía con serenidad.",
+      "Que el diálogo no destruya la paz entre nosotros."
+    ],
+    "salmo": "Salmo 34, 15",
+    "quote": "Busca la paz y síguela."
+  },
+  {
+    "id": "dia-236",
+    "day": 236,
+    "titulo": "Cuando necesitas fuerza para volver a intentarlo con humildad",
+    "oracion": [
+      "Señor, la primera vez no salió como esperaba.",
+      "Mi orgullo y mi miedo quieren detenerme.",
+      "Ayúdame a reconocer lo que debo mejorar",
+      "y a comenzar nuevamente sin vergüenza.",
+      "Que cada intento me haga más paciente y sabio."
+    ],
+    "salmo": "Salmo 145, 14",
+    "quote": "El Señor sostiene a todos los que caen."
+  },
+  {
+    "id": "dia-237",
+    "day": 237,
+    "titulo": "Cuando debes tomar una decisión pensando en tu bienestar",
+    "oracion": [
+      "Señor, me cuesta elegir lo que también me hace bien.",
+      "Muchas veces pongo a todos antes que a mí.",
+      "Dame sabiduría para cuidar mi vida sin egoísmo",
+      "y firmeza para tomar una decisión saludable.",
+      "Que el amor a los demás no signifique olvidarme de mí."
+    ],
+    "salmo": "Salmo 16, 6",
+    "quote": "Me ha tocado un lugar hermoso."
+  },
+  {
+    "id": "dia-238",
+    "day": 238,
+    "titulo": "Cuando necesitas calma antes de responder",
+    "oracion": [
+      "Señor, siento que el enojo sube dentro de mí.",
+      "Antes de hablar, ayúdame a detenerme.",
+      "Dame dominio para no lastimar con mis palabras",
+      "y serenidad para comprender lo que realmente siento.",
+      "Que mi respuesta nazca de la paz y no de la impulsividad."
+    ],
+    "salmo": "Salmo 141, 3",
+    "quote": "Pon, Señor, una guardia en mi boca."
+  },
+  {
+    "id": "dia-239",
+    "day": 239,
+    "titulo": "Cuando debes comenzar a confiar en un nuevo camino",
+    "oracion": [
+      "Señor, este camino es diferente a todo lo conocido.",
+      "No tengo garantías ni respuestas completas.",
+      "Dame valor para avanzar con prudencia",
+      "y ojos para reconocer las señales de tu presencia.",
+      "Que la novedad no me paralice, sino que me haga crecer."
+    ],
+    "salmo": "Salmo 119, 105",
+    "quote": "Tu palabra es lámpara para mis pasos."
+  },
+  {
+    "id": "dia-240",
+    "day": 240,
+    "titulo": "Cuando necesitas fuerza para aceptar un límite de tiempo",
+    "oracion": [
+      "Señor, quisiera hacer más de lo que este día permite.",
+      "Me frustra no alcanzar todo lo planeado.",
+      "Ayúdame a reconocer que mi tiempo también es limitado.",
+      "Dame sabiduría para elegir lo esencial",
+      "y paz para dejar lo demás para otro momento."
+    ],
+    "salmo": "Salmo 90, 12",
+    "quote": "Enséñanos a contar nuestros días para alcanzar sabiduría."
+  },
+  {
+    "id": "dia-241",
+    "day": 241,
+    "titulo": "Cuando debes mantener la esperanza durante una crisis",
+    "oracion": [
+      "Señor, esta situación ha cambiado muchas cosas.",
+      "A veces parece que no hay una salida cercana.",
+      "Dame fortaleza para no caer en la desesperación.",
+      "Ayúdame a reconocer cada pequeña posibilidad",
+      "y a confiar en que ninguna noche es eterna."
+    ],
+    "salmo": "Salmo 30, 6",
+    "quote": "Al atardecer llega el llanto, y por la mañana la alegría."
+  },
+  {
+    "id": "dia-242",
+    "day": 242,
+    "titulo": "Cuando necesitas fuerza para pedir orientación",
+    "oracion": [
+      "Señor, no quiero decidir solo desde mi confusión.",
+      "Dame humildad para buscar consejo.",
+      "Pon en mi camino personas prudentes y sinceras",
+      "y ayúdame a escuchar sin perder mi responsabilidad.",
+      "Que toda orientación me acerque a la verdad."
+    ],
+    "salmo": "Salmo 25, 4",
+    "quote": "Muéstrame, Señor, tus caminos."
+  },
+  {
+    "id": "dia-243",
+    "day": 243,
+    "titulo": "Cuando debes dejar de cargar culpas ajenas",
+    "oracion": [
+      "Señor, he asumido responsabilidades que no me corresponden.",
+      "Me siento culpable por decisiones de otras personas.",
+      "Ayúdame a distinguir lo mío de lo ajeno.",
+      "Dame libertad para acompañar sin cargarlo todo",
+      "y paz para respetar los procesos de los demás."
+    ],
+    "salmo": "Salmo 55, 23",
+    "quote": "Pon tu carga sobre el Señor y Él te sostendrá."
+  },
+  {
+    "id": "dia-244",
+    "day": 244,
+    "titulo": "Cuando necesitas fortaleza para atravesar un aniversario doloroso",
+    "oracion": [
+      "Señor, esta fecha despierta recuerdos y tristeza.",
+      "Mi corazón vuelve a sentir una ausencia profunda.",
+      "Acompáñame sin apresurar mi dolor.",
+      "Dame consuelo para recordar con amor",
+      "y esperanza para continuar honrando lo vivido."
+    ],
+    "salmo": "Salmo 34, 19",
+    "quote": "El Señor está cerca de los corazones quebrantados."
+  },
+  {
+    "id": "dia-245",
+    "day": 245,
+    "titulo": "Cuando debes aprender algo que te resulta difícil",
+    "oracion": [
+      "Señor, me frustra no comprender con rapidez.",
+      "A veces pienso que no tengo la capacidad necesaria.",
+      "Dame paciencia para aprender paso a paso",
+      "y humildad para preguntar y practicar.",
+      "Que la dificultad no me haga abandonar."
+    ],
+    "salmo": "Salmo 119, 66",
+    "quote": "Enséñame buen juicio y conocimiento."
+  },
+  {
+    "id": "dia-246",
+    "day": 246,
+    "titulo": "Cuando necesitas fuerza para respetar tu proceso",
+    "oracion": [
+      "Señor, me comparo y quiero avanzar más rápido.",
+      "Olvido que cada historia tiene su propio ritmo.",
+      "Ayúdame a respetar el tiempo que necesito",
+      "y a valorar cada pequeño crecimiento.",
+      "Que no desprecie lo que está madurando lentamente."
+    ],
+    "salmo": "Salmo 1, 3",
+    "quote": "Da fruto a su tiempo."
+  },
+  {
+    "id": "dia-247",
+    "day": 247,
+    "titulo": "Cuando debes comenzar el día después de una noche difícil",
+    "oracion": [
+      "Señor, la noche fue larga y el descanso insuficiente.",
+      "Hoy comienzo con pocas fuerzas.",
+      "Ayúdame a tratarme con paciencia",
+      "y a realizar solamente lo verdaderamente necesario.",
+      "Sostén mis pasos hasta que vuelva a sentirme renovado."
+    ],
+    "salmo": "Salmo 59, 17",
+    "quote": "Por la mañana cantaré tu misericordia."
+  },
+  {
+    "id": "dia-248",
+    "day": 248,
+    "titulo": "Cuando necesitas fuerza para confiar nuevamente en tu familia",
+    "oracion": [
+      "Señor, las heridas han debilitado nuestra confianza.",
+      "Nos cuesta hablar sin recordar lo sucedido.",
+      "Danos paciencia para reconstruir poco a poco",
+      "y sinceridad para cumplir nuestras palabras.",
+      "Que tu amor nos enseñe a volver a encontrarnos."
+    ],
+    "salmo": "Salmo 133, 1",
+    "quote": "Qué bueno y agradable es vivir unidos."
+  },
+  {
+    "id": "dia-249",
+    "day": 249,
+    "titulo": "Cuando debes afrontar una consecuencia inesperada",
+    "oracion": [
+      "Señor, no imaginé que esta decisión tendría este resultado.",
+      "Ahora debo enfrentar una realidad difícil.",
+      "Dame fortaleza para no huir",
+      "y sabiduría para responder con responsabilidad.",
+      "Que esta experiencia me enseñe a vivir con mayor prudencia."
+    ],
+    "salmo": "Salmo 32, 5",
+    "quote": "Reconocí ante Ti mi pecado y no oculté mi culpa."
+  },
+  {
+    "id": "dia-250",
+    "day": 250,
+    "titulo": "Cuando necesitas valor para volver a salir adelante",
+    "oracion": [
+      "Señor, después de lo vivido me cuesta mirar hacia adelante.",
+      "Una parte de mí teme volver a sufrir.",
+      "Dame valor para abrirme nuevamente a la vida.",
+      "Ayúdame a avanzar con prudencia, pero sin encerrarme.",
+      "Que la esperanza vuelva a tener un lugar en mi corazón."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Sé valiente y mantén firme tu corazón."
+  },
+  {
+    "id": "dia-251",
+    "day": 251,
+    "titulo": "Cuando necesitas recordar que Dios no te abandona",
+    "oracion": [
+      "Señor, cuando las dificultades se acumulen,",
+      "no permitas que piense que me has dejado solo.",
+      "Recuérdame tu fidelidad en cada etapa de mi vida.",
+      "Dame fuerza para permanecer firme",
+      "y confianza para seguir caminando tomado de tu mano."
+    ],
+    "salmo": "Salmo 73, 23",
+    "quote": "Yo siempre estoy contigo; Tú sostienes mi mano derecha."
+  },
+  {
+    "id": "dia-252",
+    "day": 252,
+    "titulo": "Cuando necesitas serenidad para recibir un diagnóstico",
+    "oracion": [
+      "Señor, esta noticia ha llenado mi corazón de inquietud.",
+      "No permitas que el miedo me lleve más lejos que la realidad.",
+      "Dame calma para escuchar, comprender y preguntar.",
+      "Sostén mi ánimo mientras conozco los siguientes pasos",
+      "y acompáñame con tu paz durante todo este proceso."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "No temerá las malas noticias; su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-253",
+    "day": 253,
+    "titulo": "Cuando debes esperar una oportunidad",
+    "oracion": [
+      "Señor, llevo tiempo esperando que una puerta se abra.",
+      "A veces la demora debilita mi esperanza.",
+      "Ayúdame a seguir preparándome con constancia",
+      "sin desesperarme ni compararme con los demás.",
+      "Que sepa reconocer el momento cuando llegue."
+    ],
+    "salmo": "Salmo 27, 14",
+    "quote": "Espera en el Señor; sé valiente y mantén firme tu corazón."
+  },
+  {
+    "id": "dia-254",
+    "day": 254,
+    "titulo": "Cuando necesitas fuerza para enfrentar una mudanza",
+    "oracion": [
+      "Señor, dejar este lugar despierta muchas emociones.",
+      "Hay recuerdos, costumbres y personas que cuesta soltar.",
+      "Acompáñame mientras organizo este cambio.",
+      "Dame paz para despedirme con gratitud",
+      "y esperanza para construir un nuevo hogar."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada, ahora y por siempre."
+  },
+  {
+    "id": "dia-255",
+    "day": 255,
+    "titulo": "Cuando debes reconocer que necesitas un descanso",
+    "oracion": [
+      "Señor, he ignorado por demasiado tiempo mi cansancio.",
+      "Quise seguir adelante sin escuchar mis límites.",
+      "Ayúdame a detenerme antes de quebrarme.",
+      "Dame humildad para descansar y recuperar mis fuerzas",
+      "sin pensar que por eso estoy fallando."
+    ],
+    "salmo": "Salmo 127, 2",
+    "quote": "Dios concede el descanso a sus amigos."
+  },
+  {
+    "id": "dia-256",
+    "day": 256,
+    "titulo": "Cuando necesitas valor para abrir tu corazón",
+    "oracion": [
+      "Señor, me cuesta mostrar lo que realmente siento.",
+      "Temo ser juzgado, rechazado o incomprendido.",
+      "Dame valentía para compartir mi verdad con prudencia.",
+      "Pon a mi lado personas capaces de escuchar",
+      "y ayúdame a recibir apoyo sin vergüenza."
+    ],
+    "salmo": "Salmo 62, 9",
+    "quote": "Derramen ante Él su corazón; Dios es nuestro refugio."
+  },
+  {
+    "id": "dia-257",
+    "day": 257,
+    "titulo": "Cuando debes afrontar una reunión importante",
+    "oracion": [
+      "Señor, acompáñame en este encuentro.",
+      "Calma mis nervios y ordena mis ideas.",
+      "Dame claridad para expresar lo necesario",
+      "y disposición para escuchar con respeto.",
+      "Que mis palabras sean firmes, prudentes y oportunas."
+    ],
+    "salmo": "Salmo 19, 15",
+    "quote": "Que las palabras de mi boca sean agradables en tu presencia."
+  },
+  {
+    "id": "dia-258",
+    "day": 258,
+    "titulo": "Cuando necesitas fuerza para dejar una costumbre dañina",
+    "oracion": [
+      "Señor, esta costumbre se ha vuelto parte de mis días.",
+      "Sé que me hace daño, pero me cuesta abandonarla.",
+      "Fortalece mi voluntad en los momentos de debilidad.",
+      "Ayúdame a buscar apoyo y alternativas saludables",
+      "y a comenzar de nuevo cuando tropiece."
+    ],
+    "salmo": "Salmo 119, 133",
+    "quote": "Afirma mis pasos según tu palabra."
+  },
+  {
+    "id": "dia-259",
+    "day": 259,
+    "titulo": "Cuando debes atravesar una temporada de mucho trabajo",
+    "oracion": [
+      "Señor, las responsabilidades se han multiplicado.",
+      "Siento que mis fuerzas no alcanzan para todo.",
+      "Ayúdame a ordenar, delegar y establecer prioridades.",
+      "Dame concentración para atender cada tarea",
+      "sin descuidar mi salud ni mi paz."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Haz prosperar la obra de nuestras manos."
+  },
+  {
+    "id": "dia-260",
+    "day": 260,
+    "titulo": "Cuando necesitas aceptar que una amistad cambió",
+    "oracion": [
+      "Señor, esta amistad ya no es como antes.",
+      "Me duele la distancia y extraño lo que compartimos.",
+      "Ayúdame a aceptar los cambios sin resentimiento.",
+      "Dame gratitud por lo vivido",
+      "y paz para dejar que cada uno continúe su camino."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-261",
+    "day": 261,
+    "titulo": "Cuando debes enfrentar una situación incómoda",
+    "oracion": [
+      "Señor, quisiera evitar este momento.",
+      "La incomodidad despierta miedo y resistencia en mí.",
+      "Dame serenidad para permanecer presente",
+      "y sabiduría para actuar con respeto y firmeza.",
+      "Que no huya de aquello que necesito afrontar."
+    ],
+    "salmo": "Salmo 27, 1",
+    "quote": "El Señor es mi luz y mi salvación, ¿a quién temeré?"
+  },
+  {
+    "id": "dia-262",
+    "day": 262,
+    "titulo": "Cuando necesitas fuerza para cuidar tus palabras",
+    "oracion": [
+      "Señor, ayúdame a pensar antes de hablar.",
+      "Que mi cansancio no se convierta en dureza",
+      "ni mi enojo en palabras que después lamentaré.",
+      "Dame prudencia para expresar la verdad con amor",
+      "y humildad para guardar silencio cuando sea necesario."
+    ],
+    "salmo": "Salmo 141, 3",
+    "quote": "Pon, Señor, una guardia en mi boca."
+  },
+  {
+    "id": "dia-263",
+    "day": 263,
+    "titulo": "Cuando debes comenzar una recuperación",
+    "oracion": [
+      "Señor, sé que este proceso necesitará tiempo.",
+      "Me impacienta no sentirme bien de inmediato.",
+      "Dame perseverancia para seguir cada indicación",
+      "y paciencia para respetar el ritmo de mi cuerpo.",
+      "Que cada pequeño avance renueve mi esperanza."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-264",
+    "day": 264,
+    "titulo": "Cuando necesitas fuerza para afrontar una deuda",
+    "oracion": [
+      "Señor, esta deuda pesa en mi mente y en mi corazón.",
+      "No quiero seguir evitando lo que debo resolver.",
+      "Dame claridad para organizar mis recursos",
+      "y disciplina para cumplir paso a paso.",
+      "Que la preocupación se transforme en responsabilidad."
+    ],
+    "salmo": "Salmo 37, 21",
+    "quote": "El justo se compadece y da generosamente."
+  },
+  {
+    "id": "dia-265",
+    "day": 265,
+    "titulo": "Cuando debes aceptar que alguien no cambiará",
+    "oracion": [
+      "Señor, he esperado mucho tiempo un cambio que no llega.",
+      "Me duele reconocer que no depende de mí.",
+      "Ayúdame a dejar de luchar contra lo que no controlo.",
+      "Dame sabiduría para establecer límites",
+      "y paz para elegir cómo continuar."
+    ],
+    "salmo": "Salmo 46, 11",
+    "quote": "Quédense quietos y reconozcan que yo soy Dios."
+  },
+  {
+    "id": "dia-266",
+    "day": 266,
+    "titulo": "Cuando necesitas valor para hacer una denuncia",
+    "oracion": [
+      "Señor, dame fortaleza para no guardar silencio ante el daño.",
+      "Que el miedo no me impida buscar ayuda y justicia.",
+      "Pon a mi lado personas responsables y confiables.",
+      "Ayúdame a hablar con claridad y verdad",
+      "y protege mi corazón durante este proceso."
+    ],
+    "salmo": "Salmo 82, 4",
+    "quote": "Rescaten al débil y al necesitado."
+  },
+  {
+    "id": "dia-267",
+    "day": 267,
+    "titulo": "Cuando debes aprender a recibir un cumplido",
+    "oracion": [
+      "Señor, me cuesta reconocer lo bueno que otros ven en mí.",
+      "A veces rechazo sus palabras por inseguridad.",
+      "Ayúdame a recibirlas con sencillez y gratitud.",
+      "Que no caiga en orgullo ni en falsa humildad,",
+      "sino que valore los dones que Tú me diste."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me hiciste de manera admirable."
+  },
+  {
+    "id": "dia-268",
+    "day": 268,
+    "titulo": "Cuando necesitas fuerza para cumplir una decisión personal",
+    "oracion": [
+      "Señor, tomé esta decisión para cuidar mi vida.",
+      "Sin embargo, sostenerla cada día no es fácil.",
+      "Dame constancia cuando aparezca la tentación de abandonar.",
+      "Recuérdame el bien que estoy buscando",
+      "y fortalece mi voluntad con tu presencia."
+    ],
+    "salmo": "Salmo 119, 30",
+    "quote": "He elegido el camino de la fidelidad."
+  },
+  {
+    "id": "dia-269",
+    "day": 269,
+    "titulo": "Cuando debes comenzar a vivir con una ausencia",
+    "oracion": [
+      "Señor, esta ausencia ha cambiado mis días.",
+      "Hay espacios, rutinas y silencios que ahora duelen.",
+      "Acompáñame mientras aprendo a vivir de otra manera.",
+      "Dame consuelo para atravesar la tristeza",
+      "y esperanza para volver a encontrar sentido."
+    ],
+    "salmo": "Salmo 34, 19",
+    "quote": "El Señor está cerca de los corazones quebrantados."
+  },
+  {
+    "id": "dia-270",
+    "day": 270,
+    "titulo": "Cuando necesitas serenidad ante los rumores",
+    "oracion": [
+      "Señor, las palabras de otros han despertado inquietud.",
+      "No sé cuánto hay de verdad en lo que escucho.",
+      "Dame prudencia para no reaccionar impulsivamente",
+      "ni repetir aquello que puede hacer daño.",
+      "Ayúdame a buscar la verdad y conservar la paz."
+    ],
+    "salmo": "Salmo 15, 3",
+    "quote": "No calumnia con su lengua ni hace mal a su prójimo."
+  },
+  {
+    "id": "dia-271",
+    "day": 271,
+    "titulo": "Cuando debes aceptar un resultado menor al esperado",
+    "oracion": [
+      "Señor, trabajé mucho y esperaba algo diferente.",
+      "La decepción me hace sentir que no valió la pena.",
+      "Ayúdame a reconocer lo aprendido en el camino.",
+      "Dame humildad para mejorar lo necesario",
+      "y fortaleza para continuar sin despreciar mi esfuerzo."
+    ],
+    "salmo": "Salmo 126, 5",
+    "quote": "Los que siembran entre lágrimas cosecharán entre cantos."
+  },
+  {
+    "id": "dia-272",
+    "day": 272,
+    "titulo": "Cuando necesitas fuerza para volver a una rutina saludable",
+    "oracion": [
+      "Señor, me alejé de los hábitos que me hacían bien.",
+      "Ahora me cuesta recuperar el orden.",
+      "Ayúdame a comenzar con cambios pequeños y posibles.",
+      "Dame constancia para cuidar mi cuerpo y mi mente",
+      "sin exigencias extremas ni culpa."
+    ],
+    "salmo": "Salmo 119, 32",
+    "quote": "Correré por el camino de tus mandamientos."
+  },
+  {
+    "id": "dia-273",
+    "day": 273,
+    "titulo": "Cuando debes esperar noticias de alguien",
+    "oracion": [
+      "Señor, el silencio aumenta mi preocupación.",
+      "Mi mente imagina muchas posibilidades.",
+      "Dame calma mientras llega una respuesta.",
+      "Cuida a esa persona donde yo no puedo verla",
+      "y ayúdame a permanecer confiado en Ti."
+    ],
+    "salmo": "Salmo 121, 7",
+    "quote": "El Señor te protegerá de todo mal."
+  },
+  {
+    "id": "dia-274",
+    "day": 274,
+    "titulo": "Cuando necesitas fuerza para perdonarte",
+    "oracion": [
+      "Señor, he pedido perdón, pero sigo castigándome.",
+      "Mi corazón vuelve una y otra vez al mismo error.",
+      "Ayúdame a creer verdaderamente en tu misericordia.",
+      "Dame humildad para aprender de lo sucedido",
+      "y libertad para continuar sin cadenas."
+    ],
+    "salmo": "Salmo 103, 12",
+    "quote": "Como está lejos el oriente del occidente, así aleja de nosotros nuestras culpas."
+  },
+  {
+    "id": "dia-275",
+    "day": 275,
+    "titulo": "Cuando debes mantener la fe en medio de muchas preguntas",
+    "oracion": [
+      "Señor, hay preguntas que inquietan mi corazón.",
+      "No encuentro respuestas sencillas ni inmediatas.",
+      "Dame una fe capaz de permanecer en la búsqueda.",
+      "Que mis dudas no me alejen de Ti,",
+      "sino que me enseñen a buscarte con mayor sinceridad."
+    ],
+    "salmo": "Salmo 42, 6",
+    "quote": "Espera en Dios, porque volveré a alabarlo."
+  },
+  {
+    "id": "dia-276",
+    "day": 276,
+    "titulo": "Cuando necesitas fuerza para decir adiós con amor",
+    "oracion": [
+      "Señor, ha llegado el momento de despedirme.",
+      "No quiero que el dolor borre la gratitud.",
+      "Ayúdame a expresar con sinceridad lo que llevo dentro.",
+      "Dame fortaleza para soltar sin dejar de amar",
+      "y paz para aceptar que el camino cambia."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada."
+  },
+  {
+    "id": "dia-277",
+    "day": 277,
+    "titulo": "Cuando debes enfrentar una reparación difícil",
+    "oracion": [
+      "Señor, hay algo que debo corregir y reconstruir.",
+      "Sé que no bastan las palabras ni las buenas intenciones.",
+      "Dame paciencia para reparar paso a paso",
+      "y humildad para aceptar que recuperar la confianza toma tiempo.",
+      "Que mis acciones demuestren un cambio verdadero."
+    ],
+    "salmo": "Salmo 51, 12",
+    "quote": "Crea en mí, Dios mío, un corazón puro."
+  },
+  {
+    "id": "dia-278",
+    "day": 278,
+    "titulo": "Cuando necesitas fuerza para mantener la esperanza por tus hijos",
+    "oracion": [
+      "Señor, conoces mis preocupaciones por su camino.",
+      "Quisiera protegerlos de cada error y sufrimiento.",
+      "Dame sabiduría para orientar sin controlar",
+      "y paciencia para respetar sus procesos.",
+      "Cuídalos y acompáñalos donde mis manos no llegan."
+    ],
+    "salmo": "Salmo 127, 3",
+    "quote": "Los hijos son una herencia del Señor."
+  },
+  {
+    "id": "dia-279",
+    "day": 279,
+    "titulo": "Cuando debes aceptar una nueva etapa de tu vida",
+    "oracion": [
+      "Señor, esta etapa trae cambios que no esperaba.",
+      "Me cuesta dejar atrás la persona que fui.",
+      "Ayúdame a recibir este tiempo con gratitud.",
+      "Dame apertura para descubrir nuevas posibilidades",
+      "y fortaleza para crecer de una manera diferente."
+    ],
+    "salmo": "Salmo 92, 15",
+    "quote": "Aun en la vejez darán fruto."
+  },
+  {
+    "id": "dia-280",
+    "day": 280,
+    "titulo": "Cuando necesitas recuperar el valor después de una humillación",
+    "oracion": [
+      "Señor, lo sucedido lastimó profundamente mi dignidad.",
+      "Las palabras o acciones recibidas todavía me duelen.",
+      "Recuérdame que mi valor no depende de ese momento.",
+      "Sana mi corazón y levanta mi rostro",
+      "para que pueda caminar nuevamente con seguridad."
+    ],
+    "salmo": "Salmo 3, 4",
+    "quote": "Tú, Señor, eres mi escudo, mi gloria y quien levanta mi cabeza."
+  },
+  {
+    "id": "dia-281",
+    "day": 281,
+    "titulo": "Cuando necesitas confiar en que volverán las fuerzas",
+    "oracion": [
+      "Señor, hoy me siento cansado y sin ánimo.",
+      "Me preocupa no volver a sentirme como antes.",
+      "Ayúdame a respetar este tiempo de fragilidad.",
+      "Dame paciencia para descansar y recuperarme",
+      "y confianza para creer que renovarás mis fuerzas."
+    ],
+    "salmo": "Salmo 84, 8",
+    "quote": "Caminan con vigor siempre creciente."
+  },
+  {
+    "id": "dia-282",
+    "day": 282,
+    "titulo": "Cuando necesitas fuerzas para levantarte después de una derrota",
+    "oracion": [
+      "Señor, esta derrota ha golpeado mi ánimo.",
+      "Me cuesta mirar más allá de lo que salió mal.",
+      "Ayúdame a aprender sin despreciarme.",
+      "Dame valor para ponerme nuevamente de pie",
+      "y continuar con más humildad y experiencia."
+    ],
+    "salmo": "Salmo 37, 24",
+    "quote": "Aunque caiga, no quedará postrado, porque el Señor sostiene su mano."
+  },
+  {
+    "id": "dia-283",
+    "day": 283,
+    "titulo": "Cuando debes aceptar una decisión que no compartes",
+    "oracion": [
+      "Señor, me cuesta recibir esta decisión.",
+      "Siento frustración porque no era lo que esperaba.",
+      "Dame serenidad para escuchar y comprender.",
+      "Ayúdame a expresar mi postura con respeto",
+      "y a continuar sin guardar resentimiento."
+    ],
+    "salmo": "Salmo 131, 2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-284",
+    "day": 284,
+    "titulo": "Cuando necesitas fuerza para enfrentar un nuevo reto",
+    "oracion": [
+      "Señor, este reto despierta emoción y temor en mí.",
+      "No sé si podré responder como se espera.",
+      "Dame confianza para prepararme con responsabilidad.",
+      "Ayúdame a usar bien los dones que me has dado",
+      "y a avanzar sin exigir perfección."
+    ],
+    "salmo": "Salmo 18, 33",
+    "quote": "Dios es quien me reviste de fuerza."
+  },
+  {
+    "id": "dia-285",
+    "day": 285,
+    "titulo": "Cuando debes mantener la calma ante una emergencia",
+    "oracion": [
+      "Señor, en medio de esta situación inesperada,",
+      "ayúdame a no dejarme dominar por el miedo.",
+      "Dame claridad para actuar con rapidez y prudencia.",
+      "Pon a las personas adecuadas en nuestro camino",
+      "y sostén nuestro corazón con tu presencia."
+    ],
+    "salmo": "Salmo 46, 2",
+    "quote": "Dios es nuestro refugio y nuestra fuerza, una ayuda siempre cercana."
+  },
+  {
+    "id": "dia-286",
+    "day": 286,
+    "titulo": "Cuando necesitas fuerza para terminar una relación laboral",
+    "oracion": [
+      "Señor, cerrar esta etapa no es sencillo.",
+      "Hay incertidumbre, recuerdos y emociones encontradas.",
+      "Dame prudencia para actuar con respeto.",
+      "Ayúdame a despedirme con gratitud y dignidad",
+      "y a confiar en las nuevas oportunidades que vendrán."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada."
+  },
+  {
+    "id": "dia-287",
+    "day": 287,
+    "titulo": "Cuando debes recibir una noticia inesperada",
+    "oracion": [
+      "Señor, no estaba preparado para escuchar esto.",
+      "Mi corazón necesita tiempo para comprenderlo.",
+      "Dame serenidad para no reaccionar desde el temor.",
+      "Ayúdame a buscar la verdad y los siguientes pasos",
+      "sin perder la confianza en Ti."
+    ],
+    "salmo": "Salmo 112, 7",
+    "quote": "No temerá las malas noticias; su corazón está firme."
+  },
+  {
+    "id": "dia-288",
+    "day": 288,
+    "titulo": "Cuando necesitas fuerza para establecer una prioridad",
+    "oracion": [
+      "Señor, hay muchas cosas que reclaman mi atención.",
+      "Me cuesta decidir qué necesita ocupar el primer lugar.",
+      "Dame sabiduría para reconocer lo esencial",
+      "y valentía para dejar de lado lo que puede esperar.",
+      "Que mis decisiones estén guiadas por la paz."
+    ],
+    "salmo": "Salmo 90, 12",
+    "quote": "Enséñanos a contar nuestros días para alcanzar sabiduría."
+  },
+  {
+    "id": "dia-289",
+    "day": 289,
+    "titulo": "Cuando debes atravesar una etapa de cambios físicos",
+    "oracion": [
+      "Señor, mi cuerpo está cambiando y me cuesta aceptarlo.",
+      "A veces me miro con exigencia y preocupación.",
+      "Ayúdame a tratarme con respeto y paciencia.",
+      "Dame fortaleza para cuidar mi salud",
+      "y gratitud por todo lo que mi cuerpo me permite vivir."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me hiciste de manera admirable."
+  },
+  {
+    "id": "dia-290",
+    "day": 290,
+    "titulo": "Cuando necesitas fuerza para dar una segunda oportunidad",
+    "oracion": [
+      "Señor, me cuesta volver a abrir la puerta.",
+      "Tengo miedo de ser herido nuevamente.",
+      "Dame prudencia para reconocer un cambio sincero",
+      "y libertad para decidir sin culpa ni presión.",
+      "Que mi corazón actúe desde la verdad y no desde el temor."
+    ],
+    "salmo": "Salmo 86, 5",
+    "quote": "Tú, Señor, eres bueno y perdonas."
+  },
+  {
+    "id": "dia-291",
+    "day": 291,
+    "titulo": "Cuando debes dejar de esperar la aprobación",
+    "oracion": [
+      "Señor, me cansa vivir pendiente de lo que otros piensan.",
+      "A veces cambio mis decisiones para sentirme aceptado.",
+      "Dame libertad para actuar con autenticidad.",
+      "Que busque hacer el bien con humildad",
+      "y encuentre mi seguridad en tu mirada."
+    ],
+    "salmo": "Salmo 27, 1",
+    "quote": "El Señor es mi luz y mi salvación, ¿a quién temeré?"
+  },
+  {
+    "id": "dia-292",
+    "day": 292,
+    "titulo": "Cuando necesitas fuerzas para volver a sonreír",
+    "oracion": [
+      "Señor, el dolor ha apagado mi alegría.",
+      "No quiero fingir que todo está bien.",
+      "Acompáñame mientras mi corazón sana.",
+      "Ayúdame a reconocer pequeños momentos de luz",
+      "y a permitir que la alegría vuelva poco a poco."
+    ],
+    "salmo": "Salmo 30, 12",
+    "quote": "Cambiaste mi duelo en danza."
+  },
+  {
+    "id": "dia-293",
+    "day": 293,
+    "titulo": "Cuando debes tomar distancia de una situación conflictiva",
+    "oracion": [
+      "Señor, este conflicto está desgastando mis fuerzas.",
+      "Dame claridad para saber cuándo debo retirarme.",
+      "Ayúdame a tomar distancia sin odio ni desprecio.",
+      "Que este espacio proteja mi paz",
+      "y permita que todo pueda mirarse con más serenidad."
+    ],
+    "salmo": "Salmo 34, 15",
+    "quote": "Busca la paz y síguela."
+  },
+  {
+    "id": "dia-294",
+    "day": 294,
+    "titulo": "Cuando necesitas fuerza para enfrentar una fecha límite",
+    "oracion": [
+      "Señor, el tiempo avanza y todavía queda mucho por hacer.",
+      "La presión amenaza con desordenar mi mente.",
+      "Dame concentración para trabajar sin desesperación.",
+      "Ayúdame a organizar cada paso con realismo",
+      "y a entregar mi mejor esfuerzo con paz."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Haz prosperar la obra de nuestras manos."
+  },
+  {
+    "id": "dia-295",
+    "day": 295,
+    "titulo": "Cuando debes reconocer que algo te duele",
+    "oracion": [
+      "Señor, he intentado ignorar este dolor.",
+      "Pero esconderlo no ha logrado hacerlo desaparecer.",
+      "Dame valentía para reconocer lo que siento.",
+      "Ayúdame a buscar consuelo y apoyo",
+      "y a comenzar con paciencia un camino de sanación."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-296",
+    "day": 296,
+    "titulo": "Cuando necesitas fortaleza para acompañar a tus padres",
+    "oracion": [
+      "Señor, dame paciencia y ternura para acompañarlos.",
+      "Ayúdame a comprender sus necesidades y sus temores.",
+      "Que el cansancio no endurezca mis palabras.",
+      "Enséñame a cuidar sin querer controlarlo todo",
+      "y a valorar el tiempo que aún podemos compartir."
+    ],
+    "salmo": "Salmo 71, 9",
+    "quote": "No me rechaces en el tiempo de la vejez."
+  },
+  {
+    "id": "dia-297",
+    "day": 297,
+    "titulo": "Cuando debes enfrentar una competencia",
+    "oracion": [
+      "Señor, he trabajado y me he preparado para este momento.",
+      "Calma mis nervios y ordena mis pensamientos.",
+      "Ayúdame a dar lo mejor de mí con honestidad.",
+      "Que el resultado no defina mi valor",
+      "y pueda recibirlo con humildad y gratitud."
+    ],
+    "salmo": "Salmo 20, 5",
+    "quote": "Que el Señor cumpla todos tus proyectos."
+  },
+  {
+    "id": "dia-298",
+    "day": 298,
+    "titulo": "Cuando necesitas fuerza para no responder con violencia",
+    "oracion": [
+      "Señor, el enojo quiere dominar mis palabras y acciones.",
+      "Detén en mí todo impulso que pueda causar daño.",
+      "Dame dominio para alejarme y recuperar la calma.",
+      "Ayúdame a expresar mi dolor de una manera sana",
+      "y a elegir siempre el camino de la paz."
+    ],
+    "salmo": "Salmo 37, 8",
+    "quote": "Deja la ira y abandona el enojo."
+  },
+  {
+    "id": "dia-299",
+    "day": 299,
+    "titulo": "Cuando debes aprender a vivir con menos",
+    "oracion": [
+      "Señor, las circunstancias me piden hacer cambios.",
+      "Me cuesta renunciar a algunas comodidades.",
+      "Dame creatividad para aprovechar lo que tengo",
+      "y gratitud para reconocer lo verdaderamente necesario.",
+      "Que la sencillez fortalezca mi confianza en Ti."
+    ],
+    "salmo": "Salmo 23, 1",
+    "quote": "El Señor es mi pastor; nada me falta."
+  },
+  {
+    "id": "dia-300",
+    "day": 300,
+    "titulo": "Cuando necesitas fuerza para reconocer una relación sana",
+    "oracion": [
+      "Señor, ayúdame a distinguir el amor del miedo.",
+      "Que no confunda el control con el cuidado",
+      "ni la dependencia con la verdadera compañía.",
+      "Dame sabiduría para elegir vínculos respetuosos",
+      "y valentía para permanecer donde puedo crecer en paz."
+    ],
+    "salmo": "Salmo 16, 6",
+    "quote": "Me ha tocado un lugar hermoso."
+  },
+  {
+    "id": "dia-301",
+    "day": 301,
+    "titulo": "Cuando debes atravesar una recaída",
+    "oracion": [
+      "Señor, volver a caer me llena de tristeza y vergüenza.",
+      "Siento que todo el esfuerzo anterior se ha perdido.",
+      "Recuérdame que una caída no borra mi camino.",
+      "Dame humildad para pedir ayuda",
+      "y fortaleza para retomar lo que me hace bien."
+    ],
+    "salmo": "Salmo 145, 14",
+    "quote": "El Señor sostiene a todos los que caen."
+  },
+  {
+    "id": "dia-302",
+    "day": 302,
+    "titulo": "Cuando necesitas fuerza para cerrar asuntos pendientes",
+    "oracion": [
+      "Señor, hay tareas y conversaciones que he dejado abiertas.",
+      "Su peso sigue ocupando mi mente.",
+      "Dame decisión para atenderlas con responsabilidad.",
+      "Ayúdame a cerrar cada asunto con honestidad",
+      "y a recuperar la paz que trae lo concluido."
+    ],
+    "salmo": "Salmo 138, 8",
+    "quote": "El Señor llevará a término su obra en mí."
+  },
+  {
+    "id": "dia-303",
+    "day": 303,
+    "titulo": "Cuando debes afrontar un cambio dentro de tu familia",
+    "oracion": [
+      "Señor, nuestra familia está viviendo una transformación.",
+      "Cada uno lo recibe de una manera distinta.",
+      "Danos paciencia para respetar nuestros procesos.",
+      "Ayúdanos a mantenernos unidos en medio del cambio",
+      "y a construir nuevas formas de acompañarnos."
+    ],
+    "salmo": "Salmo 133, 1",
+    "quote": "Qué bueno y agradable es vivir unidos."
+  },
+  {
+    "id": "dia-304",
+    "day": 304,
+    "titulo": "Cuando necesitas fuerza para cuidar tu descanso",
+    "oracion": [
+      "Señor, ayúdame a respetar la necesidad de dormir.",
+      "Que los pendientes no ocupen también mis noches.",
+      "Dame disciplina para detener las actividades",
+      "y confianza para dejar en tus manos lo inconcluso.",
+      "Que mi descanso renueve el cuerpo y el corazón."
+    ],
+    "salmo": "Salmo 4, 9",
+    "quote": "En paz me acuesto y enseguida me duermo."
+  },
+  {
+    "id": "dia-305",
+    "day": 305,
+    "titulo": "Cuando debes enfrentar una revisión importante",
+    "oracion": [
+      "Señor, acompáñame mientras mi trabajo es evaluado.",
+      "El miedo al juicio despierta inseguridad en mí.",
+      "Dame serenidad para recibir cada observación",
+      "y humildad para corregir lo necesario.",
+      "Que esta experiencia me ayude a crecer."
+    ],
+    "salmo": "Salmo 26, 2",
+    "quote": "Examíname, Señor, y ponme a prueba."
+  },
+  {
+    "id": "dia-306",
+    "day": 306,
+    "titulo": "Cuando necesitas fuerza para aceptar una disculpa",
+    "oracion": [
+      "Señor, he escuchado las palabras de arrepentimiento,",
+      "pero mi corazón todavía conserva dolor.",
+      "Dame libertad para recibir la disculpa sin apresurarme.",
+      "Ayúdame a sanar y a poner límites cuando sea necesario.",
+      "Que el perdón no niegue la verdad de lo vivido."
+    ],
+    "salmo": "Salmo 85, 11",
+    "quote": "El amor y la verdad se encontrarán."
+  },
+  {
+    "id": "dia-307",
+    "day": 307,
+    "titulo": "Cuando debes volver a creer en tus proyectos",
+    "oracion": [
+      "Señor, las dificultades me hicieron dudar de mis sueños.",
+      "He pensado que tal vez ya no vale la pena continuar.",
+      "Renueva mi visión y mis deseos.",
+      "Dame sabiduría para ajustar lo necesario",
+      "y valentía para seguir construyendo con esperanza."
+    ],
+    "salmo": "Salmo 20, 5",
+    "quote": "Que el Señor cumpla todos tus proyectos."
+  },
+  {
+    "id": "dia-308",
+    "day": 308,
+    "titulo": "Cuando necesitas fuerza para salir de la rutina",
+    "oracion": [
+      "Señor, mis días se han vuelto repetitivos y pesados.",
+      "Me cuesta encontrar entusiasmo en lo cotidiano.",
+      "Abre mis ojos a nuevas posibilidades.",
+      "Ayúdame a hacer pequeños cambios que renueven mi ánimo",
+      "y a descubrir tu presencia en lo sencillo."
+    ],
+    "salmo": "Salmo 96, 1",
+    "quote": "Canten al Señor un canto nuevo."
+  },
+  {
+    "id": "dia-309",
+    "day": 309,
+    "titulo": "Cuando debes atravesar una espera legal o administrativa",
+    "oracion": [
+      "Señor, este proceso avanza con lentitud.",
+      "Los trámites y respuestas pendientes me desgastan.",
+      "Dame paciencia para cumplir cada paso",
+      "y serenidad para no vivir dominado por la incertidumbre.",
+      "Que pueda actuar con orden y esperar con confianza."
+    ],
+    "salmo": "Salmo 37, 7",
+    "quote": "Descansa en el Señor y espera en Él."
+  },
+  {
+    "id": "dia-310",
+    "day": 310,
+    "titulo": "Cuando necesitas valor para reconocer que cambiaste de opinión",
+    "oracion": [
+      "Señor, me cuesta aceptar que ahora pienso diferente.",
+      "Temo que otros lo interpreten como debilidad.",
+      "Dame humildad para reconocer lo que he aprendido",
+      "y valentía para corregir mi postura.",
+      "Que mi deseo de crecer sea mayor que mi orgullo."
+    ],
+    "salmo": "Salmo 25, 5",
+    "quote": "Guíame en tu verdad y enséñame."
+  },
+  {
+    "id": "dia-311",
+    "day": 311,
+    "titulo": "Cuando necesitas recordar que aún hay camino",
+    "oracion": [
+      "Señor, a veces siento que he llegado demasiado tarde.",
+      "Miro atrás y pienso en todo lo que no hice.",
+      "Ayúdame a recibir con gratitud el tiempo presente.",
+      "Dame fuerzas para comenzar desde este momento",
+      "y esperanza para seguir caminando contigo."
+    ],
+    "salmo": "Salmo 84, 8",
+    "quote": "Caminan con vigor siempre creciente."
+  },
+  {
+    "id": "dia-312",
+    "day": 312,
+    "titulo": "Cuando necesitas fuerza para comenzar aunque tengas miedo",
+    "oracion": [
+      "Señor, el miedo sigue presente, pero no quiero detenerme.",
+      "Ayúdame a dar el primer paso con lo que hoy tengo.",
+      "Dame valor para avanzar sin exigir certezas completas",
+      "y confianza para aprender mientras camino.",
+      "Que tu presencia sea más grande que mis temores."
+    ],
+    "salmo": "Salmo 56, 4",
+    "quote": "Cuando siento miedo, confío en Ti."
+  },
+  {
+    "id": "dia-313",
+    "day": 313,
+    "titulo": "Cuando debes enfrentar una conversación con autoridad",
+    "oracion": [
+      "Señor, prepara mi corazón para hablar con respeto y claridad.",
+      "No permitas que los nervios apaguen mi voz.",
+      "Dame prudencia para expresar lo necesario",
+      "y serenidad para escuchar la respuesta.",
+      "Que pueda defender la verdad sin perder la paz."
+    ],
+    "salmo": "Salmo 119, 46",
+    "quote": "Hablaré de tus preceptos ante los reyes y no me avergonzaré."
+  },
+  {
+    "id": "dia-314",
+    "day": 314,
+    "titulo": "Cuando necesitas fuerza para reconocer que estás cansado",
+    "oracion": [
+      "Señor, he intentado seguir como si nada ocurriera.",
+      "Pero hoy reconozco que mis fuerzas han disminuido.",
+      "Ayúdame a escuchar con honestidad mi cansancio.",
+      "Dame humildad para detenerme y recibir ayuda",
+      "antes de exigirle a mi corazón más de lo que puede dar."
+    ],
+    "salmo": "Salmo 6, 7",
+    "quote": "Estoy agotado de tanto gemir."
+  },
+  {
+    "id": "dia-315",
+    "day": 315,
+    "titulo": "Cuando debes dejar una expectativa",
+    "oracion": [
+      "Señor, me aferré a una idea de cómo debían suceder las cosas.",
+      "Ahora la realidad es diferente y me cuesta aceptarla.",
+      "Ayúdame a soltar esta expectativa sin amargura.",
+      "Dame apertura para recibir lo que sí es posible",
+      "y descubrir el bien que todavía puede nacer."
+    ],
+    "salmo": "Salmo 62, 6",
+    "quote": "Solo en Dios descansa mi alma; de Él viene mi esperanza."
+  },
+  {
+    "id": "dia-316",
+    "day": 316,
+    "titulo": "Cuando necesitas fuerza para continuar después de una discusión familiar",
+    "oracion": [
+      "Señor, las palabras dejaron tensión en nuestro hogar.",
+      "No quiero que el orgullo aumente la distancia.",
+      "Dame humildad para reconocer mi parte",
+      "y valor para buscar un nuevo acercamiento.",
+      "Que tu paz nos enseñe a volver a mirarnos con amor."
+    ],
+    "salmo": "Salmo 133, 1",
+    "quote": "Qué bueno y agradable es que los hermanos vivan unidos."
+  },
+  {
+    "id": "dia-317",
+    "day": 317,
+    "titulo": "Cuando debes recibir una responsabilidad que no esperabas",
+    "oracion": [
+      "Señor, esta responsabilidad llegó de manera inesperada.",
+      "Me preocupa no estar preparado para asumirla.",
+      "Dame claridad para organizarme y aprender",
+      "y humildad para pedir apoyo cuando lo necesite.",
+      "Que no cargue solo aquello que puedo compartir."
+    ],
+    "salmo": "Salmo 55, 23",
+    "quote": "Pon tu carga sobre el Señor y Él te sostendrá."
+  },
+  {
+    "id": "dia-318",
+    "day": 318,
+    "titulo": "Cuando necesitas fuerza para hacer una pausa",
+    "oracion": [
+      "Señor, mi mente me dice que debo seguir sin detenerme.",
+      "Pero mi cuerpo y mi corazón necesitan respirar.",
+      "Ayúdame a hacer una pausa sin sentir culpa.",
+      "Que este momento de descanso me devuelva claridad",
+      "y me permita continuar con nuevas fuerzas."
+    ],
+    "salmo": "Salmo 46, 11",
+    "quote": "Quédense quietos y reconozcan que yo soy Dios."
+  },
+  {
+    "id": "dia-319",
+    "day": 319,
+    "titulo": "Cuando debes afrontar el miedo a quedarte solo",
+    "oracion": [
+      "Señor, la posibilidad de la soledad me asusta.",
+      "A veces permanezco donde no estoy bien por temor a perder.",
+      "Dame valor para elegir relaciones sanas",
+      "y confianza para atravesar los tiempos de silencio.",
+      "Recuérdame que tu presencia nunca me abandona."
+    ],
+    "salmo": "Salmo 27, 10",
+    "quote": "Aunque todos me abandonen, el Señor me recibirá."
+  },
+  {
+    "id": "dia-320",
+    "day": 320,
+    "titulo": "Cuando necesitas fortaleza para seguir una indicación médica",
+    "oracion": [
+      "Señor, dame disciplina para cuidar mi salud.",
+      "Hay días en los que el proceso se vuelve pesado.",
+      "Ayúdame a ser constante con lo que necesito hacer",
+      "y paciente con los cambios que tardan en aparecer.",
+      "Que cada cuidado sea una forma de agradecer la vida."
+    ],
+    "salmo": "Salmo 41, 4",
+    "quote": "El Señor lo sostendrá en el lecho del dolor."
+  },
+  {
+    "id": "dia-321",
+    "day": 321,
+    "titulo": "Cuando debes reconocer que una meta necesita cambiar",
+    "oracion": [
+      "Señor, he trabajado mucho por este objetivo.",
+      "Me cuesta aceptar que quizá deba ajustarlo.",
+      "Dame sabiduría para distinguir entre perseverar y aferrarme.",
+      "Ayúdame a cambiar de rumbo sin sentir que fracasé",
+      "y a conservar lo aprendido durante el camino."
+    ],
+    "salmo": "Salmo 32, 8",
+    "quote": "Yo te enseñaré el camino que debes seguir."
+  },
+  {
+    "id": "dia-322",
+    "day": 322,
+    "titulo": "Cuando necesitas fuerza para mantener una decisión aunque duela",
+    "oracion": [
+      "Señor, sé que esta decisión es necesaria,",
+      "pero sostenerla ha traído tristeza y dudas.",
+      "Dame firmeza para no retroceder por miedo.",
+      "Ayúdame a recordar el bien que estoy protegiendo",
+      "y a caminar con serenidad durante este proceso."
+    ],
+    "salmo": "Salmo 112, 7-8",
+    "quote": "Su corazón está firme y confía en el Señor."
+  },
+  {
+    "id": "dia-323",
+    "day": 323,
+    "titulo": "Cuando debes aceptar que también necesitas consuelo",
+    "oracion": [
+      "Señor, muchas veces intento ser fuerte para todos.",
+      "Guardo mis lágrimas y escondo mi cansancio.",
+      "Ayúdame a reconocer que también necesito ser acompañado.",
+      "Dame apertura para recibir palabras, abrazos y ayuda",
+      "sin pensar que eso disminuye mi fortaleza."
+    ],
+    "salmo": "Salmo 94, 19",
+    "quote": "Tus consuelos alegran mi alma."
+  },
+  {
+    "id": "dia-324",
+    "day": 324,
+    "titulo": "Cuando necesitas fuerza para retomar tus estudios",
+    "oracion": [
+      "Señor, volver a estudiar despierta inseguridad en mí.",
+      "Temo no recordar, comprender o avanzar como quisiera.",
+      "Dame constancia para comenzar poco a poco",
+      "y paciencia para respetar mi ritmo de aprendizaje.",
+      "Que el esfuerzo de hoy abra nuevas posibilidades."
+    ],
+    "salmo": "Salmo 119, 73",
+    "quote": "Dame inteligencia para aprender tus mandamientos."
+  },
+  {
+    "id": "dia-325",
+    "day": 325,
+    "titulo": "Cuando debes aceptar que una respuesta puede ser no",
+    "oracion": [
+      "Señor, me cuesta acercarme sin controlar el resultado.",
+      "Quisiera tener la certeza de recibir lo que espero.",
+      "Dame valor para preguntar y libertad para aceptar.",
+      "Que una respuesta negativa no destruya mi confianza",
+      "ni me impida buscar otros caminos."
+    ],
+    "salmo": "Salmo 37, 5",
+    "quote": "Encomienda al Señor tu camino; confía en Él."
+  },
+  {
+    "id": "dia-326",
+    "day": 326,
+    "titulo": "Cuando necesitas fuerza para atravesar un conflicto en el trabajo",
+    "oracion": [
+      "Señor, este ambiente ha comenzado a desgastarme.",
+      "Dame prudencia para no actuar desde el enojo.",
+      "Ayúdame a expresar mis límites con respeto",
+      "y a buscar soluciones justas y claras.",
+      "Que mi conducta permanezca íntegra aun en la tensión."
+    ],
+    "salmo": "Salmo 15, 2",
+    "quote": "El que procede honradamente y dice la verdad de corazón."
+  },
+  {
+    "id": "dia-327",
+    "day": 327,
+    "titulo": "Cuando debes volver a confiar en tu cuerpo",
+    "oracion": [
+      "Señor, después de lo vivido me cuesta sentirme seguro.",
+      "A veces observo mi cuerpo con temor y desconfianza.",
+      "Ayúdame a escucharlo con paciencia y respeto.",
+      "Dame serenidad para acompañar su recuperación",
+      "y gratitud por cada pequeña señal de fortaleza."
+    ],
+    "salmo": "Salmo 139, 14",
+    "quote": "Te doy gracias porque me hiciste de manera admirable."
+  },
+  {
+    "id": "dia-328",
+    "day": 328,
+    "titulo": "Cuando necesitas fuerza para afrontar una visita difícil",
+    "oracion": [
+      "Señor, este encuentro despierta muchas emociones.",
+      "No sé cómo me sentiré al estar nuevamente allí.",
+      "Prepara mi corazón y mis palabras.",
+      "Dame serenidad para permanecer el tiempo necesario",
+      "y libertad para retirarme cuando sea prudente."
+    ],
+    "salmo": "Salmo 121, 8",
+    "quote": "El Señor cuidará tu salida y tu entrada."
+  },
+  {
+    "id": "dia-329",
+    "day": 329,
+    "titulo": "Cuando debes aceptar el ritmo de otra persona",
+    "oracion": [
+      "Señor, me impacienta que los demás no avancen como espero.",
+      "Quisiera apresurar sus decisiones y procesos.",
+      "Dame paciencia para acompañar sin controlar.",
+      "Ayúdame a respetar sus tiempos y su libertad",
+      "y a confiar en que Tú también trabajas en ellos."
+    ],
+    "salmo": "Salmo 103, 8",
+    "quote": "El Señor es compasivo y misericordioso, lento para enojarse."
+  },
+  {
+    "id": "dia-330",
+    "day": 330,
+    "titulo": "Cuando necesitas fuerza para volver a organizarte",
+    "oracion": [
+      "Señor, el desorden ha comenzado a quitarme la paz.",
+      "No sé por dónde empezar entre tantas cosas pendientes.",
+      "Dame claridad para elegir una tarea sencilla",
+      "y constancia para avanzar sin querer resolverlo todo hoy.",
+      "Que cada pequeño orden alivie también mi corazón."
+    ],
+    "salmo": "Salmo 119, 133",
+    "quote": "Afirma mis pasos según tu palabra."
+  },
+  {
+    "id": "dia-331",
+    "day": 331,
+    "titulo": "Cuando debes afrontar una promesa que no se cumplió",
+    "oracion": [
+      "Señor, confié en esas palabras y ahora me siento decepcionado.",
+      "Me cuesta aceptar que lo prometido no sucederá.",
+      "Dame serenidad para mirar la realidad con verdad.",
+      "Ayúdame a soltar la espera que me mantiene detenido",
+      "y a sostener mi esperanza únicamente en Ti."
+    ],
+    "salmo": "Salmo 146, 5",
+    "quote": "Dichoso quien tiene su esperanza en el Señor."
+  },
+  {
+    "id": "dia-332",
+    "day": 332,
+    "titulo": "Cuando necesitas fuerza para pedir una segunda opinión",
+    "oracion": [
+      "Señor, dame valentía para buscar mayor claridad.",
+      "Que el temor o la vergüenza no me hagan conformarme.",
+      "Ayúdame a preguntar con respeto y responsabilidad",
+      "y a escuchar cada orientación con discernimiento.",
+      "Que pueda decidir con paz y buena información."
+    ],
+    "salmo": "Salmo 25, 4-5",
+    "quote": "Muéstrame tus caminos y guíame en tu verdad."
+  },
+  {
+    "id": "dia-333",
+    "day": 333,
+    "titulo": "Cuando debes aprender a soltar una discusión pasada",
+    "oracion": [
+      "Señor, sigo repitiendo en mi mente lo que ocurrió.",
+      "Imagino respuestas y palabras que ya no puedo cambiar.",
+      "Ayúdame a dejar esta discusión en el pasado.",
+      "Dame sabiduría para conservar el aprendizaje",
+      "y libertad para no seguir alimentando el enojo."
+    ],
+    "salmo": "Salmo 37, 8",
+    "quote": "Deja la ira y abandona el enojo."
+  },
+  {
+    "id": "dia-334",
+    "day": 334,
+    "titulo": "Cuando necesitas fuerza para confiar durante una transición",
+    "oracion": [
+      "Señor, ya dejé una etapa, pero todavía no llego a la siguiente.",
+      "Este tiempo intermedio me causa inseguridad.",
+      "Dame paciencia para habitar la transición",
+      "sin apresurar decisiones por miedo.",
+      "Que tu presencia sea mi hogar mientras todo se acomoda."
+    ],
+    "salmo": "Salmo 61, 4",
+    "quote": "Quiero habitar siempre en tu morada y refugiarme bajo tus alas."
+  },
+  {
+    "id": "dia-335",
+    "day": 335,
+    "titulo": "Cuando debes aceptar que no todos se quedarán",
+    "oracion": [
+      "Señor, algunas personas forman parte del camino solo por un tiempo.",
+      "Me cuesta aceptar que sus pasos ahora tomen otra dirección.",
+      "Ayúdame a agradecer lo compartido sin aferrarme.",
+      "Dame paz para permitir las despedidas",
+      "y apertura para recibir nuevas compañías."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-336",
+    "day": 336,
+    "titulo": "Cuando necesitas fuerza para hablar frente a otros",
+    "oracion": [
+      "Señor, los nervios hacen temblar mi voz.",
+      "Temo equivocarme o no encontrar las palabras.",
+      "Dame calma para respirar y expresar mis ideas.",
+      "Ayúdame a hablar con sencillez y seguridad",
+      "sin olvidar que no necesito hacerlo perfecto."
+    ],
+    "salmo": "Salmo 19, 15",
+    "quote": "Que las palabras de mi boca sean agradables en tu presencia."
+  },
+  {
+    "id": "dia-337",
+    "day": 337,
+    "titulo": "Cuando debes volver a intentarlo después de una recaída",
+    "oracion": [
+      "Señor, esta caída ha despertado tristeza y frustración.",
+      "Siento que regresé al lugar del que quería salir.",
+      "Recuérdame que el camino recorrido no desaparece.",
+      "Dame humildad para buscar apoyo nuevamente",
+      "y fortaleza para retomar mis pasos desde hoy."
+    ],
+    "salmo": "Salmo 145, 14",
+    "quote": "El Señor sostiene a todos los que caen."
+  },
+  {
+    "id": "dia-338",
+    "day": 338,
+    "titulo": "Cuando necesitas fuerza para recibir un cambio de última hora",
+    "oracion": [
+      "Señor, este cambio inesperado alteró mis planes.",
+      "Siento frustración porque ya tenía todo preparado.",
+      "Dame flexibilidad para reorganizarme",
+      "y serenidad para no descargar mi enojo en otros.",
+      "Ayúdame a encontrar una nueva manera de continuar."
+    ],
+    "salmo": "Salmo 33, 11",
+    "quote": "Los planes del Señor permanecen para siempre."
+  },
+  {
+    "id": "dia-339",
+    "day": 339,
+    "titulo": "Cuando debes afrontar la posibilidad de equivocarte",
+    "oracion": [
+      "Señor, quiero avanzar, pero temo tomar una mala decisión.",
+      "La búsqueda de perfección me mantiene inmóvil.",
+      "Dame prudencia para evaluar y valor para elegir.",
+      "Ayúdame a aceptar que también puedo corregir el rumbo",
+      "y aprender de aquello que no salga como esperaba."
+    ],
+    "salmo": "Salmo 37, 23-24",
+    "quote": "El Señor asegura sus pasos; aunque caiga, no quedará postrado."
+  },
+  {
+    "id": "dia-340",
+    "day": 340,
+    "titulo": "Cuando necesitas fuerza para permanecer presente",
+    "oracion": [
+      "Señor, mi mente se va al pasado y al futuro.",
+      "Me cuesta vivir el momento que hoy tengo delante.",
+      "Ayúdame a volver a este día, a esta tarea y a esta persona.",
+      "Dame atención para reconocer el bien presente",
+      "y paz para no cargar lo que todavía no llega."
+    ],
+    "salmo": "Salmo 118, 24",
+    "quote": "Este es el día que hizo el Señor."
+  },
+  {
+    "id": "dia-341",
+    "day": 341,
+    "titulo": "Cuando necesitas recordar que la prueba no durará para siempre",
+    "oracion": [
+      "Señor, esta etapa parece no tener final.",
+      "El cansancio me hace pensar que nada cambiará.",
+      "Recuérdame que también los tiempos difíciles pasan.",
+      "Dame fuerza para vivir un día a la vez",
+      "y esperanza para creer que volverá la luz."
+    ],
+    "salmo": "Salmo 30, 6",
+    "quote": "Al atardecer llega el llanto, y por la mañana la alegría."
+  },
+  {
+    "id": "dia-342",
+    "day": 342,
+    "titulo": "Cuando necesitas fuerza para atravesar un día de incertidumbre",
+    "oracion": [
+      "Señor, hoy no sé cómo terminarán las cosas.",
+      "La falta de respuestas inquieta mi corazón.",
+      "Ayúdame a vivir este día sin adelantarme al miedo.",
+      "Dame serenidad para atender lo que está delante de mí",
+      "y confianza para dejar lo demás en tus manos."
+    ],
+    "salmo": "Salmo 31, 16",
+    "quote": "Mi vida está en tus manos."
+  },
+  {
+    "id": "dia-343",
+    "day": 343,
+    "titulo": "Cuando debes aceptar que necesitas comenzar más despacio",
+    "oracion": [
+      "Señor, quisiera avanzar con mayor rapidez.",
+      "Me impacienta sentir que doy pasos pequeños.",
+      "Ayúdame a respetar mis fuerzas y mi proceso.",
+      "Dame constancia para continuar sin exigirme demasiado",
+      "y gratitud por cada avance que sí puedo dar."
+    ],
+    "salmo": "Salmo 37, 23",
+    "quote": "El Señor asegura los pasos de quien sigue su camino."
+  },
+  {
+    "id": "dia-344",
+    "day": 344,
+    "titulo": "Cuando necesitas fortaleza para cuidar a quien está sufriendo",
+    "oracion": [
+      "Señor, dame ternura para permanecer cerca.",
+      "No siempre sé qué decir ni cómo ayudar.",
+      "Enséñame a escuchar sin apresurar el dolor.",
+      "Que mi presencia sea sencilla y compasiva",
+      "y refleje un poco de tu consuelo."
+    ],
+    "salmo": "Salmo 34, 19",
+    "quote": "El Señor está cerca de los corazones quebrantados."
+  },
+  {
+    "id": "dia-345",
+    "day": 345,
+    "titulo": "Cuando debes confiar después de haber perdido seguridad",
+    "oracion": [
+      "Señor, aquello que me daba estabilidad ha cambiado.",
+      "Ahora siento que el suelo se mueve bajo mis pies.",
+      "Sé mi roca firme en este momento.",
+      "Dame valor para construir una nueva seguridad",
+      "y confiar en que Tú permaneces cuando todo cambia."
+    ],
+    "salmo": "Salmo 62, 7",
+    "quote": "Él es mi roca y mi salvación; no vacilaré."
+  },
+  {
+    "id": "dia-346",
+    "day": 346,
+    "titulo": "Cuando necesitas fuerza para afrontar tus pendientes",
+    "oracion": [
+      "Señor, he dejado acumular muchas cosas.",
+      "Pensar en ellas me causa cansancio y preocupación.",
+      "Ayúdame a comenzar por una tarea sencilla.",
+      "Dame orden para avanzar paso a paso",
+      "y paz para no querer resolverlo todo de una vez."
+    ],
+    "salmo": "Salmo 90, 17",
+    "quote": "Confirma la obra de nuestras manos."
+  },
+  {
+    "id": "dia-347",
+    "day": 347,
+    "titulo": "Cuando debes aceptar que hiciste lo mejor que pudiste",
+    "oracion": [
+      "Señor, sigo pensando en lo que habría podido hacer diferente.",
+      "La culpa me impide reconocer mis límites.",
+      "Ayúdame a mirar el pasado con honestidad y compasión.",
+      "Dame paz para aceptar que hice lo que pude",
+      "y sabiduría para actuar mejor en adelante."
+    ],
+    "salmo": "Salmo 103, 14",
+    "quote": "Él sabe de qué estamos hechos y recuerda que somos polvo."
+  },
+  {
+    "id": "dia-348",
+    "day": 348,
+    "titulo": "Cuando necesitas fuerza para pedir tiempo",
+    "oracion": [
+      "Señor, la presión me lleva a responder antes de estar preparado.",
+      "Dame valentía para pedir el tiempo que necesito.",
+      "Ayúdame a pensar con calma y claridad.",
+      "Que no decida desde el miedo ni la prisa,",
+      "sino desde una conciencia serena."
+    ],
+    "salmo": "Salmo 46, 11",
+    "quote": "Quédense quietos y reconozcan que yo soy Dios."
+  },
+  {
+    "id": "dia-349",
+    "day": 349,
+    "titulo": "Cuando debes seguir caminando con una herida",
+    "oracion": [
+      "Señor, todavía hay dolor dentro de mí.",
+      "No todo ha sanado como yo quisiera.",
+      "Ayúdame a caminar sin negar esta herida.",
+      "Dame paciencia para cuidar mi proceso",
+      "y esperanza para creer que la sanación continúa."
+    ],
+    "salmo": "Salmo 147, 3",
+    "quote": "Él sana los corazones heridos y venda sus heridas."
+  },
+  {
+    "id": "dia-350",
+    "day": 350,
+    "titulo": "Cuando necesitas fuerza para mantener una promesa contigo",
+    "oracion": [
+      "Señor, hice este compromiso buscando mi bienestar.",
+      "Pero sostenerlo cada día requiere esfuerzo.",
+      "Dame disciplina cuando disminuya mi ánimo.",
+      "Ayúdame a recordar por qué tomé esta decisión",
+      "y a permanecer fiel sin tratarme con dureza."
+    ],
+    "salmo": "Salmo 119, 106",
+    "quote": "He jurado cumplir tus justos mandamientos."
+  },
+  {
+    "id": "dia-351",
+    "day": 351,
+    "titulo": "Cuando debes aceptar que una etapa será diferente",
+    "oracion": [
+      "Señor, imaginé este tiempo de otra manera.",
+      "La realidad no se parece a lo que esperaba.",
+      "Ayúdame a dejar de luchar contra lo que ya cambió.",
+      "Dame apertura para vivir esta etapa como es",
+      "y descubrir el bien que todavía contiene."
+    ],
+    "salmo": "Salmo 33, 11",
+    "quote": "Los planes del Señor permanecen para siempre."
+  },
+  {
+    "id": "dia-352",
+    "day": 352,
+    "titulo": "Cuando necesitas fuerza para volver a acercarte a Dios",
+    "oracion": [
+      "Señor, me he sentido lejos y distraído.",
+      "No sé cómo recuperar la cercanía que antes sentía.",
+      "Hoy vuelvo a Ti con lo poco que tengo.",
+      "Recibe mi oración sencilla y mi deseo de regresar.",
+      "Camina conmigo hasta que mi corazón vuelva a encontrarte."
+    ],
+    "salmo": "Salmo 51, 14",
+    "quote": "Devuélveme la alegría de tu salvación."
+  },
+  {
+    "id": "dia-353",
+    "day": 353,
+    "titulo": "Cuando debes enfrentar la incertidumbre de un ser querido",
+    "oracion": [
+      "Señor, me preocupa lo que esta persona está viviendo.",
+      "Quisiera tener respuestas y soluciones inmediatas.",
+      "Ayúdame a acompañar sin aumentar su temor.",
+      "Cuídala cuando yo no pueda estar cerca",
+      "y dame paz para confiar en tu presencia."
+    ],
+    "salmo": "Salmo 121, 7-8",
+    "quote": "El Señor te protegerá y cuidará tu salida y tu entrada."
+  },
+  {
+    "id": "dia-354",
+    "day": 354,
+    "titulo": "Cuando necesitas fuerza para reconocer una oportunidad",
+    "oracion": [
+      "Señor, a veces el miedo me impide ver lo nuevo.",
+      "Temo equivocarme y dejar pasar lo conocido.",
+      "Dame claridad para reconocer esta oportunidad.",
+      "Ayúdame a evaluarla con prudencia",
+      "y valor para avanzar cuando llegue el momento."
+    ],
+    "salmo": "Salmo 25, 12",
+    "quote": "El Señor le mostrará el camino que debe elegir."
+  },
+  {
+    "id": "dia-355",
+    "day": 355,
+    "titulo": "Cuando debes continuar sin recibir reconocimiento",
+    "oracion": [
+      "Señor, me duele que mi esfuerzo pase desapercibido.",
+      "A veces quisiera abandonar porque nadie parece valorarlo.",
+      "Dame un corazón libre para continuar haciendo el bien.",
+      "Recuérdame que Tú conoces cada entrega silenciosa",
+      "y que nada hecho con amor queda perdido."
+    ],
+    "salmo": "Salmo 139, 3",
+    "quote": "Conoces todos mis caminos."
+  },
+  {
+    "id": "dia-356",
+    "day": 356,
+    "titulo": "Cuando necesitas fuerza para afrontar una nueva mañana",
+    "oracion": [
+      "Señor, hoy despierto llevando todavía el peso de ayer.",
+      "No permitas que el cansancio decida todo mi día.",
+      "Renueva mi mente y mi esperanza.",
+      "Dame fuerzas para comenzar nuevamente",
+      "y ojos para reconocer tu misericordia desde temprano."
+    ],
+    "salmo": "Salmo 59, 17",
+    "quote": "Por la mañana cantaré tu misericordia."
+  },
+  {
+    "id": "dia-357",
+    "day": 357,
+    "titulo": "Cuando debes soltar una imagen perfecta de ti",
+    "oracion": [
+      "Señor, me esfuerzo demasiado por parecer fuerte y correcto.",
+      "Temo que otros conozcan mis errores y fragilidades.",
+      "Ayúdame a vivir con mayor verdad.",
+      "Dame libertad para ser quien soy delante de Ti",
+      "y humildad para seguir creciendo sin fingir perfección."
+    ],
+    "salmo": "Salmo 139, 1",
+    "quote": "Señor, Tú me examinas y me conoces."
+  },
+  {
+    "id": "dia-358",
+    "day": 358,
+    "titulo": "Cuando necesitas fuerza para volver a confiar en el futuro",
+    "oracion": [
+      "Señor, las experiencias pasadas me hacen temer lo que viene.",
+      "Me cuesta imaginar que algo bueno pueda suceder.",
+      "Sana mi manera de mirar el mañana.",
+      "Dame esperanza para preparar nuevos caminos",
+      "y confianza para avanzar acompañado por Ti."
+    ],
+    "salmo": "Salmo 42, 12",
+    "quote": "Espera en Dios, porque volveré a alabarlo."
+  },
+  {
+    "id": "dia-359",
+    "day": 359,
+    "titulo": "Cuando debes atravesar un día sin respuestas",
+    "oracion": [
+      "Señor, hoy las preguntas siguen abiertas.",
+      "No encuentro una explicación que tranquilice mi corazón.",
+      "Ayúdame a permanecer sin desesperarme.",
+      "Dame paz para caminar con lo que sí conozco",
+      "y fe para confiarte aquello que aún no comprendo."
+    ],
+    "salmo": "Salmo 131, 2",
+    "quote": "Mantengo mi alma en paz y silencio."
+  },
+  {
+    "id": "dia-360",
+    "day": 360,
+    "titulo": "Cuando necesitas fuerza para hacer lo correcto en silencio",
+    "oracion": [
+      "Señor, nadie sabrá el esfuerzo que esta decisión requiere.",
+      "Tal vez no reciba aprobación ni reconocimiento.",
+      "Dame integridad para elegir el bien de todos modos.",
+      "Que mi corazón no busque aplausos,",
+      "sino la paz de actuar de acuerdo con la verdad."
+    ],
+    "salmo": "Salmo 15, 2",
+    "quote": "El que procede honradamente y dice la verdad de corazón."
+  },
+  {
+    "id": "dia-361",
+    "day": 361,
+    "titulo": "Cuando debes comenzar a reconstruir tu vida",
+    "oracion": [
+      "Señor, algunas cosas se rompieron y ya no pueden volver atrás.",
+      "Me duele mirar todo lo que debo reconstruir.",
+      "Dame paciencia para comenzar desde lo pequeño.",
+      "Afirma mis pasos y fortalece mis manos",
+      "para levantar una vida nueva contigo."
+    ],
+    "salmo": "Salmo 40, 3",
+    "quote": "Afirmó mis pies sobre roca y aseguró mis pasos."
+  },
+  {
+    "id": "dia-362",
+    "day": 362,
+    "titulo": "Cuando necesitas fuerza para llegar hasta el final",
+    "oracion": [
+      "Señor, he recorrido un camino largo y cansado.",
+      "Ahora que estoy cerca, siento que mis fuerzas disminuyen.",
+      "Dame perseverancia para completar lo comenzado.",
+      "Ayúdame a avanzar con paciencia y fidelidad",
+      "hasta entregar con paz el fruto de mi esfuerzo."
+    ],
+    "salmo": "Salmo 138, 8",
+    "quote": "El Señor llevará a término su obra en mí."
+  },
+  {
+    "id": "dia-363",
+    "day": 363,
+    "titulo": "Cuando debes confiar incluso sin sentirte fuerte",
+    "oracion": [
+      "Señor, hoy no me siento valiente ni seguro.",
+      "Mi corazón tiembla ante lo que tengo que vivir.",
+      "Recuérdame que no necesito sentirme fuerte para avanzar.",
+      "Basta con tomar tu mano y dar un paso más.",
+      "Que tu fuerza sostenga mi fragilidad."
+    ],
+    "salmo": "Salmo 28, 7",
+    "quote": "El Señor es mi fuerza y mi escudo."
+  },
+  {
+    "id": "dia-364",
+    "day": 364,
+    "titulo": "Cuando necesitas agradecer la fuerza recibida",
+    "oracion": [
+      "Señor, al mirar hacia atrás reconozco cuánto me has sostenido.",
+      "Hubo días en los que pensé que no podría continuar.",
+      "Gracias por cada mano, palabra y descanso que me regalaste.",
+      "Ayúdame a no olvidar tu fidelidad",
+      "y a compartir con otros el consuelo que recibí."
+    ],
+    "salmo": "Salmo 18, 2",
+    "quote": "Yo te amo, Señor, mi fuerza."
+  },
+  {
+    "id": "dia-365",
+    "day": 365,
+    "titulo": "Cuando necesitas fuerza para seguir caminando",
+    "oracion": [
+      "Señor, hoy termino este camino de oración,",
+      "pero mi vida continúa necesitando tu presencia.",
+      "Permanece conmigo en los días buenos y difíciles.",
+      "Dame un corazón firme, humilde y esperanzado",
+      "para seguir avanzando siempre tomado de tu mano."
+    ],
+    "salmo": "Salmo 84, 8",
+    "quote": "Caminan con vigor siempre creciente."
+  }
+]

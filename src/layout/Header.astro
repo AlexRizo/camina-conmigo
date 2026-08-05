@@ -1,9 +1,15 @@
 ---
-const links = [
+const linksBefore = [
   { href: "/#", label: "Inicio" },
   { href: "/#podcast", label: "Podcast" },
   { href: "/#sobre-proyecto", label: "Sobre el proyecto" },
-  { href: "/oracion-del-dia", label: "Oración del día" },
+];
+const prayerLinks = [
+  { href: "/oraciones/oracion-para-iniciar-el-dia", label: "Oración para iniciar el día" },
+  { href: "/oraciones/oracion-para-fortaleza", label: "Cuando necesitas fortaleza" },
+  { href: "/oraciones/oracion-para-terminar-el-dia", label: "Para terminar el día" },
+];
+const linksAfter = [
   { href: "/#reflexiones", label: "Reflexiones" },
   { href: "/#contacto", label: "Contacto" },
 ];
@@ -58,7 +64,40 @@ const links = [
     class="flex items-center gap-[clamp(18px,2.2vw,38px)] max-[900px]:absolute max-[900px]:left-5 max-[900px]:right-5 max-[900px]:top-20 max-[900px]:z-20 max-[900px]:hidden max-[900px]:flex-col max-[900px]:items-start max-[900px]:gap-5.5 max-[900px]:bg-paper max-[900px]:p-7 max-[900px]:shadow-[0_18px_35px_rgba(12,38,53,0.12)] max-[900px]:data-open:flex"
   >
     {
-      links.map((link) => (
+      linksBefore.map((link) => (
+        <a
+          href={link.href}
+          class="group relative pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267]"
+        >
+          {link.label}
+          <span class="absolute inset-x-0 -bottom-2 h-px origin-left scale-x-0 bg-gold transition-transform duration-200 ease-out group-hover:scale-x-100" />
+        </a>
+      ))
+    }
+
+    <details data-oraciones-dropdown class="group relative max-[900px]:w-full">
+      <summary
+        class="flex cursor-pointer list-none items-center gap-1.5 pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267] [&::-webkit-details-marker]:hidden"
+      >
+        Oraciones
+        <span aria-hidden="true" class="text-[8px] transition-transform duration-150 group-open:rotate-180">▾</span>
+      </summary>
+      <div class="absolute left-0 top-full z-30 mt-2 flex min-w-[230px] flex-col gap-1 bg-paper p-3 shadow-[0_18px_35px_rgba(12,38,53,0.12)] max-[900px]:static max-[900px]:mt-3 max-[900px]:w-full max-[900px]:bg-transparent max-[900px]:p-0 max-[900px]:shadow-none">
+        {
+          prayerLinks.map((link) => (
+            <a
+              href={link.href}
+              class="block px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267] hover:text-gold"
+            >
+              {link.label}
+            </a>
+          ))
+        }
+      </div>
+    </details>
+
+    {
+      linksAfter.map((link) => (
         <a
           href={link.href}
           class="group relative pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267]"
@@ -87,4 +126,18 @@ const links = [
       menuButton?.setAttribute("aria-expanded", "false");
     }),
   );
+
+  const oracionesDropdown = document.querySelector<HTMLDetailsElement>("[data-oraciones-dropdown]");
+
+  oracionesDropdown?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", () => {
+      oracionesDropdown.removeAttribute("open");
+    }),
+  );
+
+  document.addEventListener("click", (event) => {
+    if (!oracionesDropdown?.open) return;
+    if (!(event.target instanceof Node) || oracionesDropdown.contains(event.target)) return;
+    oracionesDropdown.removeAttribute("open");
+  });
 </script>

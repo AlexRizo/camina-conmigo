@@ -5,11 +5,19 @@ import { isFuture, slugToIso } from "@/lib/dates";
 export const onRequest = defineMiddleware(async (context, next) => {
   const { pathname } = context.url;
 
-  const dailyPrayerMatch = pathname.match(/^\/oracion-del-dia\/([^/]+)\/?$/);
+  const dailyPrayerMatch = pathname.match(/^\/oraciones\/oracion-para-iniciar-el-dia\/([^/]+)\/?$/);
   if (dailyPrayerMatch) {
     const iso = slugToIso(dailyPrayerMatch[1]);
     if (iso && isFuture(iso)) {
-      return context.redirect("/oracion-del-dia");
+      return context.redirect("/oraciones/oracion-para-iniciar-el-dia");
+    }
+  }
+
+  const closingPrayerMatch = pathname.match(/^\/oraciones\/oracion-para-terminar-el-dia\/([^/]+)\/?$/);
+  if (closingPrayerMatch) {
+    const iso = slugToIso(closingPrayerMatch[1]);
+    if (iso && isFuture(iso)) {
+      return context.redirect("/oraciones/oracion-para-terminar-el-dia");
     }
   }
 

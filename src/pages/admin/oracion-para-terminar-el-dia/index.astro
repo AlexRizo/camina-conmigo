@@ -4,9 +4,9 @@ export const prerender = false;
 import { desc } from "drizzle-orm";
 import DashboardLayout from "@/layout/DashboardLayout.astro";
 import { db } from "@/db/client";
-import { dailyPrayers } from "@/db/schema";
+import { closingPrayers } from "@/db/schema";
 
-const prayers = await db.select().from(dailyPrayers).orderBy(desc(dailyPrayers.date));
+const prayers = await db.select().from(closingPrayers).orderBy(desc(closingPrayers.date));
 
 const dateFormatter = new Intl.DateTimeFormat("es-ES", { dateStyle: "long" });
 
@@ -20,14 +20,14 @@ const success = Astro.url.searchParams.has("success");
 const deleted = Astro.url.searchParams.has("deleted");
 ---
 
-<DashboardLayout title="Oración del día" active="oracion">
+<DashboardLayout title="Oración para terminar el día" active="terminar-dia">
   <div class="flex items-start justify-between gap-6">
     <div>
       <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
         <span class="h-px w-[34px] bg-gold"></span>
         Panel privado
       </p>
-      <h1 class="m-0 mt-3 font-serif text-3xl font-normal text-navy">Oración del día</h1>
+      <h1 class="m-0 mt-3 font-serif text-3xl font-normal text-navy">Oración para terminar el día</h1>
     </div>
     <button
       type="button"
@@ -94,7 +94,7 @@ const deleted = Astro.url.searchParams.has("deleted");
             <tr class="border-b border-line align-top">
               <td class="py-4 pr-4 text-xs whitespace-nowrap text-muted">{formatDate(prayer.date)}</td>
               <td class="py-4 pr-4 text-xs whitespace-nowrap text-muted">
-                <a href={`/oracion-del-dia/${prayer.slug}`} target="_blank" rel="noreferrer" class="text-blue hover:text-gold">
+                <a href={`/oraciones/oracion-para-terminar-el-dia/${prayer.slug}`} target="_blank" rel="noreferrer" class="text-blue hover:text-gold">
                   {prayer.slug}
                 </a>
               </td>
@@ -136,7 +136,7 @@ const deleted = Astro.url.searchParams.has("deleted");
     data-dialog
     class="m-auto w-full max-w-lg border border-line bg-paper p-0 shadow-[0_18px_60px_rgba(28,56,67,0.15)] backdrop:bg-navy/40"
   >
-    <form method="POST" action="/api/admin/oracion-del-dia" class="p-8">
+    <form method="POST" action="/api/admin/oracion-para-terminar-el-dia" class="p-8">
       <div class="mb-6 flex items-center justify-between">
         <h2 data-dialog-title class="m-0 font-serif text-2xl font-normal text-navy">Nueva oración</h2>
         <button
@@ -262,11 +262,11 @@ const deleted = Astro.url.searchParams.has("deleted");
 
       const body = new FormData();
       body.set("id", id);
-      const response = await fetch("/api/admin/oracion-del-dia", { method: "DELETE", body });
+      const response = await fetch("/api/admin/oracion-para-terminar-el-dia", { method: "DELETE", body });
 
       window.location.href = response.redirected
         ? response.url
-        : "/admin/oracion-del-dia?deleted=1";
+        : "/admin/oracion-para-terminar-el-dia?deleted=1";
     });
   });
 

@@ -3,14 +3,15 @@ import AdminLayout from "@/layout/AdminLayout.astro";
 
 interface Props {
   title: string;
-  active: "intenciones" | "oracion";
+  active: "intenciones" | "iniciar-dia" | "terminar-dia";
 }
 
 const { title, active } = Astro.props;
 
 const navItems = [
   { key: "intenciones", href: "/admin", label: "Intenciones de oración" },
-  { key: "oracion", href: "/admin/oracion-del-dia", label: "Oración del día" },
+  { key: "iniciar-dia", href: "/admin/oracion-para-iniciar-el-dia", label: "Oración para iniciar el día" },
+  { key: "terminar-dia", href: "/admin/oracion-para-terminar-el-dia", label: "Oración para terminar el día" },
 ] as const;
 ---
 

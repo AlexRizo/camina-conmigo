@@ -5,11 +5,11 @@ import { eq } from "drizzle-orm";
 import Layout from "@/layout/Layout.astro";
 import DailyPrayerView from "@/components/DailyPrayerView.astro";
 import { db } from "@/db/client";
-import { dailyPrayers } from "@/db/schema";
+import { closingPrayers } from "@/db/schema";
 import { todayIso } from "@/lib/dates";
 
 const today = todayIso();
-const [prayer] = await db.select().from(dailyPrayers).where(eq(dailyPrayers.date, today)).limit(1);
+const [prayer] = await db.select().from(closingPrayers).where(eq(closingPrayers.date, today)).limit(1);
 
 Astro.response.headers.set(
   "Cache-Control",
@@ -17,6 +17,11 @@ Astro.response.headers.set(
 );
 ---
 
-<Layout title="Oración del día">
-  <DailyPrayerView date={today} prayer={prayer ?? null} />
+<Layout title="Oración para terminar el día">
+  <DailyPrayerView
+    date={today}
+    prayer={prayer ?? null}
+    basePath="/oraciones/oracion-para-terminar-el-dia"
+    eyebrow="Oración para terminar el día"
+  />
 </Layout>

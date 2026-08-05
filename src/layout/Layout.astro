@@ -32,11 +32,20 @@ const { title } = Astro.props;
       class="fixed inset-0 z-50 flex flex-col items-center justify-center gap-4 bg-cream/90 backdrop-blur-sm"
     >
       <span class="h-9 w-9 animate-spin rounded-full border-2 border-line border-t-gold"></span>
-      <p class="text-[11px] font-bold uppercase tracking-[0.14em] text-navy">Cargando la oración del día…</p>
+      <p class="text-[11px] font-bold uppercase tracking-[0.14em] text-navy">Cargando…</p>
     </div>
 
     <script>
       const loader = document.querySelector<HTMLElement>("[data-route-loader]");
+
+      // Solo las rutas que se renderizan en cada request (SSR) sufren cold start.
+      // Todo /oraciones/oracion-para-fortaleza/* es estático (prerender), así que no necesita el loader.
+      function needsLoader(pathname: string) {
+        return (
+          pathname.startsWith("/oraciones/oracion-para-iniciar-el-dia") ||
+          pathname.startsWith("/oraciones/oracion-para-terminar-el-dia")
+        );
+      }
 
       document.addEventListener("click", (event) => {
         if (event.defaultPrevented || event.button !== 0) return;
@@ -47,7 +56,7 @@ const { title } = Astro.props;
 
         const url = new URL(link.href, window.location.href);
         if (url.origin !== window.location.origin) return;
-        if (!url.pathname.startsWith("/oracion-del-dia")) return;
+        if (!needsLoader(url.pathname)) return;
         if (url.pathname === window.location.pathname) return;
 
         loader?.removeAttribute("hidden");

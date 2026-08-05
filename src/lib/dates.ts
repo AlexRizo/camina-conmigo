@@ -27,3 +27,11 @@ export function slugToIso(slug: string): string | null {
   const [, day, month, year] = match;
   return `${year}-${month}-${day}`;
 }
+
+/** Día del año (1-365). El 29 de febrero se aplana al 365 para calzar con colecciones de 365 entradas. */
+export function dayOfYear(isoDate: string = todayIso()): number {
+  const date = new Date(`${isoDate}T00:00:00Z`);
+  const start = Date.UTC(date.getUTCFullYear(), 0, 1);
+  const day = Math.floor((date.getTime() - start) / 86_400_000) + 1;
+  return Math.min(day, 365);
+}

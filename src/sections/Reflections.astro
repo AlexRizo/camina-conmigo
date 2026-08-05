@@ -1,8 +1,8 @@
 ---
-const reflections: [string, string, string][] = [
-  ["01", "Para comenzar el día", "Una oración para ofrecer lo que viene."],
-  ["02", "Cuando necesitas fortaleza", "Respirar, confiar y volver a empezar."],
-  ["03", "Para terminar el día", "Agradecer, entregar y descansar en Dios."],
+const reflections: [string, string, string, string][] = [
+  ["01", "Para comenzar el día", "Una oración para ofrecer lo que viene.", "/oraciones/oracion-para-iniciar-el-dia"],
+  ["02", "Cuando necesitas fortaleza", "Respirar, confiar y volver a empezar.", "/oraciones/oracion-para-fortaleza"],
+  ["03", "Para terminar el día", "Agradecer, entregar y descansar en Dios.", "/oraciones/oracion-para-terminar-el-dia"],
 ];
 ---
 
@@ -22,9 +22,9 @@ const reflections: [string, string, string][] = [
 
   <div class="border-t border-line max-[900px]:-mt-5">
     {
-      reflections.map(([number, title, text]) => (
+      reflections.map(([number, title, text, href]) => (
         <a
-          href="#reflexiones"
+          href={href}
           class="grid grid-cols-[40px_1fr_20px] items-center gap-[22px] border-b border-line px-[5px] py-6 transition-[padding] duration-150 ease-out hover:pl-3"
         >
           <span class="text-[10px] font-bold text-gold">{number}</span>

@@ -1,0 +1,21 @@
+---
+export const prerender = true;
+
+import { getCollection } from "astro:content";
+import Layout from "@/layout/Layout.astro";
+import FortalezaView from "@/components/FortalezaView.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("fortaleza");
+  return entries.map((entry) => ({
+    params: { dia: entry.id },
+    props: { entry: entry.data },
+  }));
+}
+
+const { entry } = Astro.props;
+---
+
+<Layout title={`Día ${entry.day} — Cuando necesitas fortaleza`}>
+  <FortalezaView entry={entry} />
+</Layout>

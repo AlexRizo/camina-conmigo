@@ -9,9 +9,11 @@ interface Props {
     description: string;
     source: string | null;
   } | null;
+  basePath: string;
+  eyebrow: string;
 }
 
-const { date, prayer } = Astro.props;
+const { date, prayer, basePath, eyebrow } = Astro.props;
 
 const dateFormatter = new Intl.DateTimeFormat("es-ES", { dateStyle: "long" });
 const formattedDate = dateFormatter.format(new Date(`${date}T00:00:00Z`));
@@ -22,11 +24,11 @@ const showNext = !isFuture(nextIso);
 const nextSlug = toSlug(nextIso);
 ---
 
-<section id="oracion-del-dia" class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
+<section class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
   <div class="mx-auto max-w-[720px]">
     <p class="m-0 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-blue">
       <span class="h-px w-[34px] bg-gold"></span>
-      Oración del día
+      {eyebrow}
     </p>
     <p class="mt-3 text-xs uppercase tracking-[0.14em] text-muted">{formattedDate}</p>
 
@@ -57,10 +59,10 @@ const nextSlug = toSlug(nextIso);
     }
 
     <div class="mt-10 flex items-center justify-between text-xs font-bold uppercase tracking-[0.1em] text-blue">
-      <a href={`/oracion-del-dia/${prevSlug}`} class="hover:text-gold">← Oración del día anterior</a>
+      <a href={`${basePath}/${prevSlug}`} class="hover:text-gold">← Oración anterior</a>
       {showNext && (
-        <a href={`/oracion-del-dia/${nextSlug}`} class="hover:text-gold">
-          Oración del día posterior →
+        <a href={`${basePath}/${nextSlug}`} class="hover:text-gold">
+          Oración posterior →
         </a>
       )}
     </div>
