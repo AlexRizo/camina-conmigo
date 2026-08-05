@@ -17,6 +17,8 @@ const initialEntries = entries.slice(0, INITIAL_BATCH);
 const remainingEntries = entries.slice(INITIAL_BATCH);
 // Escapa "<" para que el JSON embebido no pueda cerrar el <script> prematuramente.
 const remainingJson = JSON.stringify(remainingEntries).replace(/</g, "\\u003c");
+// Todas las entradas (incluidas las 24 ya renderizadas), para ubicar la de "hoy" en el navegador del visitante.
+const allJson = JSON.stringify(entries).replace(/</g, "\\u003c");
 ---
 
 <section id="fortaleza" class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]">
@@ -31,6 +33,8 @@ const remainingJson = JSON.stringify(remainingEntries).replace(/</g, "\\u003c");
     <p class="mt-4 max-w-[560px] font-serif text-lg leading-[1.7] text-muted">
       Elige cualquier día para leer su oración completa.
     </p>
+
+    <div data-fortaleza-featured hidden class="mt-10"></div>
 
     <div data-fortaleza-grid class="mt-10 grid grid-cols-3 gap-5 max-[900px]:grid-cols-2 max-[560px]:grid-cols-1">
       {
@@ -54,9 +58,12 @@ const remainingJson = JSON.stringify(remainingEntries).replace(/</g, "\\u003c");
   </div>
 
   <script type="application/json" is:inline data-fortaleza-remaining set:html={remainingJson} />
+  <script type="application/json" is:inline data-fortaleza-all set:html={allJson} />
 </section>
 
 <script>
+  import { dayOfYear } from "@/lib/dates";
+
   interface FortalezaCardEntry {
     id: string;
     day: number;
@@ -68,9 +75,42 @@ const remainingJson = JSON.stringify(remainingEntries).replace(/</g, "\\u003c");
   const sentinel = document.querySelector<HTMLElement>("[data-fortaleza-sentinel]");
   const loadingIndicator = document.querySelector<HTMLElement>("[data-fortaleza-loading]");
   const dataEl = document.querySelector<HTMLScriptElement>("script[data-fortaleza-remaining]");
+  const featured = document.querySelector<HTMLElement>("[data-fortaleza-featured]");
+  const allDataEl = document.querySelector<HTMLScriptElement>("script[data-fortaleza-all]");
 
   const remaining: FortalezaCardEntry[] = dataEl ? JSON.parse(dataEl.textContent || "[]") : [];
   const BATCH_SIZE = 24;
+
+  // El día "de hoy" depende de la zona horaria del visitante, no del build (esto es SSG).
+  const allEntries: FortalezaCardEntry[] = allDataEl ? JSON.parse(allDataEl.textContent || "[]") : [];
+  const todayEntry = allEntries.find((entry) => entry.day === dayOfYear());
+
+  if (featured && todayEntry) {
+    const card = document.createElement("a");
+    card.href = `/oraciones/oracion-para-fortaleza/${todayEntry.id}`;
+    card.className =
+      "block bg-paper p-8 shadow-[0_18px_60px_rgba(28,56,67,0.08)] ring-1 ring-gold/40 transition-transform duration-150 hover:-translate-y-0.5";
+
+    const badge = document.createElement("span");
+    badge.className = "text-[10px] font-bold uppercase tracking-[0.14em] text-gold";
+    badge.textContent = `Oración de hoy · Día ${todayEntry.day}`;
+
+    const title = document.createElement("h2");
+    title.className = "m-0 mt-3 font-serif text-2xl leading-[1.2] font-normal text-navy";
+    title.textContent = todayEntry.titulo;
+
+    const salmo = document.createElement("p");
+    salmo.className = "mt-4 text-[10px] font-bold uppercase tracking-[0.12em] text-blue";
+    salmo.textContent = todayEntry.salmo;
+
+    const cta = document.createElement("span");
+    cta.className = "mt-5 inline-block text-xs font-semibold uppercase tracking-[0.08em] text-blue";
+    cta.textContent = "Leer la oración completa →";
+
+    card.append(badge, title, salmo, cta);
+    featured.append(card);
+    featured.removeAttribute("hidden");
+  }
 
   function buildCard(entry: FortalezaCardEntry) {
     const link = document.createElement("a");
