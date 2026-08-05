@@ -16,6 +16,11 @@ if (!date) {
 }
 
 const [prayer] = await db.select().from(dailyPrayers).where(eq(dailyPrayers.date, date)).limit(1);
+
+Astro.response.headers.set(
+  "Cache-Control",
+  "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400",
+);
 ---
 
 <Layout title="Oración del día">

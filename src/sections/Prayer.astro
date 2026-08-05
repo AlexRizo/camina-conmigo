@@ -42,19 +42,21 @@
         Empresa
         <input name="company" tabindex="-1" autocomplete="off" />
       </label>
-      <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+      <label data-identity-field class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
         Nombre <span class="text-[8px] font-medium tracking-normal text-[#a5acad] normal-case">(opcional)</span>
         <input
           name="name"
+          maxlength="100"
           placeholder="¿Cómo podemos llamarte?"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
       </label>
-      <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+      <label data-identity-field class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
         Correo <span class="text-[8px] font-medium tracking-normal text-[#a5acad] normal-case">(opcional)</span>
         <input
           name="email"
           type="email"
+          maxlength="254"
           placeholder="tu@correo.com"
           class="mt-[9px] block w-full border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         />
@@ -65,13 +67,18 @@
           name="prayer"
           required
           rows="5"
+          maxlength="1000"
           placeholder="Escribe aquí aquello que llevas en el corazón…"
           class="mt-[9px] block w-full resize-y border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         ></textarea>
       </label>
-      <label class="mb-[22px] flex items-center gap-[9px] text-[11px] text-[#727e80]">
-        <input type="checkbox" name="anonymous" />
+      <label class="mb-[14px] flex items-center gap-[9px] text-[11px] text-[#727e80]">
+        <input type="checkbox" name="anonymous" data-anonymous-toggle />
         <span>Prefiero enviarla de forma anónima</span>
+      </label>
+      <label class="mb-[22px] flex items-center gap-[9px] text-[11px] text-[#727e80]">
+        <input type="checkbox" name="privacyPolicy" required />
+        <span>He leído y acepto la política de privacidad</span>
       </label>
       <button
         type="submit"
@@ -107,6 +114,17 @@
   const prayerForm = document.querySelector<HTMLFormElement>("[data-prayer-form]");
   const fields = document.querySelector<HTMLElement>("[data-form-fields]");
   const success = document.querySelector<HTMLElement>("[data-form-success]");
+  const anonymousToggle = document.querySelector<HTMLInputElement>("[data-anonymous-toggle]");
+  const identityLabels = document.querySelectorAll<HTMLElement>("[data-identity-field]");
+
+  anonymousToggle?.addEventListener("change", () => {
+    const isAnonymous = anonymousToggle.checked;
+    identityLabels.forEach((label) => {
+      label.toggleAttribute("hidden", isAnonymous);
+      const input = label.querySelector("input");
+      if (input && isAnonymous) input.value = "";
+    });
+  });
 
   prayerForm?.addEventListener("submit", async (event) => {
     event.preventDefault();

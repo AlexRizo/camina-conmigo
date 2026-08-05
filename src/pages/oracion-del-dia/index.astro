@@ -10,6 +10,11 @@ import { todayIso } from "@/lib/dates";
 
 const today = todayIso();
 const [prayer] = await db.select().from(dailyPrayers).where(eq(dailyPrayers.date, today)).limit(1);
+
+Astro.response.headers.set(
+  "Cache-Control",
+  "public, max-age=0, s-maxage=60, stale-while-revalidate=3600",
+);
 ---
 
 <Layout title="Oración del día">

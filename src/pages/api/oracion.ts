@@ -18,6 +18,34 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
     );
   }
 
+  if (body.prayer.length > 1000) {
+    return new Response(
+      JSON.stringify({ error: "La intención de oración no puede superar los 1000 caracteres." }),
+      { status: 400, headers: { "Content-Type": "application/json" } },
+    );
+  }
+
+  if (typeof body.name === "string" && body.name.length > 100) {
+    return new Response(
+      JSON.stringify({ error: "El nombre no puede superar los 100 caracteres." }),
+      { status: 400, headers: { "Content-Type": "application/json" } },
+    );
+  }
+
+  if (typeof body.email === "string" && body.email.length > 254) {
+    return new Response(
+      JSON.stringify({ error: "El correo no puede superar los 254 caracteres." }),
+      { status: 400, headers: { "Content-Type": "application/json" } },
+    );
+  }
+
+  if (!body.privacyPolicy) {
+    return new Response(
+      JSON.stringify({ error: "Debes aceptar la política de privacidad." }),
+      { status: 400, headers: { "Content-Type": "application/json" } },
+    );
+  }
+
   // Honeypot: real visitors never see or fill this field. Bots that auto-fill
   // every input do, so we silently pretend success without saving anything.
   if (typeof body.company === "string" && body.company.trim()) {
