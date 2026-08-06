@@ -2,7 +2,7 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import { CalendarDays, Hourglass, Palette, Flame, Star, Heart } from "@lucide/astro";
+import { CalendarDays, Hourglass, Palette, Flame, Star, Heart, Flower2, Sun, Footprints, User, House, HandHeart } from "@lucide/astro";
 
 const datosEsenciales = [
   [
@@ -50,32 +50,45 @@ const caminoEspiritual = [
 
 const signos = [
   [
+    Flower2,
     "La corona de Adviento",
     "Su forma circular recuerda el amor de Dios, que no tiene principio ni fin. Sus ramas verdes expresan vida y esperanza.",
   ],
-  ["Las velas", "Se enciende una cada domingo. Su luz creciente anuncia que Cristo está cada vez más cerca."],
-  ["El color morado", "Nos invita al recogimiento, a la oración y a preparar interiormente el camino del Señor."],
-  ["La luz", "Representa a Jesús, que llega para iluminar nuestras oscuridades y mostrarnos un camino nuevo."],
   [
+    Flame,
+    "Las velas",
+    "Se enciende una cada domingo. Su luz creciente anuncia que Cristo está cada vez más cerca.",
+  ],
+  [
+    Palette,
+    "El color morado",
+    "Nos invita al recogimiento, a la oración y a preparar interiormente el camino del Señor.",
+  ],
+  [Sun, "La luz", "Representa a Jesús, que llega para iluminar nuestras oscuridades y mostrarnos un camino nuevo."],
+  [
+    Footprints,
     "El camino",
     "Nos recuerda que esperar a Dios también significa avanzar, convertirnos y orientar nuevamente nuestros pasos hacia Él.",
   ],
-];
+] as const;
 
 const cotidiano = [
   [
+    User,
     "En tu vida personal",
     "Reserva cada día unos minutos de silencio. Pregúntate qué necesita ser ordenado, sanado o entregado a Dios.",
   ],
   [
+    House,
     "En casa o en familia",
     "Enciendan semanalmente las velas de la corona de Adviento y compartan una intención de oración.",
   ],
   [
+    HandHeart,
     "En la oración y la comunidad",
     "Acércate al sacramento de la Reconciliación y realiza una obra concreta de misericordia.",
   ],
-];
+] as const;
 ---
 
 <Layout title="Adviento">
@@ -169,16 +182,22 @@ const cotidiano = [
       </h2>
     </div>
 
-    <ul class="border-t border-white/12">
-      {
-        caminoEspiritual.map(([title, text]) => (
-          <li class="border-b border-white/12 py-6">
-            <h3 class="m-0 mb-2 font-serif text-xl font-medium text-white">{title}</h3>
-            <p class="m-0 text-sm leading-[1.7] text-white/66">{text}</p>
-          </li>
-        ))
-      }
-    </ul>
+    <div class="relative">
+      <div aria-hidden="true" class="absolute left-5 top-2 bottom-2 w-px bg-white/15"></div>
+      <ol class="space-y-10">
+        {
+          caminoEspiritual.map(([title, text], index) => (
+            <li class="relative pl-16">
+              <span class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-full border border-gold/70 bg-navy font-serif text-sm font-medium text-gold">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <h3 class="m-0 mb-2 font-serif text-xl font-medium text-white">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-white/66">{text}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
   </section>
 
   <section
@@ -191,9 +210,12 @@ const cotidiano = [
     </p>
     <div class="grid grid-cols-3 gap-x-10 gap-y-10 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
-        signos.map(([title, text]) => (
+        signos.map(([IconComponent, title, text]) => (
           <div>
-            <h3 class="m-0 mb-2 font-serif text-2xl font-medium text-navy">{title}</h3>
+            <div class="mb-2 flex items-center gap-3">
+              <IconComponent stroke-width={1.5} class="size-6 flex-none text-gold" />
+              <h3 class="m-0 font-serif text-2xl font-medium text-navy">{title}</h3>
+            </div>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
           </div>
         ))
@@ -230,9 +252,12 @@ const cotidiano = [
     </p>
     <div class="grid grid-cols-3 gap-10 max-[900px]:grid-cols-1">
       {
-        cotidiano.map(([title, text]) => (
+        cotidiano.map(([IconComponent, title, text]) => (
           <div class="border-t border-line pt-6">
-            <h3 class="m-0 mb-3 font-serif text-xl font-medium text-navy">{title}</h3>
+            <div class="mb-3 flex items-center gap-3">
+              <IconComponent stroke-width={1.5} class="size-6 flex-none text-gold" />
+              <h3 class="m-0 font-serif text-xl font-medium text-navy">{title}</h3>
+            </div>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
           </div>
         ))
