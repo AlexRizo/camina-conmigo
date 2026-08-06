@@ -2,76 +2,84 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import { CalendarDays, Hourglass, Palette, Flame, Star, Heart, Flower2, Sun, Footprints, User, House, HandHeart, Leaf, ArrowRight, Compass, Sparkles } from "@lucide/astro";
+import { CalendarDays, Hourglass, Palette, Baby, Star, Heart, Users, Compass, User, House, HandHeart, Hand, Sparkles, ArrowRight, Leaf } from "@lucide/astro";
 
 const datosEsenciales = [
   [
     CalendarDays,
     "Cuándo se celebra",
-    "Comienza cuatro domingos antes de Navidad y termina antes de la celebración de la Natividad del Señor. En el ciclo 2025–2026 comienza el domingo 30 de noviembre de 2025 y concluye el 24 de diciembre de 2025.",
+    "Comienza con las celebraciones de la tarde del 24 de diciembre y se extiende hasta la fiesta del Bautismo del Señor. En este ciclo concluye el domingo 11 de enero de 2026.",
   ],
-  [Hourglass, "Cuánto dura aproximadamente", "Alrededor de cuatro semanas."],
+  [
+    Hourglass,
+    "Cuánto dura aproximadamente",
+    "Entre dos y tres semanas, dependiendo del calendario de cada año.",
+  ],
   [
     Palette,
     "Color litúrgico",
-    "Morado, como signo de preparación, recogimiento y conversión. En el tercer domingo puede utilizarse el color rosa, signo de alegría porque la Navidad está cerca.",
+    "Blanco o dorado, como expresión de luz, alegría, gloria y celebración.",
   ],
   [
-    Flame,
+    Baby,
     "Símbolo principal",
-    "La corona de Adviento, con sus cuatro velas que se encienden progresivamente.",
+    "El pesebre, donde contemplamos a Jesús nacido en medio de la sencillez.",
   ],
   [
     Star,
     "Qué acontecimiento contemplamos",
-    "La espera del nacimiento de Jesús y la promesa de su venida definitiva.",
+    "El nacimiento de Jesús, la manifestación del Salvador y sus primeros años de vida.",
   ],
   [
     Heart,
     "Qué nos invita a vivir",
-    "Una esperanza activa: esperar a Dios mientras preparamos el corazón para reconocerlo y recibirlo.",
+    "La alegría de recibir a Dios y reconocerlo presente entre nosotros.",
   ],
 ] as const;
 
 const caminoEspiritual = [
   [
-    Compass,
-    "Esperar con confianza",
-    "No todas las respuestas llegan de inmediato. El Adviento nos enseña a confiar en que Dios sigue actuando, incluso cuando todavía no podemos ver con claridad.",
-  ],
-  [
-    Heart,
-    "Preparar el corazón",
-    "Prepararnos significa revisar nuestra vida, reconciliarnos, soltar lo que nos aleja de Dios y abrirle un espacio verdadero.",
+    Hand,
+    "Recibir con sencillez",
+    "Jesús no necesita una vida perfecta para acercarse. Solamente pide un corazón dispuesto a recibirlo.",
   ],
   [
     Sparkles,
-    "Reconocer su presencia",
-    "Jesús también viene en lo pequeño: en una conversación, en una necesidad, en un momento de silencio, en una persona que necesita ser escuchada.",
+    "Contemplar con asombro",
+    "La Navidad nos enseña a detenernos ante el misterio de un Dios que se hace pequeño por amor.",
+  ],
+  [
+    Heart,
+    "Compartir la alegría",
+    "La buena noticia del nacimiento de Jesús no puede guardarse. Su luz está llamada a llegar a quienes viven solos, tristes o necesitados.",
   ],
 ] as const;
 
 const signos = [
   [
-    Flower2,
-    "La corona de Adviento",
-    "Su forma circular recuerda el amor de Dios, que no tiene principio ni fin. Sus ramas verdes expresan vida y esperanza.",
+    Baby,
+    "El pesebre",
+    "Nos recuerda que Dios eligió la pobreza y la sencillez para acercarse a la humanidad.",
   ],
   [
-    Flame,
-    "Las velas",
-    "Se enciende una cada domingo. Su luz creciente anuncia que Cristo está cada vez más cerca.",
+    Star,
+    "La estrella",
+    "Representa la luz que guía hacia Jesús a quienes lo buscan con corazón sincero.",
   ],
   [
     Palette,
-    "El color morado",
-    "Nos invita al recogimiento, a la oración y a preparar interiormente el camino del Señor.",
+    "El color blanco",
+    "Expresa alegría, pureza, vida nueva y la gloria de Dios que se manifiesta.",
   ],
-  [Sun, "La luz", "Representa a Jesús, que llega para iluminar nuestras oscuridades y mostrarnos un camino nuevo."],
   [
-    Footprints,
-    "El camino",
-    "Nos recuerda que esperar a Dios también significa avanzar, convertirnos y orientar nuevamente nuestros pasos hacia Él.",
+    Users,
+    "Los pastores",
+    "Representan a quienes saben escuchar, dejar sus ocupaciones y acudir al encuentro del Señor.",
+  ],
+  [
+    Compass,
+    "Los Magos",
+    "Nos recuerdan que Jesús viene para todos los pueblos y que buscarlo exige ponerse en camino.",
   ],
 ] as const;
 
@@ -79,39 +87,38 @@ const cotidiano = [
   [
     User,
     "En tu vida personal",
-    "Reserva cada día unos minutos de silencio. Pregúntate qué necesita ser ordenado, sanado o entregado a Dios.",
+    "Contempla el nacimiento de Jesús y pregúntate qué lugar ocupa realmente en tus decisiones y prioridades.",
   ],
   [
     House,
     "En casa o en familia",
-    "Enciendan semanalmente las velas de la corona de Adviento y compartan una intención de oración.",
+    "Reúnanse frente al nacimiento, agradezcan lo vivido y oren especialmente por quienes atraviesan soledad o dificultad.",
   ],
   [
     HandHeart,
     "En la oración y la comunidad",
-    "Acércate al sacramento de la Reconciliación y realiza una obra concreta de misericordia.",
+    "Comparte tiempo, alimento o compañía con alguna persona que necesite experimentar cercanía.",
   ],
 ] as const;
 ---
 
-<Layout title="Adviento">
+<Layout title="Navidad">
   <section
     id="inicio"
-    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-adviento.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[80%_0]"
+    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-navidad.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[75%_0]"
   >
-  <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+    <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
 
-  
     <div class="relative z-[2] max-w-[710px]">
       <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
         <span class="h-px w-[34px] bg-gold"></span>
         Tiempo litúrgico
       </p>
       <h1 class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]">
-        <em class="font-normal not-italic text-[#e0c295]">Adviento</em>
+        <em class="font-normal not-italic text-[#e0c295]">Navidad</em>
       </h1>
       <p class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base">
-        Un tiempo para esperar y preparar el corazón.
+        Un tiempo para celebrar que Dios viene a habitar entre nosotros.
       </p>
     </div>
   </section>
@@ -122,33 +129,31 @@ const cotidiano = [
   >
     <div class="lg:sticky lg:top-45 h-max">
       <h2 class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy">
-        ¿Qué es el Adviento?
+        ¿Qué es la Navidad?
       </h2>
       <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
         <span class="h-px w-10 bg-gold/50"></span>
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
-      <p class="font-serif text-[clamp(24px,2.6vw,30px)] leading-[1.35] text-[#6b3f8f]">
-        El Adviento es el tiempo con el que comienza un nuevo Año Litúrgico.
+      <p class="font-serif text-[clamp(26px,3vw,34px)] leading-[1.3] text-gold">
+        La Navidad es el tiempo en el que celebramos el misterio de la Encarnación.
       </p>
     </div>
 
-    <div class="grid grid-cols-3 gap-8 max-[900px]:grid-cols-1 max-[900px]:gap-6">
-      <p class="m-0 text-sm leading-[1.75] text-muted">
-        Durante estas semanas, la Iglesia nos invita a detenernos, despertar el
-        corazón y prepararnos para recibir a Jesús.
+    <div class="max-w-[620px] font-serif text-lg leading-[1.75] text-muted [&_p+p]:mt-5">
+      <p>
+        El Hijo de Dios se hace hombre y entra en nuestra historia.
       </p>
-      <p class="m-0 text-sm leading-[1.75] text-muted">
-        No se trata solamente de esperar la celebración de la Navidad. El
-        Adviento también nos recuerda que Cristo viene cada día a nuestra vida
-        y que un día volverá plenamente. Por eso, es un tiempo de esperanza,
-        vigilancia y confianza.
+      <p>
+        Jesús no nace rodeado de poder ni de grandeza. Llega en la sencillez de
+        un pesebre, acogido por María y José. Su nacimiento nos revela que
+        Dios no permanece distante: se hace pequeño, cercano y vulnerable para
+        caminar con nosotros.
       </p>
-      <p class="m-0 text-sm leading-[1.75] text-muted">
-        Mientras el mundo se llena de prisas, luces y preparativos, la Iglesia
-        nos propone un camino interior: hacer silencio, ordenar lo que
-        llevamos dentro y abrir un espacio para que Dios pueda habitar en
-        nosotros.
+      <p>
+        La Navidad nos invita a contemplar, agradecer y recibir. Dios viene a
+        nuestro encuentro y desea encontrar un lugar no solamente en nuestras
+        celebraciones, sino en nuestra vida cotidiana.
       </p>
     </div>
   </section>
@@ -170,9 +175,9 @@ const cotidiano = [
     <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
         datosEsenciales.map(([IconComponent, title, text]) => (
-          <li class="flex items-start gap-4 rounded-2xl border border-[#e3d3ec] bg-paper p-6">
-            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-6 text-[#6b3f8f]" />
+          <li class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
@@ -187,16 +192,16 @@ const cotidiano = [
   <section
     id="camino-espiritual"
     class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
-    style="background: linear-gradient(135deg, #ded0e8, #b998cf);"
+    style="background: linear-gradient(135deg, #f8edd6, #eeddb5);"
   >
     <div class="mb-14 text-center">
       <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
         El camino espiritual
       </h2>
       <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
-        <span class="h-px flex-1 bg-gold/50"></span>
+        <span class="h-px flex-1 bg-gold/40"></span>
         <Leaf class="size-4" stroke-width={1.5} />
-        <span class="h-px flex-1 bg-gold/50"></span>
+        <span class="h-px flex-1 bg-gold/40"></span>
       </div>
     </div>
 
@@ -204,10 +209,10 @@ const cotidiano = [
       {
         caminoEspiritual.map(([IconComponent, title, text], index) => (
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
-            <div class="flex-1 rounded-2xl border border-[#c9a8d9]/40 bg-paper/80 p-8 text-center">
-              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#8a5fa8]/50 bg-[#f2eaf7]">
-                <IconComponent stroke-width={1.5} class="size-7 text-[#6b3f8f]" />
-                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#4a2f63] font-serif text-[11px] font-semibold text-white">
+            <div class="flex-1 rounded-2xl border border-gold/25 bg-paper/80 p-8 text-center">
+              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-gold/50 bg-[#fbf1de]">
+                <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-gold font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </span>
@@ -215,7 +220,7 @@ const cotidiano = [
               <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
             </div>
             {index < caminoEspiritual.length - 1 && (
-              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-[#6b3f8f]/70 max-[900px]:hidden" />
+              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-gold/70 max-[900px]:hidden" />
             )}
           </div>
         ))
@@ -240,9 +245,9 @@ const cotidiano = [
     <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
         signos.map(([IconComponent, title, text]) => (
-          <div class="rounded-2xl border border-[#e3d3ec] bg-[#fbf6fd] p-6 text-center">
-            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-7 text-[#6b3f8f]" />
+          <div class="rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6 text-center">
+            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-7 text-gold" />
             </span>
             <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
@@ -254,8 +259,7 @@ const cotidiano = [
 
   <section
     id="cita"
-    class="flex min-h-[280px] items-center justify-center px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
-    style="background: #3d2a52;"
+    class="flex min-h-[280px] items-center justify-center bg-navy px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
   >
     <div class="max-w-[720px]">
       <p class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
@@ -264,10 +268,10 @@ const cotidiano = [
         <span class="h-px w-[34px] bg-gold"></span>
       </p>
       <p class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white">
-        «Preparen el camino del Señor, hagan rectos sus senderos.»
+        «La Palabra se hizo carne y habitó entre nosotros.»
       </p>
       <p class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
-        Mateo 3, 3
+        Juan 1, 14
       </p>
     </div>
   </section>
@@ -289,9 +293,9 @@ const cotidiano = [
     <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
       {
         cotidiano.map(([IconComponent, title, text]) => (
-          <div class="flex items-start gap-4 rounded-2xl border border-[#e3d3ec] bg-[#fbf6fd] p-6">
-            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-6 text-[#6b3f8f]" />
+          <div class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
@@ -306,10 +310,10 @@ const cotidiano = [
   <section
     id="oracion-breve"
     class="grid items-center gap-[clamp(50px,8vw,100px)] px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px] grid-cols-[0.9fr_1.1fr]"
-    style="background: radial-gradient(circle at 85% 15%, rgba(124,90,148,.18), transparent 45%), #f7f1e4;"
+    style="background: radial-gradient(circle at 85% 15%, rgba(200,163,106,.18), transparent 45%), #f7f1e4;"
   >
-    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(90,60,110,0.18)]">
-      <img src="/images/hero-adviento.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(120,90,40,0.18)]">
+      <img src="/images/hero-navidad.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
     </div>
 
     <div>
@@ -321,13 +325,15 @@ const cotidiano = [
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
       <p class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted">
-        Señor Jesús,<br />
-        despierta mi corazón y enséñame a esperarte.<br />
-        Ayúdame a preparar tus caminos,<br />
-        a reconocer tu presencia en lo sencillo<br />
-        y a llevar tu luz a quienes caminan conmigo.<br />
-        Que María me enseñe a recibirte<br />
-        con confianza, humildad y alegría.<br />
+        Niño Jesús,<br />
+        gracias por venir a nuestra historia<br />
+        y hacerte cercano a nuestra fragilidad.<br />
+        Nace también en mi corazón,<br />
+        habita en mi casa<br />
+        y enséñame a llevar tu paz a los demás.<br />
+        Que María y José me enseñen<br />
+        a recibirte, cuidarte y amarte<br />
+        en cada persona que encuentre.<br />
         Amén.
       </p>
     </div>
