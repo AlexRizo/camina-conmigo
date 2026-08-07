@@ -1,0 +1,341 @@
+---
+export const prerender = true;
+
+import Layout from "@/layout/Layout.astro";
+import { CalendarDays, Hourglass, Palette, Sprout, BookOpen, Heart, Anchor, Wheat, Compass as MissionIcon, TreeDeciduous, Footprints, Lamp, Leaf, User, House, HandHeart, ArrowRight } from "@lucide/astro";
+
+const datosEsenciales = [
+  [
+    CalendarDays,
+    "Cuándo se celebra",
+    "Se retoma después de Pentecostés y continúa hasta antes del primer domingo de Adviento. En 2026 comienza el lunes 25 de mayo y concluye el sábado 28 de noviembre.",
+  ],
+  [Hourglass, "Cuánto dura aproximadamente", "Alrededor de seis meses, aunque su duración varía cada año."],
+  [
+    Palette,
+    "Color litúrgico",
+    "Verde, signo de crecimiento, vida, esperanza y perseverancia.",
+  ],
+  [
+    Sprout,
+    "Símbolo principal",
+    "La semilla que crece, como imagen de la Palabra de Dios que madura lentamente en nosotros.",
+  ],
+  [
+    BookOpen,
+    "Qué acontecimiento contemplamos",
+    "La vida pública de Jesús, sus enseñanzas, sus signos y su camino hacia la entrega definitiva.",
+  ],
+  [
+    Heart,
+    "Qué nos invita a vivir",
+    "Una fe madura, constante y comprometida con el Evangelio.",
+  ],
+] as const;
+
+const caminoEspiritual = [
+  [
+    Anchor,
+    "Permanecer",
+    "No vivir la fe solamente en momentos especiales, sino aprender a caminar con Dios con constancia.",
+  ],
+  [
+    Wheat,
+    "Dar fruto",
+    "La Palabra recibida necesita expresarse en acciones de justicia, misericordia, servicio y perdón.",
+  ],
+  [
+    MissionIcon,
+    "Vivir en misión",
+    "Cada bautizado está llamado a llevar el Evangelio al lugar donde vive, trabaja, sirve y se relaciona.",
+  ],
+] as const;
+
+const signos = [
+  [
+    Palette,
+    "El color verde",
+    "Representa la vida que se desarrolla, la esperanza y el crecimiento espiritual.",
+  ],
+  [
+    Sprout,
+    "La semilla",
+    "Nos recuerda que Dios trabaja muchas veces de manera silenciosa y gradual.",
+  ],
+  [
+    TreeDeciduous,
+    "El árbol",
+    "Expresa una fe que desarrolla raíces profundas y ofrece sombra, refugio y frutos a los demás.",
+  ],
+  [
+    Footprints,
+    "El camino",
+    "Representa la perseverancia del discípulo que continúa siguiendo a Jesús.",
+  ],
+  [
+    Lamp,
+    "La lámpara",
+    "Nos recuerda que la fe está llamada a iluminar la vida cotidiana y no a permanecer escondida.",
+  ],
+] as const;
+
+const cotidiano = [
+  [
+    User,
+    "En tu vida personal",
+    "Revisa regularmente cómo estás creciendo en la fe y elige un aspecto concreto en el que necesites avanzar.",
+  ],
+  [
+    House,
+    "En casa o en familia",
+    "Practiquen una obra semanal de cuidado, escucha o servicio entre ustedes.",
+  ],
+  [
+    HandHeart,
+    "En la oración y la comunidad",
+    "Mantén una participación constante en la Eucaristía y pon tus talentos al servicio de alguna necesidad.",
+  ],
+] as const;
+---
+
+<Layout title="Tiempo Ordinario II">
+  <section
+    id="inicio"
+    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-tiempo-ordinario-02.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[75%_0]"
+  >
+    <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+    <div aria-hidden="true" class="absolute inset-0 z-[1] block bg-linear-to-r from-black/35 to-transparent max-[620px]:hidden"></div>
+
+    <div class="relative z-[2] max-w-[710px]">
+      <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
+        <span class="h-px w-[34px] bg-gold"></span>
+        Tiempo litúrgico
+      </p>
+      <h1 class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]">
+        <em class="font-normal not-italic text-[#e0c295]">Tiempo Ordinario II</em>
+      </h1>
+      <p class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base">
+        Un tiempo para dejar que el Evangelio dé fruto en lo cotidiano.
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="que-es"
+    class="relative grid grid-cols-[0.85fr_1.15fr] gap-[70px] bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="lg:sticky lg:top-45 h-max">
+      <h2 class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy">
+        ¿Qué es el Tiempo Ordinario II?
+      </h2>
+      <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
+        <span class="h-px w-10 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+      </div>
+      <p class="font-serif text-[clamp(24px,2.6vw,30px)] leading-[1.35] text-[#3f6b47]">
+        Después de celebrar la Pascua, la Iglesia retoma el Tiempo Ordinario.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-3 gap-8 max-[900px]:grid-cols-1 max-[900px]:gap-6">
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        Después de celebrar la Pascua y recibir el don del Espíritu Santo, la
+        Iglesia retoma el Tiempo Ordinario. Es la etapa más extensa del Año
+        Litúrgico y nos invita a profundizar en la vida y las enseñanzas de
+        Jesús.
+      </p>
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        A lo largo de estas semanas contemplamos sus parábolas, sus
+        milagros, sus encuentros y su manera de amar. La Palabra va formando
+        pacientemente nuestro corazón para que el Evangelio se convierta en
+        una forma concreta de vivir.
+      </p>
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        Este tiempo nos recuerda que la santidad se construye cada día.
+        Crece en medio del trabajo, la familia, las responsabilidades, los
+        tropiezos y las decisiones aparentemente pequeñas.
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="datos-esenciales"
+    class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Datos esenciales
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+      {
+        datosEsenciales.map(([IconComponent, title, text]) => (
+          <li class="flex items-start gap-4 rounded-2xl border border-[#cddfc5] bg-paper p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#e8f0e2]">
+              <IconComponent stroke-width={1.5} class="size-6 text-[#3f6b47]" />
+            </span>
+            <div>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section
+    id="camino-espiritual"
+    class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px] bg-[#2f4f36]"
+  >
+    <div class="mb-14 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-gold">
+        El camino espiritual
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/50"></span>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-0 max-[900px]:flex-col max-[900px]:gap-8">
+      {
+        caminoEspiritual.map(([IconComponent, title, text], index) => (
+          <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
+            <div class="flex-1 rounded-2xl border border-[#5f8a54]/40 bg-paper p-8 text-center">
+              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#3f6b47]/50 bg-[#e8f0e2]">
+                <IconComponent stroke-width={1.5} class="size-7 text-[#3f6b47]" />
+                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#2f4f36] font-serif text-[11px] font-semibold text-white">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+              </span>
+              <h3 class="m-0 mb-2 font-serif text-xl font-medium text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+            {index < caminoEspiritual.length - 1 && (
+              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-[#3f6b47]/70 max-[900px]:hidden" />
+            )}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="signos"
+    class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Signos y símbolos
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+      {
+        signos.map(([IconComponent, title, text]) => (
+          <div class="rounded-2xl border border-[#cddfc5] bg-[#f4f9f0] p-6 text-center">
+            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-[#e8f0e2]">
+              <IconComponent stroke-width={1.5} class="size-7 text-[#3f6b47]" />
+            </span>
+            <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
+            <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="cita"
+    class="flex min-h-[280px] items-center justify-center px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
+    style="background: #2f4f36;"
+  >
+    <div class="max-w-[720px]">
+      <p class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+        <span class="h-px w-[34px] bg-gold"></span>
+        Una Palabra para acompañarte
+        <span class="h-px w-[34px] bg-gold"></span>
+      </p>
+      <p class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white">
+        «El Reino de los cielos se parece a un grano de mostaza.»
+      </p>
+      <p class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+        Mateo 13, 31
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="cotidiano"
+    class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Cómo vivirlo en lo cotidiano
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
+      {
+        cotidiano.map(([IconComponent, title, text]) => (
+          <div class="flex items-start gap-4 rounded-2xl border border-[#cddfc5] bg-[#f4f9f0] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#e8f0e2]">
+              <IconComponent stroke-width={1.5} class="size-6 text-[#3f6b47]" />
+            </span>
+            <div>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="oracion-breve"
+    class="grid items-center gap-[clamp(50px,8vw,100px)] px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px] grid-cols-[0.9fr_1.1fr]"
+    style="background: radial-gradient(circle at 85% 15%, rgba(63,107,71,.18), transparent 45%), #f7f1e4;"
+  >
+    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(47,79,54,0.18)]">
+      <img src="/images/hero-tiempo-ordinario-02.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+    </div>
+
+    <div>
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Oración breve
+      </h2>
+      <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
+        <span class="h-px w-10 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+      </div>
+      <p class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted">
+        Señor Jesús,<br />
+        camina conmigo en los días sencillos<br />
+        y enséñame a encontrarte en lo cotidiano.<br />
+        Haz crecer en mí la semilla de tu Palabra<br />
+        y permite que mi vida produzca frutos<br />
+        de amor, misericordia y servicio.<br />
+        Espíritu Santo, dame perseverancia,<br />
+        y María, enséñame a escuchar, guardar<br />
+        y vivir cada día la Palabra de Dios.<br />
+        Amén.
+      </p>
+    </div>
+  </section>
+</Layout>

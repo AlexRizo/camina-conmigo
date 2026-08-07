@@ -2,76 +2,84 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import { CalendarDays, Hourglass, Palette, Flame, Star, Heart, Flower2, Sun, Footprints, User, House, HandHeart, Leaf, ArrowRight, Compass, Sparkles } from "@lucide/astro";
+import { CalendarDays, Hourglass, Palette, Flame, Sparkles, Heart, HandHeart as MeetIcon, Compass, Megaphone, DoorOpen, Droplets, Flower2, Leaf, User, House, HandHeart, ArrowRight } from "@lucide/astro";
 
 const datosEsenciales = [
   [
     CalendarDays,
     "Cuándo se celebra",
-    "Comienza cuatro domingos antes de Navidad y termina antes de la celebración de la Natividad del Señor. En el ciclo 2025–2026 comienza el domingo 30 de noviembre de 2025 y concluye el 24 de diciembre de 2025.",
+    "Comienza con la Vigilia Pascual y el Domingo de Resurrección. En 2026, el Domingo de Pascua será el 5 de abril y el tiempo pascual concluirá con Pentecostés, el 24 de mayo.",
   ],
-  [Hourglass, "Cuánto dura aproximadamente", "Alrededor de cuatro semanas."],
+  [
+    Hourglass,
+    "Cuánto dura aproximadamente",
+    "Cincuenta días, desde el Domingo de Resurrección hasta Pentecostés.",
+  ],
   [
     Palette,
     "Color litúrgico",
-    "Morado, como signo de preparación, recogimiento y conversión. En el tercer domingo puede utilizarse el color rosa, signo de alegría porque la Navidad está cerca.",
+    "Blanco o dorado, signo de gloria, alegría y vida nueva. En Pentecostés se utiliza el rojo, símbolo del fuego del Espíritu Santo.",
   ],
   [
     Flame,
     "Símbolo principal",
-    "La corona de Adviento, con sus cuatro velas que se encienden progresivamente.",
+    "El cirio pascual, que representa a Cristo resucitado, luz del mundo.",
   ],
   [
-    Star,
+    Sparkles,
     "Qué acontecimiento contemplamos",
-    "La espera del nacimiento de Jesús y la promesa de su venida definitiva.",
+    "La Resurrección de Jesús, sus encuentros con los discípulos, la Ascensión y la venida del Espíritu Santo.",
   ],
   [
     Heart,
     "Qué nos invita a vivir",
-    "Una esperanza activa: esperar a Dios mientras preparamos el corazón para reconocerlo y recibirlo.",
+    "La alegría, la esperanza, el testimonio y la renovación de nuestra vida.",
   ],
 ] as const;
 
 const caminoEspiritual = [
   [
+    MeetIcon,
+    "Dejarse encontrar",
+    "Jesús resucitado sale al encuentro de sus discípulos en medio del miedo, la tristeza y la incertidumbre.",
+  ],
+  [
     Compass,
-    "Esperar con confianza",
-    "No todas las respuestas llegan de inmediato. El Adviento nos enseña a confiar en que Dios sigue actuando, incluso cuando todavía no podemos ver con claridad.",
+    "Caminar con esperanza",
+    "La Resurrección nos recuerda que ninguna noche es definitiva cuando dejamos que Dios entre en ella.",
   ],
   [
-    Heart,
-    "Preparar el corazón",
-    "Prepararnos significa revisar nuestra vida, reconciliarnos, soltar lo que nos aleja de Dios y abrirle un espacio verdadero.",
-  ],
-  [
-    Sparkles,
-    "Reconocer su presencia",
-    "Jesús también viene en lo pequeño: en una conversación, en una necesidad, en un momento de silencio, en una persona que necesita ser escuchada.",
+    Megaphone,
+    "Convertirse en testigo",
+    "Quien se encuentra con Cristo vivo recibe la misión de llevar consuelo, paz y esperanza a los demás.",
   ],
 ] as const;
 
 const signos = [
   [
-    Flower2,
-    "La corona de Adviento",
-    "Su forma circular recuerda el amor de Dios, que no tiene principio ni fin. Sus ramas verdes expresan vida y esperanza.",
+    Flame,
+    "El cirio pascual",
+    "Representa a Cristo resucitado, cuya luz vence la oscuridad.",
   ],
   [
-    Flame,
-    "Las velas",
-    "Se enciende una cada domingo. Su luz creciente anuncia que Cristo está cada vez más cerca.",
+    DoorOpen,
+    "El sepulcro vacío",
+    "Anuncia que la muerte ha sido vencida y que Jesús está vivo.",
+  ],
+  [
+    Droplets,
+    "El agua",
+    "Recuerda el Bautismo y la vida nueva que recibimos en Cristo.",
   ],
   [
     Palette,
-    "El color morado",
-    "Nos invita al recogimiento, a la oración y a preparar interiormente el camino del Señor.",
+    "El color blanco",
+    "Expresa la alegría, la gloria y la novedad de la Resurrección.",
   ],
-  [Sun, "La luz", "Representa a Jesús, que llega para iluminar nuestras oscuridades y mostrarnos un camino nuevo."],
   [
-    Footprints,
-    "El camino",
-    "Nos recuerda que esperar a Dios también significa avanzar, convertirnos y orientar nuevamente nuestros pasos hacia Él.",
+    Flame,
+    "El fuego",
+    "Simboliza la presencia del Espíritu Santo, que ilumina, fortalece y envía.",
   ],
 ] as const;
 
@@ -79,39 +87,39 @@ const cotidiano = [
   [
     User,
     "En tu vida personal",
-    "Reserva cada día unos minutos de silencio. Pregúntate qué necesita ser ordenado, sanado o entregado a Dios.",
+    "Reconoce una situación en la que Dios te esté invitando a comenzar nuevamente.",
   ],
   [
     House,
     "En casa o en familia",
-    "Enciendan semanalmente las velas de la corona de Adviento y compartan una intención de oración.",
+    "Compartan durante la semana un motivo de alegría o gratitud y oren por quienes necesitan esperanza.",
   ],
   [
     HandHeart,
     "En la oración y la comunidad",
-    "Acércate al sacramento de la Reconciliación y realiza una obra concreta de misericordia.",
+    "Renueva conscientemente tus promesas bautismales y participa con alegría en la vida de tu comunidad.",
   ],
 ] as const;
 ---
 
-<Layout title="Adviento">
+<Layout title="Pascua">
   <section
     id="inicio"
-    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-adviento.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[80%_0]"
+    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-pascua.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[75%_0]"
   >
-  <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+    <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+    <div aria-hidden="true" class="absolute inset-0 z-[1] block bg-linear-to-r from-black/30 to-transparent max-[620px]:hidden"></div>
 
-  
     <div class="relative z-[2] max-w-[710px]">
       <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
         <span class="h-px w-[34px] bg-gold"></span>
         Tiempo litúrgico
       </p>
       <h1 class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]">
-        <em class="font-normal not-italic text-[#e0c295]">Adviento</em>
+        <em class="font-normal not-italic text-[#e0c295]">Pascua</em>
       </h1>
       <p class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base">
-        Un tiempo para esperar y preparar el corazón.
+        Un tiempo para celebrar la Resurrección y la vida nueva.
       </p>
     </div>
   </section>
@@ -122,33 +130,32 @@ const cotidiano = [
   >
     <div class="lg:sticky lg:top-45 h-max">
       <h2 class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy">
-        ¿Qué es el Adviento?
+        ¿Qué es la Pascua?
       </h2>
       <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
         <span class="h-px w-10 bg-gold/50"></span>
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
-      <p class="font-serif text-[clamp(24px,2.6vw,30px)] leading-[1.35] text-[#6b3f8f]">
-        El Adviento es el tiempo con el que comienza un nuevo Año Litúrgico.
+      <p class="font-serif text-[clamp(24px,2.6vw,30px)] leading-[1.35] text-gold">
+        La Pascua es la celebración de la Resurrección de Jesús.
       </p>
     </div>
 
     <div class="grid grid-cols-3 gap-8 max-[900px]:grid-cols-1 max-[900px]:gap-6">
       <p class="m-0 text-sm leading-[1.75] text-muted">
-        Durante estas semanas, la Iglesia nos invita a detenernos, despertar el
-        corazón y prepararnos para recibir a Jesús.
+        La muerte no tuvo la última palabra: Cristo vive y abre para toda la
+        humanidad un camino de esperanza y vida nueva.
       </p>
       <p class="m-0 text-sm leading-[1.75] text-muted">
-        No se trata solamente de esperar la celebración de la Navidad. El
-        Adviento también nos recuerda que Cristo viene cada día a nuestra vida
-        y que un día volverá plenamente. Por eso, es un tiempo de esperanza,
-        vigilancia y confianza.
+        La alegría pascual no consiste en negar el dolor, sino en descubrir
+        que el amor de Dios es más fuerte que toda oscuridad. Las heridas de
+        Jesús permanecen, pero ahora son signos de un amor que ha vencido.
       </p>
       <p class="m-0 text-sm leading-[1.75] text-muted">
-        Mientras el mundo se llena de prisas, luces y preparativos, la Iglesia
-        nos propone un camino interior: hacer silencio, ordenar lo que
-        llevamos dentro y abrir un espacio para que Dios pueda habitar en
-        nosotros.
+        Durante cincuenta días, la Iglesia celebra esta alegría y aprende a
+        vivir como comunidad resucitada. El tiempo pascual culmina con
+        Pentecostés, cuando el Espíritu Santo fortalece y envía a los
+        discípulos.
       </p>
     </div>
   </section>
@@ -170,9 +177,9 @@ const cotidiano = [
     <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
         datosEsenciales.map(([IconComponent, title, text]) => (
-          <li class="flex items-start gap-4 rounded-2xl border border-[#e3d3ec] bg-paper p-6">
-            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-6 text-[#6b3f8f]" />
+          <li class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
@@ -186,11 +193,10 @@ const cotidiano = [
 
   <section
     id="camino-espiritual"
-    class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
-    style="background: linear-gradient(135deg, #ded0e8, #b998cf);"
+    class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px] bg-navy"
   >
     <div class="mb-14 text-center">
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-gold">
         El camino espiritual
       </h2>
       <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
@@ -204,10 +210,10 @@ const cotidiano = [
       {
         caminoEspiritual.map(([IconComponent, title, text], index) => (
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
-            <div class="flex-1 rounded-2xl border border-[#c9a8d9]/40 bg-paper/80 p-8 text-center">
-              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#8a5fa8]/50 bg-[#f2eaf7]">
-                <IconComponent stroke-width={1.5} class="size-7 text-[#6b3f8f]" />
-                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#4a2f63] font-serif text-[11px] font-semibold text-white">
+            <div class="flex-1 rounded-2xl border border-gold/25 bg-paper p-8 text-center">
+              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-gold/50 bg-[#fbf1de]">
+                <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-gold font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </span>
@@ -215,7 +221,7 @@ const cotidiano = [
               <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
             </div>
             {index < caminoEspiritual.length - 1 && (
-              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-[#6b3f8f]/70 max-[900px]:hidden" />
+              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-gold/70 max-[900px]:hidden" />
             )}
           </div>
         ))
@@ -240,9 +246,9 @@ const cotidiano = [
     <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
         signos.map(([IconComponent, title, text]) => (
-          <div class="rounded-2xl border border-[#e3d3ec] bg-[#fbf6fd] p-6 text-center">
-            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-7 text-[#6b3f8f]" />
+          <div class="rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6 text-center">
+            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-7 text-gold" />
             </span>
             <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
@@ -254,8 +260,7 @@ const cotidiano = [
 
   <section
     id="cita"
-    class="flex min-h-[280px] items-center justify-center px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
-    style="background: #3d2a52;"
+    class="flex min-h-[280px] items-center justify-center bg-navy px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
   >
     <div class="max-w-[720px]">
       <p class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
@@ -264,10 +269,10 @@ const cotidiano = [
         <span class="h-px w-[34px] bg-gold"></span>
       </p>
       <p class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white">
-        «Preparen el camino del Señor, hagan rectos sus senderos.»
+        «No está aquí, porque ha resucitado, como lo había dicho.»
       </p>
       <p class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
-        Mateo 3, 3
+        Mateo 28, 6
       </p>
     </div>
   </section>
@@ -289,9 +294,9 @@ const cotidiano = [
     <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
       {
         cotidiano.map(([IconComponent, title, text]) => (
-          <div class="flex items-start gap-4 rounded-2xl border border-[#e3d3ec] bg-[#fbf6fd] p-6">
-            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f2eaf7]">
-              <IconComponent stroke-width={1.5} class="size-6 text-[#6b3f8f]" />
+          <div class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
+              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
@@ -306,10 +311,10 @@ const cotidiano = [
   <section
     id="oracion-breve"
     class="grid items-center gap-[clamp(50px,8vw,100px)] px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px] grid-cols-[0.9fr_1.1fr]"
-    style="background: radial-gradient(circle at 85% 15%, rgba(124,90,148,.18), transparent 45%), #f7f1e4;"
+    style="background: radial-gradient(circle at 85% 15%, rgba(200,163,106,.18), transparent 45%), #f7f1e4;"
   >
-    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(90,60,110,0.18)]">
-      <img src="/images/hero-adviento.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(120,90,40,0.18)]">
+      <img src="/images/hero-pascua.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
     </div>
 
     <div>
@@ -321,13 +326,14 @@ const cotidiano = [
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
       <p class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted">
-        Señor Jesús,<br />
-        despierta mi corazón y enséñame a esperarte.<br />
-        Ayúdame a preparar tus caminos,<br />
-        a reconocer tu presencia en lo sencillo<br />
-        y a llevar tu luz a quienes caminan conmigo.<br />
-        Que María me enseñe a recibirte<br />
-        con confianza, humildad y alegría.<br />
+        Jesús resucitado,<br />
+        entra en mis temores y lléname de tu paz.<br />
+        Hazme reconocer los signos de vida nueva<br />
+        que ya estás despertando<br />
+        en mi corazón y a mi alrededor.<br />
+        Espíritu Santo, enciende mi fe,<br />
+        y María, Madre de la esperanza,<br />
+        enséñame a anunciar que Jesús vive.<br />
         Amén.
       </p>
     </div>

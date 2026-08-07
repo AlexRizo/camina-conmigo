@@ -9,10 +9,16 @@ const prayerLinks = [
   { href: "/oraciones/oracion-para-fortaleza", label: "Cuando necesitas fortaleza" },
   { href: "/oraciones/oracion-para-terminar-el-dia", label: "Para terminar el día" },
 ];
+const tiemposLinks = [
+  { href: "/tiempos/adviento", label: "Adviento" },
+  { href: "/tiempos/navidad", label: "Navidad" },
+  { href: "/tiempos/tiempo-ordinario", label: "Tiempo Ordinario I" },
+  { href: "/tiempos/cuaresma", label: "Cuaresma" },
+  { href: "/tiempos/semana-santa", label: "Semana Santa" },
+  { href: "/tiempos/pascua", label: "Pascua" },
+  { href: "/tiempos/tiempo-ordinario-2", label: "Tiempo Ordinario II" },
+];
 const linksAfter = [
-  { href: "/adviento", label: "Adviento" },
-  { href: "/navidad", label: "Navidad" },
-  { href: "/tiempo-ordinario", label: "Tiempo Ordinario" },
   { href: "/#reflexiones", label: "Reflexiones" },
   { href: "/#contacto", label: "Contacto" },
 ];
@@ -78,6 +84,27 @@ const linksAfter = [
       ))
     }
 
+    <details data-tiempos-dropdown class="group relative max-[900px]:w-full">
+      <summary
+        class="flex cursor-pointer list-none items-center gap-1.5 pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267] [&::-webkit-details-marker]:hidden"
+      >
+        Tiempos litúrgicos
+        <span aria-hidden="true" class="text-[8px] transition-transform duration-150 group-open:rotate-180">▾</span>
+      </summary>
+      <div class="absolute left-0 top-full z-30 mt-2 flex min-w-[230px] flex-col gap-1 bg-paper p-3 shadow-[0_18px_35px_rgba(12,38,53,0.12)] max-[900px]:static max-[900px]:mt-3 max-[900px]:w-full max-[900px]:bg-transparent max-[900px]:p-0 max-[900px]:shadow-none">
+        {
+          tiemposLinks.map((link) => (
+            <a
+              href={link.href}
+              class="block px-3 py-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267] hover:text-gold"
+            >
+              {link.label}
+            </a>
+          ))
+        }
+      </div>
+    </details>
+
     <details data-oraciones-dropdown class="group relative max-[900px]:w-full">
       <summary
         class="flex cursor-pointer list-none items-center gap-1.5 pb-2 text-xs font-semibold uppercase tracking-[0.08em] text-[#536267] [&::-webkit-details-marker]:hidden"
@@ -130,17 +157,23 @@ const linksAfter = [
     }),
   );
 
-  const oracionesDropdown = document.querySelector<HTMLDetailsElement>("[data-oraciones-dropdown]");
-
-  oracionesDropdown?.querySelectorAll("a").forEach((link) =>
-    link.addEventListener("click", () => {
-      oracionesDropdown.removeAttribute("open");
-    }),
+  const dropdowns = document.querySelectorAll<HTMLDetailsElement>(
+    "[data-tiempos-dropdown], [data-oraciones-dropdown]",
   );
 
+  dropdowns.forEach((dropdown) => {
+    dropdown.querySelectorAll("a").forEach((link) =>
+      link.addEventListener("click", () => {
+        dropdown.removeAttribute("open");
+      }),
+    );
+  });
+
   document.addEventListener("click", (event) => {
-    if (!oracionesDropdown?.open) return;
-    if (!(event.target instanceof Node) || oracionesDropdown.contains(event.target)) return;
-    oracionesDropdown.removeAttribute("open");
+    dropdowns.forEach((dropdown) => {
+      if (!dropdown.open) return;
+      if (!(event.target instanceof Node) || dropdown.contains(event.target)) return;
+      dropdown.removeAttribute("open");
+    });
   });
 </script>

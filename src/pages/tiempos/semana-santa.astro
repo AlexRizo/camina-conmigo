@@ -1,0 +1,343 @@
+---
+export const prerender = true;
+
+import Layout from "@/layout/Layout.astro";
+import { CalendarDays, Hourglass, Palette, Cross, Mountain, Heart, HandHeart as StayIcon, HeartHandshake, HandCoins, Wheat, Droplets, Waves, DoorOpen, Leaf, User, House, HandHeart, ArrowRight } from "@lucide/astro";
+
+const datosEsenciales = [
+  [
+    CalendarDays,
+    "Cuándo se celebra",
+    "Comienza con el Domingo de Ramos y culmina con el inicio de la celebración pascual. En 2026, el Domingo de Ramos será el 29 de marzo y la Vigilia Pascual se celebrará la noche del 4 de abril.",
+  ],
+  [
+    Hourglass,
+    "Cuánto dura aproximadamente",
+    "Una semana, con especial intensidad durante el Triduo Pascual: Jueves Santo, Viernes Santo y la Vigilia Pascual.",
+  ],
+  [
+    Palette,
+    "Colores litúrgicos",
+    "Rojo en el Domingo de Ramos y el Viernes Santo; blanco en la Misa de la Cena del Señor; y tonos sobrios durante los días de preparación.",
+  ],
+  [
+    Cross,
+    "Símbolo principal",
+    "La cruz, signo de la entrega total de Jesús y del amor que vence al pecado y a la muerte.",
+  ],
+  [
+    Mountain,
+    "Qué acontecimiento contemplamos",
+    "La Pasión, Muerte y sepultura de Jesús, junto con la espera de su Resurrección.",
+  ],
+  [
+    Heart,
+    "Qué nos invita a vivir",
+    "La fidelidad, el servicio, el silencio, la entrega y la confianza en medio del dolor.",
+  ],
+] as const;
+
+const caminoEspiritual = [
+  [
+    StayIcon,
+    "Permanecer junto a Jesús",
+    "No huir del silencio ni del sufrimiento, sino acompañar al Señor con una presencia fiel.",
+  ],
+  [
+    HeartHandshake,
+    "Aprender a servir",
+    "En la Última Cena, Jesús se arrodilla y lava los pies de sus discípulos. Su grandeza se manifiesta en el servicio.",
+  ],
+  [
+    HandCoins,
+    "Entregar con confianza",
+    "La cruz nos enseña que el amor verdadero sabe darse sin reservas y confiar incluso cuando no comprende completamente.",
+  ],
+] as const;
+
+const signos = [
+  [
+    Wheat,
+    "Las palmas",
+    "Recuerdan la entrada de Jesús en Jerusalén y nos invitan a preguntarnos qué clase de Rey estamos dispuestos a seguir.",
+  ],
+  [
+    Droplets,
+    "El pan y el vino",
+    "Representan la entrega de Jesús, que se queda con nosotros en la Eucaristía.",
+  ],
+  [
+    Waves,
+    "El lavatorio de los pies",
+    "Expresa el mandamiento del amor y el servicio humilde.",
+  ],
+  [
+    Cross,
+    "La cruz",
+    "Es el signo de un amor llevado hasta el extremo.",
+  ],
+  [
+    DoorOpen,
+    "El silencio del sepulcro",
+    "Nos enseña a esperar cuando todavía no vemos la respuesta ni comprendemos lo que Dios está realizando.",
+  ],
+] as const;
+
+const cotidiano = [
+  [
+    User,
+    "En tu vida personal",
+    "Reduce el ruido y las distracciones para acompañar conscientemente a Jesús durante estos días.",
+  ],
+  [
+    House,
+    "En casa o en familia",
+    "Preparen un espacio sencillo de oración con una cruz, una vela y la Biblia.",
+  ],
+  [
+    HandHeart,
+    "En la oración y la comunidad",
+    "Participa en las celebraciones del Triduo Pascual y realiza un gesto concreto de servicio humilde.",
+  ],
+] as const;
+---
+
+<Layout title="Semana Santa">
+  <section
+    id="inicio"
+    class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-semana-santa.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[75%_0]"
+  >
+    <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+
+    <div class="relative z-[2] max-w-[710px]">
+      <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
+        <span class="h-px w-[34px] bg-gold"></span>
+        Tiempo litúrgico
+      </p>
+      <h1 class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]">
+        <em class="font-normal not-italic text-[#e0c295]">Semana Santa</em>
+      </h1>
+      <p class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base">
+        Un tiempo para acompañar a Jesús en su Pasión y entrega.
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="que-es"
+    class="relative grid grid-cols-[0.85fr_1.15fr] gap-[70px] bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="lg:sticky lg:top-45 h-max">
+      <h2 class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy">
+        ¿Qué es la Semana Santa?
+      </h2>
+      <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
+        <span class="h-px w-10 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+      </div>
+      <p class="font-serif text-[clamp(24px,2.6vw,30px)] leading-[1.35] text-[#7a1f2b]">
+        La Semana Santa es el centro del camino cristiano.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-3 gap-8 max-[900px]:grid-cols-1 max-[900px]:gap-6">
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        Durante estos días acompañamos a Jesús en su entrada en Jerusalén, en
+        la Última Cena, en su Pasión, en su muerte en la cruz y en el
+        silencio del sepulcro.
+      </p>
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        No recordamos estos acontecimientos como hechos lejanos. Entramos
+        espiritualmente en ellos para reconocer cuánto nos ama Dios y
+        permitir que la entrega de Jesús transforme nuestra manera de vivir.
+      </p>
+      <p class="m-0 text-sm leading-[1.75] text-muted">
+        La Semana Santa nos invita a permanecer. Permanecer junto a Jesús
+        cuando el camino se vuelve difícil, cuando no comprendemos y cuando
+        parece que la oscuridad ha vencido. En ese silencio comienza a
+        prepararse la luz de la Resurrección.
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="datos-esenciales"
+    class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Datos esenciales
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+      {
+        datosEsenciales.map(([IconComponent, title, text]) => (
+          <li class="flex items-start gap-4 rounded-2xl border border-[#e3c3c8] bg-paper p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f7e5e7]">
+              <IconComponent stroke-width={1.5} class="size-6 text-[#7a1f2b]" />
+            </span>
+            <div>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section
+    id="camino-espiritual"
+    class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px] bg-[#4a1017]"
+  >
+    <div class="mb-14 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-gold">
+        El camino espiritual
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/50"></span>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-0 max-[900px]:flex-col max-[900px]:gap-8">
+      {
+        caminoEspiritual.map(([IconComponent, title, text], index) => (
+          <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
+            <div class="flex-1 rounded-2xl border border-[#953842]/40 bg-paper p-8 text-center">
+              <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#7a1f2b]/50 bg-[#f7e5e7]">
+                <IconComponent stroke-width={1.5} class="size-7 text-[#7a1f2b]" />
+                <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#4a1017] font-serif text-[11px] font-semibold text-white">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+              </span>
+              <h3 class="m-0 mb-2 font-serif text-xl font-medium text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+            {index < caminoEspiritual.length - 1 && (
+              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-[#7a1f2b]/70 max-[900px]:hidden" />
+            )}
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="signos"
+    class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Signos y símbolos
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+      {
+        signos.map(([IconComponent, title, text]) => (
+          <div class="rounded-2xl border border-[#e3c3c8] bg-[#fbf1f2] p-6 text-center">
+            <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-[#f7e5e7]">
+              <IconComponent stroke-width={1.5} class="size-7 text-[#7a1f2b]" />
+            </span>
+            <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
+            <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="cita"
+    class="flex min-h-[280px] items-center justify-center px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
+    style="background: #4a1017;"
+  >
+    <div class="max-w-[720px]">
+      <p class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+        <span class="h-px w-[34px] bg-gold"></span>
+        Una Palabra para acompañarte
+        <span class="h-px w-[34px] bg-gold"></span>
+      </p>
+      <p class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white">
+        «Habiendo amado a los suyos, los amó hasta el extremo.»
+      </p>
+      <p class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+        Juan 13, 1
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="cotidiano"
+    class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
+  >
+    <div class="mb-12 text-center">
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Cómo vivirlo en lo cotidiano
+      </h2>
+      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+        <span class="h-px flex-1 bg-gold/40"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+        <span class="h-px flex-1 bg-gold/40"></span>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
+      {
+        cotidiano.map(([IconComponent, title, text]) => (
+          <div class="flex items-start gap-4 rounded-2xl border border-[#e3c3c8] bg-[#fbf1f2] p-6">
+            <span class="flex size-12 flex-none items-center justify-center rounded-full bg-[#f7e5e7]">
+              <IconComponent stroke-width={1.5} class="size-6 text-[#7a1f2b]" />
+            </span>
+            <div>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section
+    id="oracion-breve"
+    class="grid items-center gap-[clamp(50px,8vw,100px)] px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px] grid-cols-[0.9fr_1.1fr]"
+    style="background: radial-gradient(circle at 85% 15%, rgba(122,31,43,.18), transparent 45%), #f7f1e4;"
+  >
+    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(74,16,23,0.18)]">
+      <img src="/images/hero-semana-santa.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+    </div>
+
+    <div>
+      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+        Oración breve
+      </h2>
+      <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
+        <span class="h-px w-10 bg-gold/50"></span>
+        <Leaf class="size-4" stroke-width={1.5} />
+      </div>
+      <p class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted">
+        Jesús,<br />
+        quiero permanecer contigo<br />
+        en el camino de tu entrega.<br />
+        Enséñame a servir como tú,<br />
+        a perdonar desde el corazón<br />
+        y a confiar cuando no comprendo.<br />
+        Espíritu Santo, sostenme en la prueba,<br />
+        y María, Madre fiel al pie de la cruz,<br />
+        enséñame a no abandonar a Jesús.<br />
+        Amén.
+      </p>
+    </div>
+  </section>
+</Layout>
