@@ -1,18 +1,35 @@
 ---
 export const prerender = false;
 
-import { desc } from "drizzle-orm";
+import { count, desc } from "drizzle-orm";
 import DashboardLayout from "@/layout/DashboardLayout.astro";
 import { db } from "@/db/client";
 import { closingPrayers } from "@/db/schema";
 
-const prayers = await db.select().from(closingPrayers).orderBy(desc(closingPrayers.date));
+const PAGE_SIZE = 25;
+
+const [{ total }] = await db.select({ total: count() }).from(closingPrayers);
+const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+const page = Math.min(totalPages, Math.max(1, Number(Astro.url.searchParams.get("page")) || 1));
+
+const prayers = await db
+  .select()
+  .from(closingPrayers)
+  .orderBy(desc(closingPrayers.date))
+  .limit(PAGE_SIZE)
+  .offset((page - 1) * PAGE_SIZE);
 
 const dateFormatter = new Intl.DateTimeFormat("es-ES", { dateStyle: "long" });
 
 function formatDate(value: string) {
   const parsed = new Date(`${value}T00:00:00`);
   return Number.isNaN(parsed.getTime()) ? value : dateFormatter.format(parsed);
+}
+
+function pageHref(targetPage: number) {
+  const url = new URL(Astro.url);
+  url.searchParams.set("page", String(targetPage));
+  return `${url.pathname}${url.search}`;
 }
 
 const error = Astro.url.searchParams.get("error");
@@ -110,6 +127,7 @@ const deleted = Astro.url.searchParams.has("deleted");
                   data-title={prayer.title}
                   data-subtitle={prayer.subtitle || ""}
                   data-description={prayer.description}
+                  data-quote={prayer.quote || ""}
                   data-source={prayer.source || ""}
                   class="border-0 bg-transparent text-[10px] font-bold uppercase tracking-[0.1em] text-blue hover:text-gold"
                 >
@@ -131,6 +149,26 @@ const deleted = Astro.url.searchParams.has("deleted");
       </tbody>
     </table>
   </div>
+
+  {
+    totalPages > 1 && (
+      <nav class="mt-6 flex items-center justify-between text-xs font-bold uppercase tracking-[0.1em] text-blue" aria-label="Paginación">
+        {page > 1 ? (
+          <a href={pageHref(page - 1)} class="hover:text-gold">← Anterior</a>
+        ) : (
+          <span class="text-[#a5acad]">← Anterior</span>
+        )}
+        <span class="text-[#a5acad] normal-case tracking-normal">
+          Página {page} de {totalPages}
+        </span>
+        {page < totalPages ? (
+          <a href={pageHref(page + 1)} class="hover:text-gold">Siguiente →</a>
+        ) : (
+          <span class="text-[#a5acad]">Siguiente →</span>
+        )}
+      </nav>
+    )
+  }
 
   <dialog
     data-dialog
@@ -185,6 +223,15 @@ const deleted = Astro.url.searchParams.has("deleted");
           required
           rows="5"
           data-field="description"
+          class="mt-[9px] block w-full resize-y border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
+        ></textarea>
+      </label>
+      <label class="mb-5 block text-[10px] font-bold uppercase tracking-[0.1em] text-navy">
+        Cita <span class="text-[8px] font-medium tracking-normal text-[#a5acad] normal-case">(opcional)</span>
+        <textarea
+          name="quote"
+          rows="2"
+          data-field="quote"
           class="mt-[9px] block w-full resize-y border border-line bg-[#fbf8f2] p-[14px] text-sm normal-case text-ink outline-none focus:border-gold"
         ></textarea>
       </label>
@@ -245,6 +292,8 @@ const deleted = Astro.url.searchParams.has("deleted");
       if (subtitleField) subtitleField.value = button.dataset.subtitle ?? "";
       const descriptionField = fieldInput("description");
       if (descriptionField) descriptionField.value = button.dataset.description ?? "";
+      const quoteField = fieldInput("quote");
+      if (quoteField) quoteField.value = button.dataset.quote ?? "";
       const sourceField = fieldInput("source");
       if (sourceField) sourceField.value = button.dataset.source ?? "";
 

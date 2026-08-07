@@ -26,6 +26,7 @@ export const dailyPrayers = sqliteTable("daily_prayers", {
   title: text("title").notNull(),
   subtitle: text("subtitle"),
   description: text("description").notNull(),
+  quote: text("quote"),
   source: text("source"),
   createdAt: text("created_at")
     .notNull()
@@ -39,6 +40,7 @@ export const closingPrayers = sqliteTable("closing_prayers", {
   title: text("title").notNull(),
   subtitle: text("subtitle"),
   description: text("description").notNull(),
+  quote: text("quote"),
   source: text("source"),
   createdAt: text("created_at")
     .notNull()

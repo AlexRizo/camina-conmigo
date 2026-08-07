@@ -13,6 +13,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
   const title = String(form.get("title") || "").trim();
   const subtitle = String(form.get("subtitle") || "").trim();
   const description = String(form.get("description") || "").trim();
+  const quote = String(form.get("quote") || "").trim();
   const source = String(form.get("source") || "").trim();
 
   if (!date || !title || !description) {
@@ -29,6 +30,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
           title,
           subtitle: subtitle || null,
           description,
+          quote: quote || null,
           source: source || null,
         })
         .where(eq(closingPrayers.id, Number(id)));
@@ -39,6 +41,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
         title,
         subtitle: subtitle || null,
         description,
+        quote: quote || null,
         source: source || null,
       });
     }
