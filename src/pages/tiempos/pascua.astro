@@ -3,35 +3,36 @@ export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
 import { CalendarDays, Hourglass, Palette, Flame, Sparkles, Heart, HandHeart as MeetIcon, Compass, Megaphone, DoorOpen, Droplets, Flower2, Leaf, User, House, HandHeart, ArrowRight } from "@lucide/astro";
+import { Icon } from "astro-icon/components";
 
 const datosEsenciales = [
   [
-    CalendarDays,
+    'calendario',
     "Cuándo se celebra",
     "Comienza con la Vigilia Pascual y el Domingo de Resurrección. En 2026, el Domingo de Pascua será el 5 de abril y el tiempo pascual concluirá con Pentecostés, el 24 de mayo.",
   ],
   [
-    Hourglass,
+    'tiempo',
     "Cuánto dura aproximadamente",
     "Cincuenta días, desde el Domingo de Resurrección hasta Pentecostés.",
   ],
   [
-    Palette,
+    'color-liturgico',
     "Color litúrgico",
     "Blanco o dorado, signo de gloria, alegría y vida nueva. En Pentecostés se utiliza el rojo, símbolo del fuego del Espíritu Santo.",
   ],
   [
-    Flame,
+    'cirio-pascual',
     "Símbolo principal",
     "El cirio pascual, que representa a Cristo resucitado, luz del mundo.",
   ],
   [
-    Sparkles,
+    'sepulcro-vacio',
     "Qué acontecimiento contemplamos",
     "La Resurrección de Jesús, sus encuentros con los discípulos, la Ascensión y la venida del Espíritu Santo.",
   ],
   [
-    Heart,
+    'proposito-espiritual',
     "Qué nos invita a vivir",
     "La alegría, la esperanza, el testimonio y la renovación de nuestra vida.",
   ],
@@ -39,17 +40,17 @@ const datosEsenciales = [
 
 const caminoEspiritual = [
   [
-    MeetIcon,
+    "familia-y-casa",
     "Dejarse encontrar",
     "Jesús resucitado sale al encuentro de sus discípulos en medio del miedo, la tristeza y la incertidumbre.",
   ],
   [
-    Compass,
+    'camino-regreso',
     "Caminar con esperanza",
     "La Resurrección nos recuerda que ninguna noche es definitiva cuando dejamos que Dios entre en ella.",
   ],
   [
-    Megaphone,
+    'oracion-y-comunidad',
     "Convertirse en testigo",
     "Quien se encuentra con Cristo vivo recibe la misión de llevar consuelo, paz y esperanza a los demás.",
   ],
@@ -57,27 +58,27 @@ const caminoEspiritual = [
 
 const signos = [
   [
-    Flame,
+    'cirio-pascual',
     "El cirio pascual",
     "Representa a Cristo resucitado, cuya luz vence la oscuridad.",
   ],
   [
-    DoorOpen,
+    'sepulcro-vacio',
     "El sepulcro vacío",
     "Anuncia que la muerte ha sido vencida y que Jesús está vivo.",
   ],
   [
-    Droplets,
+    'agua',
     "El agua",
     "Recuerda el Bautismo y la vida nueva que recibimos en Cristo.",
   ],
   [
-    Palette,
+    'color-liturgico-blanco',
     "El color blanco",
     "Expresa la alegría, la gloria y la novedad de la Resurrección.",
   ],
   [
-    Flame,
+    'fuego',
     "El fuego",
     "Simboliza la presencia del Espíritu Santo, que ilumina, fortalece y envía.",
   ],
@@ -85,17 +86,17 @@ const signos = [
 
 const cotidiano = [
   [
-    User,
+    'vida-personal',
     "En tu vida personal",
     "Reconoce una situación en la que Dios te esté invitando a comenzar nuevamente.",
   ],
   [
-    House,
+    'familia-y-casa',
     "En casa o en familia",
     "Compartan durante la semana un motivo de alegría o gratitud y oren por quienes necesitan esperanza.",
   ],
   [
-    HandHeart,
+    'oracion-y-comunidad',
     "En la oración y la comunidad",
     "Renueva conscientemente tus promesas bautismales y participa con alegría en la vida de tu comunidad.",
   ],
@@ -176,10 +177,10 @@ const cotidiano = [
     </div>
     <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
-        datosEsenciales.map(([IconComponent, title, text]) => (
+        datosEsenciales.map(([icon, title, text]) => (
           <li class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
             <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
+              <Icon name={icon} class="size-7/10" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
@@ -208,11 +209,11 @@ const cotidiano = [
 
     <div class="flex items-start gap-0 max-[900px]:flex-col max-[900px]:gap-8">
       {
-        caminoEspiritual.map(([IconComponent, title, text], index) => (
+        caminoEspiritual.map(([icon, title, text], index) => (
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
             <div class="flex-1 rounded-2xl border border-gold/25 bg-paper p-8 text-center">
               <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-gold/50 bg-[#fbf1de]">
-                <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+                <Icon name={icon} class="size-7/10" />
                 <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-gold font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>
@@ -245,10 +246,10 @@ const cotidiano = [
     </div>
     <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
       {
-        signos.map(([IconComponent, title, text]) => (
+        signos.map(([icon, title, text]) => (
           <div class="rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6 text-center">
             <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+              <Icon name={icon} class="size-7/10" />
             </span>
             <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
@@ -293,10 +294,10 @@ const cotidiano = [
     </div>
     <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
       {
-        cotidiano.map(([IconComponent, title, text]) => (
+        cotidiano.map(([icon, title, text]) => (
           <div class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
             <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
+              <Icon name={icon} class="size-7/10" />
             </span>
             <div>
               <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
