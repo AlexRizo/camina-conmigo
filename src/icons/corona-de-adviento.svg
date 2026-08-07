@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 208" width="100%" height="100%">
+  <g id="corona-de-adviento" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Base Wreath Oval Fill -->
+    <ellipse cx="104" cy="122" rx="66" ry="38" fill="#D2DED1" />
+
+    <!-- Candles -->
+    <!-- Left Candle -->
+    <rect x="68" y="63" width="18" height="42" rx="1" fill="#DCD0E6" stroke="#6F4A85" stroke-width="3" />
+    
+    <!-- Middle Candle (Taller & lighter) -->
+    <rect x="94" y="53" width="19" height="50" rx="1" fill="#F3EBF5" stroke="#6F4A85" stroke-width="3" />
+    
+    <!-- Right Candle -->
+    <rect x="120" y="63" width="18" height="42" rx="1" fill="#DCD0E6" stroke="#6F4A85" stroke-width="3" />
+
+    <!-- Flame Glow (Middle) -->
+    <circle cx="103.5" cy="43" r="9" fill="#FDF4C8" opacity="0.75" />
+
+    <!-- Flame 1 (Left) -->
+    <path d="M 77,63 C 69,53 73,43 77,39 C 81,43 85,53 77,63 Z" fill="#FDF4D9" stroke="#C89B31" stroke-width="2.8" />
+
+    <!-- Flame 2 (Middle) -->
+    <path d="M 103.5,53 C 95,41 100,30 103.5,27 C 107,30 112,41 103.5,53 Z" fill="#FDF4D9" stroke="#C89B31" stroke-width="2.8" />
+
+    <!-- Flame 3 (Right) -->
+    <path d="M 129,63 C 121,53 125,43 129,39 C 133,43 137,53 129,63 Z" fill="#FDF4D9" stroke="#C89B31" stroke-width="2.8" />
+
+    <!-- Base Outer Ellipse Outline -->
+    <ellipse cx="104" cy="122" rx="66" ry="38" fill="none" stroke="#4E4256" stroke-width="3.5" />
+
+    <!-- Wreath Inner Wavy Lines (Dark Purple-Grey) -->
+    <path d="M 42,121 C 60,105 85,115 104,106 C 125,118 150,108 166,122" fill="none" stroke="#4E4256" stroke-width="3" />
+    <path d="M 43,130 C 65,123 88,127 104,118 C 125,128 145,122 165,130" fill="none" stroke="#4E4256" stroke-width="3" />
+
+    <!-- Pine Needles (Green Accent Lines) -->
+    <line x1="50" y1="108" x2="64" y2="119" stroke="#567C58" stroke-width="3.2" />
+    <line x1="71" y1="107" x2="80" y2="119" stroke="#567C58" stroke-width="3.2" />
+    <line x1="88" y1="101" x2="98" y2="115" stroke="#567C58" stroke-width="3.2" />
+    <line x1="112" y1="95" x2="116" y2="112" stroke="#567C58" stroke-width="3.2" />
+    <line x1="133" y1="102" x2="145" y2="117" stroke="#567C58" stroke-width="3.2" />
+    <line x1="150" y1="121" x2="167" y2="124" stroke="#567C58" stroke-width="3.2" />
+
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 208" width="100%" height="100%">
+  <g id="bombilla-luz" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- Central inner soft glow -->
+    <circle cx="104" cy="98" r="32" fill="#FFFDF0" opacity="0.9" />
+
+    <!-- Bulb glass fill and outline -->
+    <!-- Bulb glass outline path: Circular top transitioning to neck -->
+    <path d="M 104,38 
+             A 58,58 0 0,1 155,116 
+             C 142,132 135,142 135,160 
+             L 73,160 
+             C 73,142 66,132 53,116 
+             A 58,58 0 0,1 104,38 Z" 
+          fill="#FAF0D7" stroke="#4E3B55" stroke-width="3.5" />
+
+    <!-- Filament inside bulb (gold) -->
+    <path d="M 80,98 L 95,116 L 104,118 L 113,116 L 128,98 
+             M 94,116 L 94,160 
+             M 114,116 L 114,160" 
+          fill="none" stroke="#C89B31" stroke-width="3" />
+
+    <!-- Screw base (screw cap / lavender base) -->
+    <!-- Base fill -->
+    <rect x="80" y="160" width="48" height="8" rx="2" fill="#DCD0E6" stroke="#4E3B55" stroke-width="3" />
+    
+    <!-- Base thread lines -->
+    <line x1="84" y1="170" x2="124" y2="170" stroke="#4E3B55" stroke-width="3.5" />
+    <line x1="90" y1="182" x2="118" y2="182" stroke="#4E3B55" stroke-width="3.5" />
+
+    <!-- Rays around the bulb (5 golden dashes) -->
+    <!-- Top ray -->
+    <line x1="104" y1="12" x2="104" y2="26" stroke="#C89B31" stroke-width="3.2" />
+    <!-- Top-Left ray -->
+    <line x1="43" y1="36" x2="54" y2="46" stroke="#C89B31" stroke-width="3.2" />
+    <!-- Top-Right ray -->
+    <line x1="165" y1="36" x2="154" y2="46" stroke="#C89B31" stroke-width="3.2" />
+    <!-- Left ray -->
+    <line x1="22" y1="96" x2="37" y2="96" stroke="#C89B31" stroke-width="3.2" />
+    <!-- Right ray -->
+    <line x1="186" y1="96" x2="171" y2="96" stroke="#C89B31" stroke-width="3.2" />
+
+  </g>
+</svg>
