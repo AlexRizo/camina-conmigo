@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="156.24146"
+   height="192.63989"
+   viewBox="0 0 156.24145 192.63989"
+   sodipodi:docname="01-PLANTILLA-GRAL.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath384-8">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path384-9" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath381-6">
+      <path
+         d="M -42.046999,-0.002675 H 58.050004 V -110.92268 H -42.046999 Z"
+         id="path381-0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="156.24146"
+       height="192.63989"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC0"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1"
+     transform="translate(-2133,-3646.0001)">
+    <g
+       opacity="0.270004"
+       id="g383-1"
+       clip-path="url(#clipPath384-8)"
+       transform="translate(2006.8747,-297.6355)">
+      <path
+         d="M 0,0 H 16.003 V -38.281 H 48.166 V -54.284 H 16.003 v -56.638 H 0 v 56.638 h -32.163 v 16.003 H 0 Z"
+         style="fill:#704e79;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,193.57733,3965.9031)"
+         clip-path="url(#clipPath381-6)"
+         id="path382-0" />
+      <path
+         d="m 0,0 c 27.641,0 50.048,-20.511 50.048,-45.812 0,-25.301 -22.407,-45.812 -50.048,-45.812 -27.641,0 -50.048,20.511 -50.048,45.812 C -50.048,-20.511 -27.641,0 0,0"
+         style="fill:#c78a9c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,204.246,3966.7397)"
+         id="path383-1" />
+    </g>
+    <path
+       id="path385-3"
+       d="m 2198.9878,3666.8028 h 24.2653 v 51.0427 h 43.0934 v 24.2653 h -43.0934 v 75.7253 h -24.2653 v -75.7253 h -43.0933 v -24.2653 h 43.0933 z"
+       style="fill:none;stroke:#704e79;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path386-7"
+       d="m 2274.2954,3729.978 h 12.1333 m -138.4826,0 h -12.1334 m 75.308,95.808 v 10.0413 m 0,-176.9733 v -10.0413"
+       style="fill:none;stroke:#c99b35;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

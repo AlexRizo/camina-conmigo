@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="140.42139"
+   height="159.91504"
+   viewBox="0 0 140.42138 159.91504"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath987-6">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path987-1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath983-5">
+      <path
+         d="M -30.018001,0.002675 H 30.018001 V -83.677327 H -30.018001 Z"
+         id="path983-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath990-6">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path990-5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath988-0">
+      <path
+         d="M -11.821,38.574001 H 37.951001 V -35.616001 H -11.821 Z"
+         id="path988-8" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer-MC0"
+     transform="translate(-1640,-6172.9999)">
+    <g
+       opacity="0.270004"
+       id="g986-2"
+       clip-path="url(#clipPath987-6)"
+       transform="translate(1148.9507,-370.7056)">
+      <path
+         d="m 0,0 c 16.579,0 30.018,-18.732 30.018,-41.839 0,-23.107 -13.439,-41.839 -30.018,-41.839 -16.579,0 -30.018,18.732 -30.018,41.839 C -30.018,-18.732 -16.579,0 0,0"
+         style="fill:#e5c978;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,561.26,6569.5369)"
+         clip-path="url(#clipPath983-5)"
+         id="path984-6" />
+      <path
+         d="m 0,0 h 26.13 l 5.91,-34.218 H -5.91 Z"
+         style="fill:#9a735d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,543.84,6635.2765)"
+         id="path985-9" />
+      <path
+         d="M 0,0 C -8.866,7.466 -8.554,17.264 0,26.441 8.554,17.264 8.866,7.466 0,0"
+         style="fill:#c99b35;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,561.26,6621.1747)"
+         id="path986-1" />
+    </g>
+    <g
+       opacity="0.25"
+       id="g989-0"
+       clip-path="url(#clipPath990-6)"
+       transform="translate(1148.9507,-370.7056)">
+      <path
+         d="M 0,0 C -3.577,16.953 1.866,29.707 13.065,38.573 24.263,29.707 29.707,16.953 26.13,0 M -6.066,-35.618 0,0 h 26.13 l 6.066,-35.618 m -44.017,0 h 49.772"
+         style="fill:#fffef9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,543.84,6634.032)"
+         clip-path="url(#clipPath988-0)"
+         id="path989-4" />
+    </g>
+    <path
+       id="path991-2"
+       d="m 1692.7907,6263.3264 c -4.7693,-22.604 2.488,-39.6093 17.42,-51.4307 14.9307,11.8214 22.1893,28.8267 17.42,51.4307 m -42.928,47.4907 8.088,-47.4907 h 34.84 l 8.088,47.4907 m -58.6893,0 h 66.3626"
+       style="fill:none;stroke:#4e4753;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path992-7"
+       d="m 1710.2107,6251.5057 c -12.6507,-10.3693 -12.028,-24.4707 0,-37.328 12.028,12.8573 12.6507,26.9587 0,37.328 z"
+       style="fill:none;stroke:#c99b35;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path993-4"
+       d="m 1686.7767,6263.3264 h 46.868 m -43.3427,66.776 h 39.8174 m -8.9174,-19.0787 v 19.0787 m -21.9826,-19.0787 v 19.0787"
+       style="fill:none;stroke:#9a735d;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path994-0"
+       d="m 1748.3687,6205.0527 12.028,-13.48 m -88.344,13.48 -12.028,-13.48 m 50.1867,1.244 v -17.004 m 49.148,63.0427 18.2493,-8.7094 m -116.5467,8.7094 -18.2493,-8.7094"
+       style="fill:none;stroke:#c99b35;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

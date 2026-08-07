@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="147.24524"
+   height="161.08667"
+   viewBox="0 0 147.24524 161.08667"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath174-6">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path174-46" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer-MC0"
+     transform="translate(-1561.6576,-1834.3598)">
+    <g
+       opacity="0.259995"
+       id="g184-8"
+       clip-path="url(#clipPath174-6)"
+       transform="translate(1074.0204,24.450001)">
+      <path
+         d="M 0,0 10.08,-31.443 43.178,-31.594 16.399,-51.001 26.629,-82.144 0,-62.887 l -26.629,-19.257 10.23,31.143 -26.779,19.407 33.098,0.151 z"
+         style="fill:#e5c978;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,561.26,1831.7788)"
+         id="path183-6" />
+      <path
+         d="m 0,0 c 17.449,0 31.594,-14.145 31.594,-31.594 0,-17.448 -14.145,-31.594 -31.594,-31.594 -17.449,0 -31.594,14.146 -31.594,31.594 C -31.594,-14.145 -17.449,0 0,0"
+         style="fill:#fffef9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,561.26,1843.2131)"
+         id="path184-2" />
+    </g>
+    <path
+       id="path185-8"
+       d="m 1635.2804,1855.4267 13.8413,42.3254 44.532,0.2013 -35.9066,26.0773 13.64,42.5267 -36.1067,-26.2787 -36.1067,26.2787 13.64,-42.5267 -35.9066,-26.0773 44.532,-0.2013 z"
+       style="fill:none;stroke:#c99b35;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path186-4"
+       d="m 1681.2169,1957.1285 13.44,15.0454 m -105.3133,-15.0454 -13.44,15.0454 m 98.8946,-109.9267 11.4334,-12.8387 m -101.9027,0 11.4347,12.8387 m 94.8813,36.9093 h 15.4453 m -141.62,0 h 15.4454 m 55.3653,74.6214 v 18.856 m 0,-155.4614 v 11.0334"
+       style="fill:none;stroke:#e5c978;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

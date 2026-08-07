@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="132.98401"
+   height="132.97314"
+   viewBox="0 0 132.98401 132.97314"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1309-4">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path1309-6" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1305-6">
+      <path
+         d="M -49.869404,-0.0042 H 49.869199 V -99.734202 H -49.869404 Z"
+         id="path1305-0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1312-2">
+      <path
+         d="M 0,0 H 1122.52 V 10052.2 H 0 Z"
+         id="path1312-5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1310-8">
+      <path
+         d="M -47.295504,-4.2500001e-4 H 47.295199 V -94.590427 h -94.590703 z"
+         id="path1310-9" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer-MC0"
+     transform="translate(-1264,-8031.0003)">
+    <g
+       opacity="0.270004"
+       id="g1308-8"
+       clip-path="url(#clipPath1309-4)"
+       transform="translate(1135.2989,40.56)">
+      <path
+         d="m 0,0 c 27.542,0 49.869,-22.327 49.869,-49.869 0,-27.542 -22.327,-49.87 -49.869,-49.87 -27.542,0 -49.869,22.328 -49.869,49.87 C -49.869,-22.327 -27.542,0 0,0"
+         style="fill:#b8a9c9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,195.19307,7990.4344)"
+         clip-path="url(#clipPath1305-6)"
+         id="path1306-3" />
+      <path
+         d="M 0,0 -33.783,-32.496 0,-64.991"
+         style="fill:none;stroke:#79678c;stroke-width:13.594;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1.3333333,0,0,-1.3333333,205.48867,8013.5995)"
+         id="path1307-7" />
+      <path
+         d="M 0,0 H 50.513"
+         style="fill:#010101;fill-opacity:1;fill-rule:nonzero;stroke:#e6ce83;stroke-width:12.188;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1.3333333,0,0,-1.3333333,164.7352,8056.9269)"
+         id="path1308-8" />
+    </g>
+    <g
+       opacity="0.179993"
+       id="g1311-2"
+       clip-path="url(#clipPath1312-2)"
+       transform="translate(1135.2989,40.56)">
+      <path
+         d="m 0,0 c 26.121,0 47.296,-21.175 47.296,-47.296 0,-26.12 -21.175,-47.295 -47.296,-47.295 -26.121,0 -47.296,21.175 -47.296,47.295 C -47.296,-21.175 -26.121,0 0,0"
+         style="fill:#fffef9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         transform="matrix(1.3333333,0,0,-1.3333333,195.19307,7993.8661)"
+         clip-path="url(#clipPath1310-8)"
+         id="path1311-1" />
+    </g>
+    <path
+       id="path1313-0"
+       d="m 1330.492,8034.4261 c 34.828,0 63.0613,28.2333 63.0613,63.0613 0,34.8267 -28.2333,63.06 -63.0613,63.06 -34.828,0 -63.0613,-28.2333 -63.0613,-63.06 0,-34.828 28.2333,-63.0613 63.0613,-63.0613 z"
+       style="fill:none;stroke:#4e4753;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path1314-5"
+       d="m 1340.7876,8054.1595 -45.044,43.328 45.044,43.3267"
+       style="fill:none;stroke:#79678c;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path1315-8"
+       d="m 1300.0341,8097.4869 h 67.3507"
+       style="fill:none;stroke:#4e4753;stroke-width:5.62533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       opacity="0.75"
+       id="g1316-5"
+       clip-path="url(#clipPath1312-2)"
+       transform="translate(1135.2989,40.56)">
+      <path
+         d="M 0,0 C 8.687,-8.687 8.687,-26.382 0,-35.069"
+         style="fill:none;stroke:#c99b35;stroke-width:4.219;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(1.3333333,0,0,-1.3333333,234.65973,8033.5473)"
+         id="path1316-5" />
+    </g>
+  </g>
+</svg>
