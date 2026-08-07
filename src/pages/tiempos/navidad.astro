@@ -2,36 +2,53 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import { CalendarDays, Hourglass, Palette, Baby, Star, Heart, Users, Compass, User, House, HandHeart, Hand, Sparkles, ArrowRight, Leaf } from "@lucide/astro";
+import {
+  CalendarDays,
+  Hourglass,
+  Palette,
+  Baby,
+  Star,
+  Heart,
+  Users,
+  Compass,
+  User,
+  House,
+  HandHeart,
+  Hand,
+  Sparkles,
+  ArrowRight,
+  Leaf,
+} from "@lucide/astro";
+import { Icon } from "astro-icon/components";
 
 const datosEsenciales = [
   [
-    CalendarDays,
+    "calendario",
     "Cuándo se celebra",
     "Comienza con las celebraciones de la tarde del 24 de diciembre y se extiende hasta la fiesta del Bautismo del Señor. En este ciclo concluye el domingo 11 de enero de 2026.",
   ],
   [
-    Hourglass,
+    "tiempo",
     "Cuánto dura aproximadamente",
     "Entre dos y tres semanas, dependiendo del calendario de cada año.",
   ],
   [
-    Palette,
+    "color-liturgico",
     "Color litúrgico",
     "Blanco o dorado, como expresión de luz, alegría, gloria y celebración.",
   ],
   [
-    Baby,
+    "pesebre",
     "Símbolo principal",
     "El pesebre, donde contemplamos a Jesús nacido en medio de la sencillez.",
   ],
   [
-    Star,
+    "estrella-02",
     "Qué acontecimiento contemplamos",
     "El nacimiento de Jesús, la manifestación del Salvador y sus primeros años de vida.",
   ],
   [
-    Heart,
+    "proposito-espiritual",
     "Qué nos invita a vivir",
     "La alegría de recibir a Dios y reconocerlo presente entre nosotros.",
   ],
@@ -39,17 +56,17 @@ const datosEsenciales = [
 
 const caminoEspiritual = [
   [
-    Hand,
+    "iglesia-o-comunidad",
     "Recibir con sencillez",
     "Jesús no necesita una vida perfecta para acercarse. Solamente pide un corazón dispuesto a recibirlo.",
   ],
   [
-    Sparkles,
+    "pastores",
     "Contemplar con asombro",
     "La Navidad nos enseña a detenernos ante el misterio de un Dios que se hace pequeño por amor.",
   ],
   [
-    Heart,
+    "compartir",
     "Compartir la alegría",
     "La buena noticia del nacimiento de Jesús no puede guardarse. Su luz está llamada a llegar a quienes viven solos, tristes o necesitados.",
   ],
@@ -57,27 +74,27 @@ const caminoEspiritual = [
 
 const signos = [
   [
-    Baby,
+    "pesebre",
     "El pesebre",
     "Nos recuerda que Dios eligió la pobreza y la sencillez para acercarse a la humanidad.",
   ],
   [
-    Star,
+    "estrella-02",
     "La estrella",
     "Representa la luz que guía hacia Jesús a quienes lo buscan con corazón sincero.",
   ],
   [
-    Palette,
+    "color-liturgico-blanco",
     "El color blanco",
     "Expresa alegría, pureza, vida nueva y la gloria de Dios que se manifiesta.",
   ],
   [
-    Users,
+    "pastores",
     "Los pastores",
     "Representan a quienes saben escuchar, dejar sus ocupaciones y acudir al encuentro del Señor.",
   ],
   [
-    Compass,
+    "magos-de-oriente",
     "Los Magos",
     "Nos recuerdan que Jesús viene para todos los pueblos y que buscarlo exige ponerse en camino.",
   ],
@@ -85,17 +102,17 @@ const signos = [
 
 const cotidiano = [
   [
-    User,
+    "vida-personal",
     "En tu vida personal",
     "Contempla el nacimiento de Jesús y pregúntate qué lugar ocupa realmente en tus decisiones y prioridades.",
   ],
   [
-    House,
+    "familia-y-casa",
     "En casa o en familia",
     "Reúnanse frente al nacimiento, agradezcan lo vivido y oren especialmente por quienes atraviesan soledad o dificultad.",
   ],
   [
-    HandHeart,
+    "oracion-y-comunidad",
     "En la oración y la comunidad",
     "Comparte tiempo, alimento o compañía con alguna persona que necesite experimentar cercanía.",
   ],
@@ -107,17 +124,27 @@ const cotidiano = [
     id="inicio"
     class="relative flex min-h-[560px] items-center overflow-hidden px-[clamp(28px,8vw,130px)] pt-[150px] pb-[84px] text-white max-[900px]:min-h-[500px] max-[900px]:pt-[135px] max-[620px]:min-h-[720px] max-[620px]:px-[22px] max-[620px]:pt-[135px] max-[620px]:pb-[80px] bg-[url('/images/hero-navidad.webp')] bg-no-repeat bg-cover lg:bg-center bg-position-[75%_0]"
   >
-    <div aria-hidden="true" class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"></div>
+    <div
+      aria-hidden="true"
+      class="absolute inset-0 z-[1] hidden bg-black/45 max-[620px]:block"
+    >
+    </div>
 
     <div class="relative z-[2] max-w-[710px]">
-      <p class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76">
+      <p
+        class="mb-[26px] flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-white/76"
+      >
         <span class="h-px w-[34px] bg-gold"></span>
         Tiempo litúrgico
       </p>
-      <h1 class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]">
+      <h1
+        class="m-0 font-serif text-[clamp(50px,6vw,82px)] leading-[1.05] tracking-[-0.045em] font-normal max-[620px]:text-[46px]"
+      >
         <em class="font-normal not-italic text-[#e0c295]">Navidad</em>
       </h1>
-      <p class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base">
+      <p
+        class="my-[28px] max-w-[550px] font-serif text-lg leading-[1.7] text-white/77 max-[620px]:text-base"
+      >
         Un tiempo para celebrar que Dios viene a habitar entre nosotros.
       </p>
     </div>
@@ -128,7 +155,9 @@ const cotidiano = [
     class="relative grid grid-cols-[0.85fr_1.15fr] gap-[70px] bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px]"
   >
     <div class="lg:sticky lg:top-45 h-max">
-      <h2 class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy">
+      <h2
+        class="m-0 font-serif text-2xl font-normal tracking-[-0.02em] text-navy"
+      >
         ¿Qué es la Navidad?
       </h2>
       <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
@@ -136,18 +165,19 @@ const cotidiano = [
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
       <p class="font-serif text-[clamp(26px,3vw,34px)] leading-[1.3] text-gold">
-        La Navidad es el tiempo en el que celebramos el misterio de la Encarnación.
+        La Navidad es el tiempo en el que celebramos el misterio de la
+        Encarnación.
       </p>
     </div>
 
-    <div class="max-w-[620px] font-serif text-lg leading-[1.75] text-muted [&_p+p]:mt-5">
-      <p>
-        El Hijo de Dios se hace hombre y entra en nuestra historia.
-      </p>
+    <div
+      class="max-w-[620px] font-serif text-lg leading-[1.75] text-muted [&_p+p]:mt-5"
+    >
+      <p>El Hijo de Dios se hace hombre y entra en nuestra historia.</p>
       <p>
         Jesús no nace rodeado de poder ni de grandeza. Llega en la sencillez de
-        un pesebre, acogido por María y José. Su nacimiento nos revela que
-        Dios no permanece distante: se hace pequeño, cercano y vulnerable para
+        un pesebre, acogido por María y José. Su nacimiento nos revela que Dios
+        no permanece distante: se hace pequeño, cercano y vulnerable para
         caminar con nosotros.
       </p>
       <p>
@@ -163,24 +193,33 @@ const cotidiano = [
     class="bg-cream px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
   >
     <div class="mb-12 text-center">
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+      <h2
+        class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy"
+      >
         Datos esenciales
       </h2>
-      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+      <div
+        aria-hidden="true"
+        class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold"
+      >
         <span class="h-px flex-1 bg-gold/40"></span>
         <Leaf class="size-4" stroke-width={1.5} />
         <span class="h-px flex-1 bg-gold/40"></span>
       </div>
     </div>
-    <ul class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+    <ul
+      class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1"
+    >
       {
-        datosEsenciales.map(([IconComponent, title, text]) => (
+        datosEsenciales.map(([icon, title, text]) => (
           <li class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
             <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
+              <Icon name={icon} class="size-8/10 text-gold" />
             </span>
             <div>
-              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">
+                {title}
+              </h3>
               <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
             </div>
           </li>
@@ -194,10 +233,15 @@ const cotidiano = [
     class="px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px] bg-navy"
   >
     <div class="mb-14 text-center">
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-gold">
+      <h2
+        class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-gold"
+      >
         El camino espiritual
       </h2>
-      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+      <div
+        aria-hidden="true"
+        class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold"
+      >
         <span class="h-px flex-1 bg-gold/40"></span>
         <Leaf class="size-4" stroke-width={1.5} />
         <span class="h-px flex-1 bg-gold/40"></span>
@@ -206,20 +250,26 @@ const cotidiano = [
 
     <div class="flex items-start gap-0 max-[900px]:flex-col max-[900px]:gap-8">
       {
-        caminoEspiritual.map(([IconComponent, title, text], index) => (
+        caminoEspiritual.map(([icon, title, text], index) => (
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
             <div class="flex-1 rounded-2xl border border-gold/25 bg-paper p-8 text-center">
               <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-gold/50 bg-[#fbf1de]">
-                <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+                <Icon name={icon} class="size-7/10 text-gold" />
                 <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-gold font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>
               </span>
-              <h3 class="m-0 mb-2 font-serif text-xl font-medium text-navy">{title}</h3>
+              <h3 class="m-0 mb-2 font-serif text-xl font-medium text-navy">
+                {title}
+              </h3>
               <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
             </div>
             {index < caminoEspiritual.length - 1 && (
-              <ArrowRight aria-hidden="true" stroke-width={1.5} class="size-5 flex-none text-gold/70 max-[900px]:hidden" />
+              <ArrowRight
+                aria-hidden="true"
+                stroke-width={1.5}
+                class="size-5 flex-none text-gold/70 max-[900px]:hidden"
+              />
             )}
           </div>
         ))
@@ -232,23 +282,32 @@ const cotidiano = [
     class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
   >
     <div class="mb-12 text-center">
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+      <h2
+        class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy"
+      >
         Signos y símbolos
       </h2>
-      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+      <div
+        aria-hidden="true"
+        class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold"
+      >
         <span class="h-px flex-1 bg-gold/40"></span>
         <Leaf class="size-4" stroke-width={1.5} />
         <span class="h-px flex-1 bg-gold/40"></span>
       </div>
     </div>
-    <div class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1">
+    <div
+      class="grid grid-cols-5 gap-6 max-[900px]:grid-cols-2 max-[620px]:grid-cols-1"
+    >
       {
-        signos.map(([IconComponent, title, text]) => (
+        signos.map(([icon, title, text]) => (
           <div class="rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6 text-center">
             <span class="mx-auto mb-4 flex size-14 items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-7 text-gold" />
+              <Icon name={icon} class="size-7/10 text-gold" />
             </span>
-            <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">{title}</h3>
+            <h3 class="m-0 mb-2 font-serif text-lg font-medium text-navy">
+              {title}
+            </h3>
             <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
           </div>
         ))
@@ -261,15 +320,21 @@ const cotidiano = [
     class="flex min-h-[280px] items-center justify-center bg-navy px-[clamp(24px,7vw,110px)] py-[90px] text-center max-[620px]:px-5 max-[620px]:py-[64px]"
   >
     <div class="max-w-[720px]">
-      <p class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+      <p
+        class="mb-[26px] flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.2em] text-gold"
+      >
         <span class="h-px w-[34px] bg-gold"></span>
         Una Palabra para acompañarte
         <span class="h-px w-[34px] bg-gold"></span>
       </p>
-      <p class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white">
+      <p
+        class="font-serif text-[clamp(26px,3.4vw,38px)] italic leading-[1.4] tracking-[-0.01em] text-white"
+      >
         «La Palabra se hizo carne y habitó entre nosotros.»
       </p>
-      <p class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold">
+      <p
+        class="mt-5 text-[11px] font-bold uppercase tracking-[0.2em] text-gold"
+      >
         Juan 1, 14
       </p>
     </div>
@@ -280,10 +345,15 @@ const cotidiano = [
     class="bg-paper px-[clamp(24px,7vw,110px)] py-[105px] max-[620px]:px-5 max-[620px]:py-[74px]"
   >
     <div class="mb-12 text-center">
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+      <h2
+        class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy"
+      >
         Cómo vivirlo en lo cotidiano
       </h2>
-      <div aria-hidden="true" class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold">
+      <div
+        aria-hidden="true"
+        class="mx-auto mt-4 flex w-24 items-center justify-center gap-2 text-gold"
+      >
         <span class="h-px flex-1 bg-gold/40"></span>
         <Leaf class="size-4" stroke-width={1.5} />
         <span class="h-px flex-1 bg-gold/40"></span>
@@ -291,13 +361,15 @@ const cotidiano = [
     </div>
     <div class="grid grid-cols-3 gap-6 max-[900px]:grid-cols-1">
       {
-        cotidiano.map(([IconComponent, title, text]) => (
+        cotidiano.map(([icon, title, text]) => (
           <div class="flex items-start gap-4 rounded-2xl border border-gold/15 bg-[#fdf6ea] p-6">
             <span class="flex size-12 flex-none items-center justify-center rounded-full bg-gold/15">
-              <IconComponent stroke-width={1.5} class="size-6 text-gold" />
+              <Icon name={icon} class="size-7/10 text-gold" />
             </span>
             <div>
-              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">{title}</h3>
+              <h3 class="m-0 mb-1 font-serif text-base font-semibold text-navy">
+                {title}
+              </h3>
               <p class="m-0 text-sm leading-[1.7] text-muted">{text}</p>
             </div>
           </div>
@@ -311,19 +383,30 @@ const cotidiano = [
     class="grid items-center gap-[clamp(50px,8vw,100px)] px-[clamp(24px,7vw,110px)] py-[105px] max-[900px]:grid-cols-1 max-[620px]:px-5 max-[620px]:py-[74px] grid-cols-[0.9fr_1.1fr]"
     style="background: radial-gradient(circle at 85% 15%, rgba(200,163,106,.18), transparent 45%), #f7f1e4;"
   >
-    <div class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(120,90,40,0.18)]">
-      <img src="/images/hero-navidad.webp" alt="" class="h-full w-full object-cover" loading="lazy" />
+    <div
+      class="overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(120,90,40,0.18)]"
+    >
+      <img
+        src="/images/hero-navidad.webp"
+        alt=""
+        class="h-full w-full object-cover"
+        loading="lazy"
+      />
     </div>
 
     <div>
-      <h2 class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy">
+      <h2
+        class="m-0 font-serif text-[clamp(28px,3vw,36px)] font-normal tracking-[-0.02em] text-navy"
+      >
         Oración breve
       </h2>
       <div aria-hidden="true" class="my-5 flex items-center gap-2 text-gold">
         <span class="h-px w-10 bg-gold/50"></span>
         <Leaf class="size-4" stroke-width={1.5} />
       </div>
-      <p class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted">
+      <p
+        class="max-w-[480px] font-serif text-lg italic leading-[1.8] text-muted"
+      >
         Niño Jesús,<br />
         gracias por venir a nuestra historia<br />
         y hacerte cercano a nuestra fragilidad.<br />
