@@ -2,22 +2,7 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import {
-  CalendarDays,
-  Hourglass,
-  Palette,
-  Footprints,
-  BookOpen,
-  Heart,
-  Ear,
-  GraduationCap,
-  Sprout,
-  Leaf,
-  User,
-  House,
-  HandHeart,
-  ArrowRight,
-} from "@lucide/astro";
+import { Leaf, ArrowRight } from "@lucide/astro";
 import { Icon } from "astro-icon/components";
 
 const datosEsenciales = [
@@ -256,10 +241,7 @@ const cotidiano = [
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
             <div class="flex-1 rounded-2xl border border-[#5f8a54]/40 bg-paper p-8 text-center">
               <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#3f6b47]/50 bg-[#e8f0e2]">
-                <Icon
-                  name={icon}
-                  class="size-7/10"
-                />
+                <Icon name={icon} class="size-7/10" />
                 <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#2f4f36] font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>

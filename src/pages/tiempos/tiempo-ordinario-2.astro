@@ -2,25 +2,7 @@
 export const prerender = true;
 
 import Layout from "@/layout/Layout.astro";
-import {
-  CalendarDays,
-  Hourglass,
-  Palette,
-  Sprout,
-  BookOpen,
-  Heart,
-  Anchor,
-  Wheat,
-  Compass as MissionIcon,
-  TreeDeciduous,
-  Footprints,
-  Lamp,
-  Leaf,
-  User,
-  House,
-  HandHeart,
-  ArrowRight,
-} from "@lucide/astro";
+import { Leaf, ArrowRight } from "@lucide/astro";
 import { Icon } from "astro-icon/components";
 
 const datosEsenciales = [
@@ -35,22 +17,22 @@ const datosEsenciales = [
     "Alrededor de seis meses, aunque su duración varía cada año.",
   ],
   [
-    'color-liturgico',
+    "color-liturgico",
     "Color litúrgico",
     "Verde, signo de crecimiento, vida, esperanza y perseverancia.",
   ],
   [
-    'semilla',
+    "semilla",
     "Símbolo principal",
     "La semilla que crece, como imagen de la Palabra de Dios que madura lentamente en nosotros.",
   ],
   [
-    'biblia-abierta',
+    "biblia-abierta",
     "Qué acontecimiento contemplamos",
     "La vida pública de Jesús, sus enseñanzas, sus signos y su camino hacia la entrega definitiva.",
   ],
   [
-    'proposito-espiritual',
+    "proposito-espiritual",
     "Qué nos invita a vivir",
     "Una fe madura, constante y comprometida con el Evangelio.",
   ],
@@ -58,17 +40,17 @@ const datosEsenciales = [
 
 const caminoEspiritual = [
   [
-    'vida-personal',
+    "vida-personal",
     "Permanecer",
     "No vivir la fe solamente en momentos especiales, sino aprender a caminar con Dios con constancia.",
   ],
   [
-    'arbol',
+    "arbol",
     "Dar fruto",
     "La Palabra recibida necesita expresarse en acciones de justicia, misericordia, servicio y perdón.",
   ],
   [
-    'rosario',
+    "rosario",
     "Vivir en misión",
     "Cada bautizado está llamado a llevar el Evangelio al lugar donde vive, trabaja, sirve y se relaciona.",
   ],
@@ -76,27 +58,27 @@ const caminoEspiritual = [
 
 const signos = [
   [
-    'color-liturgico-verde',
+    "color-liturgico-verde",
     "El color verde",
     "Representa la vida que se desarrolla, la esperanza y el crecimiento espiritual.",
   ],
   [
-    'semilla',
+    "semilla",
     "La semilla",
     "Nos recuerda que Dios trabaja muchas veces de manera silenciosa y gradual.",
   ],
   [
-    'arbol',
+    "arbol",
     "El árbol",
     "Expresa una fe que desarrolla raíces profundas y ofrece sombra, refugio y frutos a los demás.",
   ],
   [
-    'camino',
+    "camino",
     "El camino",
     "Representa la perseverancia del discípulo que continúa siguiendo a Jesús.",
   ],
   [
-    'lampara',
+    "lampara",
     "La lámpara",
     "Nos recuerda que la fe está llamada a iluminar la vida cotidiana y no a permanecer escondida.",
   ],
@@ -104,17 +86,17 @@ const signos = [
 
 const cotidiano = [
   [
-    'vida-personal',
+    "vida-personal",
     "En tu vida personal",
     "Revisa regularmente cómo estás creciendo en la fe y elige un aspecto concreto en el que necesites avanzar.",
   ],
   [
-    'familia-y-casa',
+    "familia-y-casa",
     "En casa o en familia",
     "Practiquen una obra semanal de cuidado, escucha o servicio entre ustedes.",
   ],
   [
-    'oracion-y-comunidad',
+    "oracion-y-comunidad",
     "En la oración y la comunidad",
     "Mantén una participación constante en la Eucaristía y pon tus talentos al servicio de alguna necesidad.",
   ],
@@ -269,9 +251,7 @@ const cotidiano = [
           <div class="flex flex-1 items-center gap-4 max-[900px]:w-full">
             <div class="flex-1 rounded-2xl border border-[#5f8a54]/40 bg-paper p-8 text-center">
               <span class="relative mx-auto mb-5 flex size-16 items-center justify-center rounded-full border-2 border-[#3f6b47]/50 bg-[#e8f0e2]">
-                <Icon name={icon}
-                  class="size-7/10"
-                />
+                <Icon name={icon} class="size-7/10" />
                 <span class="absolute -left-1.5 -top-1.5 flex size-6 items-center justify-center rounded-full bg-[#2f4f36] font-serif text-[11px] font-semibold text-white">
                   {String(index + 1).padStart(2, "0")}
                 </span>
